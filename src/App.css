@@ -795,7 +795,7 @@ a.button-dot:hover:before {
 ====================================== */
 
 #home {
-  background-image: url(images/hero_image_01.jpg);
+  background-image: url(images/decor/3.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -873,7 +873,7 @@ h1.big-text {
 ====================================== */
 
 #clients {
-  background-image: url(images/quote_image_01.jpg);
+  background-image: url(images/decor/1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1948,8 +1948,8 @@ footer ul {
 }
 
 .footer-logo img {
-  width: 10em;
-  height: 6em;
+  width: 14em;
+  height: 7em;
   margin-bottom: 30px;
 }
 
@@ -2626,4 +2626,35 @@ footer .footer-social-divider:before {
   .footer-mail {
     font-size: 28px;
   }
+}
+
+.number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 5px;
+  padding: 1px;
+  color: #47ea4e;
+  line-height: 2.5em;
+}
+
+.number-paragraph {
+  font-size: 1.5rem;
+}
+.containing-right {
+  font-size: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20rem;
+  width: 100%;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
 }

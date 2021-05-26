@@ -1,5 +1,9 @@
 import React from "react";
 
+import RoundImage1 from "../images/decor/1.jpg";
+import RoundImage2 from "../images/decor/2.jpg";
+
+import "./About.styles.scss";
 const AboutPage = () => {
   return (
     <div id="about" className="section">
@@ -8,20 +12,23 @@ const AboutPage = () => {
       </div>
       <div className="section-wrapper block content-1170 center-relative">
         <div className="content-wrapper">
+          <div className="about-img">
+            <img src={RoundImage1} alt="" />
+          </div>
           <div className="one_half">
-            <p className="title-description-up">WHO WE ARE</p>
             <h2 className="entry-title medium-text">
-              Live up to <br />
-              your creative potential.
+              Suntem dezvoltatorii imobiliari S.C Arena Residence S.R.L
             </h2>
+
             <p>
-              Code the energy hidden in matter citizens of distant epochs from
-              which we spring drake equation perga inconspicuous motespatch
-              clean designed code and energy matter.
+              Avem finalizate urmatoarele Proiecte: <br /> Prieteniei nr. 26
+              tronsolul A si tronsonul B . Cartierul de case Small Town,
+              Rezidential P+5 Prieteniei 89-91, Rezidential P+6 1Mai 60 si
+              Rezidential P+6 SAtefan cel Mare 32 A
             </p>
             <br />
             <div className="button-holder text-left">
-              <a href="#portfolio" className="button">
+              <a href="http://www.residence-arena.ro/" className="button">
                 LEARN MORE
               </a>
             </div>

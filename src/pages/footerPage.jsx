@@ -2,6 +2,8 @@ import React from "react";
 
 import companyLogo from "../images/logoCladire.png";
 
+import { AiOutlineMail } from "react-icons/ai";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -12,9 +14,8 @@ const Footer = () => {
         <div className="footer-logo-divider"></div>
         <div className="footer-mail">
           <a href="mailto:office.arenaresidence@gmail.com">
-            office.arenaresidence@gmail.com
+            <AiOutlineMail /> office.arenaresidence@gmail.com
           </a>
-          <h1>0727 339 499</h1>
         </div>
         <div className="footer-social-divider"></div>
         <div className="social-holder">

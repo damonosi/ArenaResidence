@@ -1,5 +1,9 @@
 import React from "react";
 
+import { FiPhoneCall } from "react-icons/fi";
+
+import CallCenter from "../images/decor/callMe5.png";
+
 const ContactPage = () => {
   return (
     <div id="contact" className="section">
@@ -7,17 +11,16 @@ const ContactPage = () => {
         <h3 className="entry-title">CONTACT</h3>
       </div>
       <div className="section-wrapper block content-1170 center-relative">
-        <div className="content-wrapper">
-          <div className="one_half ">
-            <p className="title-description-up">CONTACT US</p>
+        <div className="contact-wrapper">
+          <div className="one_half">
+            <p className="title-description-up">CONTACTATI-NE</p>
             <h2 className="entry-title medium-text">
-              Lets start <br />
-              Working
+              Integritatea este <br />
+              Baza
             </h2>
             <p>
-              Because they are hard, because that goal will serve to organize
-              and measure the best of our energies and skills, because that
-              challenge is one that we are willing to accept one we are.
+              Suntem pe piata din Bacau de foarte mult timp si toate proiectele
+              noastre se desfasoara cu integritate si seriozitate
             </p>
             <br />
             <div className="social">
@@ -33,55 +36,18 @@ const ContactPage = () => {
             </div>
           </div>
 
-          <div className="one_half last ">
-            <div className="contact-form">
-              <p>
-                <input
-                  id="name"
-                  type="text"
-                  name="your-name"
-                  placeholder="Name"
-                />
-              </p>
-              <p>
-                <input
-                  id="contact-email"
-                  type="email"
-                  name="your-email"
-                  placeholder="Email"
-                />
-              </p>
-              <p>
-                <input
-                  id="subject"
-                  type="text"
-                  name="your-subject"
-                  placeholder="Subject"
-                />
-              </p>
-              <p>
-                <textarea
-                  id="message"
-                  name="your-message"
-                  placeholder="Message"
-                ></textarea>
-              </p>
-              <p className="contact-submit-holder">
-                <input type="submit" value="SEND" />
-              </p>
-            </div>
+          <div className="one_half last containing-right">
+            <img className="call-center" src={CallCenter} alt="Call center" />
           </div>
           <div className="clear"></div>
 
-          <p>
-            <iframe
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJsaqPauNvtUARUV9dFbqEctA&key=AIzaSyAOvouR89FhXVDwimL2TTuBW5_BeY2fo8s"
-              width="400"
-              height="300"
-              allowFullScreen="allowFullScreen"
-              title="map"
-            ></iframe>
-          </p>
+          <iframe
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJsaqPauNvtUARUV9dFbqEctA&key=AIzaSyAOvouR89FhXVDwimL2TTuBW5_BeY2fo8s"
+            width="1000"
+            height="300"
+            allowFullScreen="allowFullScreen"
+            title="map"
+          ></iframe>
         </div>
       </div>
     </div>
