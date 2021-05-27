@@ -2,8 +2,6 @@ import React from "react";
 
 import { FiPhoneCall } from "react-icons/fi";
 
-import CallCenter from "../images/decor/callMe5.png";
-
 const ContactPage = () => {
   return (
     <div id="contact" className="section">
@@ -36,9 +34,6 @@ const ContactPage = () => {
             </div>
           </div>
 
-          <div className="one_half last containing-right">
-            <img className="call-center" src={CallCenter} alt="Call center" />
-          </div>
           <div className="clear"></div>
 
           <iframe

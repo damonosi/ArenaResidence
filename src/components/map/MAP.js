@@ -1,0 +1,61 @@
+export const MAP = {
+  name: "my-map",
+  areas: [
+    {
+      id: 0,
+      name: "parter",
+      shape: "poly",
+      coords: [894, 474, 893, 436, 767, 436, 769, 478],
+      label: "Parter",
+    },
+    {
+      id: 1,
+      name: "et1",
+      shape: "poly",
+      coords: [891, 434, 892, 400, 768, 394, 766, 438],
+      label: "Etaj 1",
+    },
+    {
+      id: 2,
+      name: "et2",
+      shape: "poly",
+      coords: [892, 398, 891, 364, 769, 351, 769, 395],
+      label: "Etaj 2",
+    },
+    {
+      id: 3,
+      name: "et3",
+      shape: "poly",
+      coords: [896, 364, 894, 329, 772, 311, 772, 350],
+      label: "Etaj 3",
+    },
+    {
+      id: 4,
+      name: "et4",
+      shape: "poly",
+      coords: [894, 330, 893, 295, 770, 271, 772, 310],
+      label: "Etaj 4",
+    },
+    {
+      id: 5,
+      name: "et5",
+      shape: "poly",
+      coords: [769, 270, 893, 297, 894, 259, 769, 229],
+      label: "Etaj 5",
+    },
+    {
+      id: 6,
+      name: "et6",
+      shape: "poly",
+      coords: [895, 230, 893, 257, 769, 228, 769, 193],
+      label: "Etaj 6",
+    },
+    {
+      id: 7,
+      name: "et6",
+      shape: "poly",
+      coords: [890, 174, 892, 223, 772, 186, 773, 127],
+      label: "Etaj 6",
+    },
+  ],
+};

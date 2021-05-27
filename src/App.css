@@ -1970,7 +1970,7 @@ footer ul {
 }
 
 .footer-mail {
-  font-size: 46px;
+  font-size: 2rem;
   margin-bottom: 35px;
   line-height: 100%;
   font-weight: 700;
@@ -2522,7 +2522,7 @@ footer .footer-social-divider:before {
   }
 
   .footer-mail {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 
   blockquote {
@@ -2624,7 +2624,7 @@ footer .footer-social-divider:before {
   }
 
   .footer-mail {
-    font-size: 28px;
+    font-size: 1.2rem;
   }
 }
 
