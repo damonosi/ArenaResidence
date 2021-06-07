@@ -12,23 +12,7 @@ const Footer = () => {
           <img src={companyLogo} alt="logo" />
         </div>
         <div className="footer-logo-divider"></div>
-        <div className="footer-mail">
-          <a href="mailto:office.arenaresidence@gmail.com">
-            <AiOutlineMail /> office.arenaresidence@gmail.com
-          </a>
-          <hr />
-          <p>
-            <AiOutlinePhone /> 0727 339 499
-          </p>
-          <hr />
-          <p>
-            <AiOutlinePhone /> 0773 332 598
-          </p>
-          <hr />
-          <p>
-            <AiOutlinePhone /> 0722 260 022
-          </p>
-        </div>
+
         <div className="footer-social-divider"></div>
         <div className="social-holder">
           <a href="https://www.facebook.com/arenaresidencebacau">
@@ -36,6 +20,12 @@ const Footer = () => {
           </a>
           <a href="https://www.instagram.com/arena_residence_bacau/">
             <span className="fa fa-instagram"></span>
+          </a>
+          <a href=" https://wa.me/0770258169">
+            <span className="fa fa-whatsapp"></span>
+          </a>
+          <a href="mailto:office.arenaresidence@gmail.com">
+            <AiOutlineMail />
           </a>
         </div>
       </div>

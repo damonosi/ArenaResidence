@@ -1,0 +1,24 @@
+.fa-arrow-right {
+  display: none;
+}
+.fa-arrow-left {
+  display: none;
+}
+
+.react-3d-carousel .slider-container .slider-right div {
+  border: none;
+  cursor: default;
+}
+.react-3d-carousel .slider-container .slider-left div {
+  border: none;
+  cursor: default;
+}
+.react-3d-carousel .slider-container .slider-right {
+  cursor: default;
+}
+.react-3d-carousel .slider-container .slider-left {
+  cursor: default;
+}
+.section {
+  height: 100vh;
+}

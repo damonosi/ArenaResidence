@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import companyLogo from "../images/logoCladire.png";
 
 const Header = () => {
@@ -6,8 +7,8 @@ const Header = () => {
     <header className="header-holder">
       <div className="menu-wrapper center-relative relative">
         <div className="header-logo">
-          <a href="index.html">
-            <img src={companyLogo} alt="Seppo" />
+          <a href="#home">
+            <img src={companyLogo} alt="Arena Residence" />
           </a>
         </div>
 
@@ -30,7 +31,7 @@ const Header = () => {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#clients">Clients</a>
+                <Link href="#clients">Clients</Link>
               </li>
 
               <li>

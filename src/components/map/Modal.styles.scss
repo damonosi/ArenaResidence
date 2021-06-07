@@ -1,0 +1,13 @@
+.modal-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  width: 100vw;
+  height: 80vh;
+  background-color: black;
+}
+
+.closestyle {
+  display: none;
+}
