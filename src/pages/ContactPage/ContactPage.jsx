@@ -1,29 +1,9 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./ContactPage.styles.scss";
 import Lottie from "react-lottie";
 import animationData from "./contact-us.json";
 
-const containerVariants = {
-  hidden: {
-    opacity: 0,
-    x: 0,
-    y: 0,
-  },
-  visible: {
-    opacity: 1,
-    x: 0,
-    y: 0,
-    transition: { delay: 0.1, duration: 1.5 },
-  },
-  exit: {
-    opacity: 0,
-    x: 0,
-    y: 0,
-    transition: { ease: "easeInOut" },
-  },
-};
 const ContactPage = () => {
-  const lottieRef = useRef(null);
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -32,7 +12,7 @@ const ContactPage = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-  const handleClickToPause = () => lottieRef?.current?.handleClickToPause?.();
+
   return (
     <div className="contact-container">
       <div className="left-right-container">

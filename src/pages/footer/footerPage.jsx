@@ -2,7 +2,7 @@ import React from "react";
 
 import companyLogo from "../../images/logoCladire.png";
 import "./footer.styles.scss";
-import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
