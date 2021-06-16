@@ -7,8 +7,6 @@ import "./imageMap.scss";
 import useImage from "use-image";
 import MapImage from "../../images/decor/1.jpg";
 
-import { debounce } from "../functions/debounce";
-
 import { Parter, Et1, Et2, Et3, Et4, Et5, Et6, Et7, Et8 } from "./Etaje";
 
 const NewImageMapPage = () => {
@@ -41,12 +39,7 @@ const NewImageMapPage = () => {
   //   return width;
   // }
 
-  const [setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth,
-  });
-
-  const BuildingImage = ({ children }) => {
+  const BuildingImage = () => {
     const [image] = useImage(MapImage, "Anonymous");
 
     return <Image image={image} />;
