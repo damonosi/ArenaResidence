@@ -5,7 +5,7 @@ import BarrierLogo from "../images/parteneri/barrier.svg";
 import Schneider from "../images/parteneri/Scheider.svg";
 import Porotherm from "../images/parteneri/Porotherm2.png";
 import Rehau from "../images/parteneri/Rehau2.svg";
-import "./Parteneri.css";
+import "./Parteneri.scss";
 const ParteneriPage = () => {
   let slides = [
     <img src={Rehau} alt="1" />,
@@ -15,7 +15,7 @@ const ParteneriPage = () => {
   ];
 
   return (
-    <div id="services" className="section">
+    <div id="services" className="services-section">
       <div className="page-title-holder">
         <h3 className="entry-title">Partenerii Nostri</h3>
       </div>

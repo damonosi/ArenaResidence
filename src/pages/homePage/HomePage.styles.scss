@@ -1,0 +1,12 @@
+.colored {
+  background-color: #c75a5a;
+  border-radius: 30px;
+  color: #f2dada;
+  padding: 1.6rem;
+  border: 1px solid #c75a5a;
+  cursor: pointer;
+  &:hover {
+    color: #c75a5a;
+    background-color: rgba(199, 90, 90, 0);
+  }
+}

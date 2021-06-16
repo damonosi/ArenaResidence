@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: white;
 
   justify-content: center;
   align-items: center;
@@ -34,8 +34,6 @@ body pre {
 .site-wrapper img {
   max-width: 100%;
   max-height: 100%;
-  width: auto;
-  height: auto;
 }
 
 .doc-loader {
@@ -381,30 +379,9 @@ body .sm-clean li.current_page_item > a {
   transform: translateX(100%);
 }
 
-.section h3.entry-title {
-  font-size: 16px;
-  line-height: 149%;
-  font-weight: 400;
-  word-break: break-word;
-  text-align: center;
-  color: #fff;
-  letter-spacing: 2px;
-  margin-top: 32px;
-}
-
 .page .page-content {
   background-color: #fff;
   padding: 75px;
-}
-
-.no-padding .section-wrapper {
-  padding: 0 !important;
-  width: 100%;
-  max-width: 100%;
-}
-
-[data-jarallax-element] {
-  z-index: 30 !important;
 }
 
 .medium-text {
@@ -695,15 +672,6 @@ a.button-dot:hover:before {
   margin: 0;
 }
 
-.text-slider-wrapper img.text-slide-img {
-  width: 70px !important;
-  height: 70px;
-  border-radius: 90%;
-  display: inline-block;
-  margin-right: 25px;
-  vertical-align: middle;
-}
-
 .text-slide-content {
   margin-bottom: 60px;
 }
@@ -830,7 +798,7 @@ h1.big-text {
 
 #services {
   background-image: url(images/on_black_left.png);
-  background-color: #000000;
+  background-color: #282c34;
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1244,79 +1212,6 @@ h1.big-text {
 /* ===================================
     10. Team Section CSS
 ====================================== */
-
-#team {
-  background-image: url(images/on_black_left.png);
-  background-color: #000000;
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.member {
-  text-align: center;
-  margin: 70px 0;
-}
-
-.member img {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 700px;
-}
-
-.member-content {
-  margin-bottom: 35px;
-}
-
-.member-info {
-  width: 380px;
-  background-color: #fff;
-  padding: 65px 110px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: -130px;
-  text-align: left;
-  position: relative;
-  z-index: 31;
-}
-
-.member-right .member-info {
-  margin-left: auto;
-  margin-right: -130px;
-}
-
-.member-postition {
-  margin: 0;
-  font-size: 16px;
-  letter-spacing: 2px;
-}
-
-.member-name {
-  font-size: 48px;
-  font-weight: 700;
-  color: #000;
-  line-height: 150%;
-  margin-bottom: 35px;
-  margin-top: -5px;
-  padding: 0;
-}
-
-.member-social-holder {
-  background: #47ea4e;
-  padding: 25px 50px;
-  position: absolute;
-  bottom: -35px;
-  left: -45px;
-}
-
-.member-right .member-social-holder {
-  left: auto;
-  right: -45px;
-}
-
-.member-social-holder .social a {
-  color: #fff !important;
-}
 
 /* ===================================
     11. Skills Section CSS
@@ -1755,25 +1650,6 @@ body.blog {
   float: left;
 }
 
-.single .nav-links {
-  transform: translateY(70px);
-  margin-top: 35px;
-  margin-bottom: 50px;
-}
-
-.single .nav-links > a {
-  background-color: #47ea4e;
-  padding: 26px 30px 24px;
-  margin: 0;
-  display: inline;
-  color: #fff !important;
-  transition: 0.3s;
-}
-
-.single .nav-links > a:hover {
-  background-color: #73f473;
-}
-
 /* ===================================
    14.1 Tipper CSS
 ====================================== */
@@ -1928,103 +1804,6 @@ body.blog {
     16. Footer CSS
 ====================================== */
 
-footer a {
-  color: #fff;
-}
-
-footer ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.footer {
-  margin-top: 200px;
-  font-size: 16px;
-  line-height: 36px;
-  padding-top: 75px;
-  padding-bottom: 60px;
-  clear: both;
-  color: #fff;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center top;
-  background-color: #111;
-}
-
-.footer-content {
-  width: 900px;
-}
-
-.footer-logo img {
-  width: 14em;
-  height: 7em;
-  margin-bottom: 30px;
-}
-
-.footer-logo-divider {
-  position: relative;
-  height: 60px;
-  margin-bottom: 30px;
-}
-
-.footer-logo-divider:before {
-  content: "";
-  width: 2px;
-  height: 60px;
-  background-color: #fff;
-  position: absolute;
-  top: 0;
-  left: calc(50% - 1px);
-}
-
-.footer-mail {
-  font-size: 2rem;
-  margin-bottom: 35px;
-  line-height: 100%;
-  font-weight: 700;
-}
-
-.footer-social-divider {
-  position: relative;
-  height: 62px;
-  margin-bottom: 35px;
-}
-
-footer .footer-social-divider:after {
-  content: "";
-  position: absolute;
-  width: 300px;
-  height: 2px;
-  background-color: white;
-  left: calc(50% - 150px);
-  bottom: 0;
-}
-
-footer .footer-social-divider:before {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 60px;
-  background-color: white;
-  left: calc(50% - 1px);
-  top: 0;
-}
-
-.social-holder {
-  margin-bottom: 35px;
-}
-
-.social-holder a {
-  font-size: 28px;
-  margin-right: 25px;
-}
-
-.social-holder a:last-of-type {
-  margin: 0;
-}
-
 /* ===================================
     17. Responsive CSS
 ====================================== */
@@ -2085,8 +1864,7 @@ footer .footer-social-divider:before {
     padding: 15px 8px;
   }
 
-  .blog-holder,
-  .footer-content {
+  .blog-holder {
     width: 100%;
   }
 
@@ -2149,10 +1927,6 @@ footer .footer-social-divider:before {
 
   .three_fourth {
     width: calc(318% / 4);
-  }
-
-  .section h3.entry-title {
-    margin-bottom: 0 !important;
   }
 
   .sticky-spacer {
@@ -2260,10 +2034,6 @@ footer .footer-social-divider:before {
   h1.big-text {
     text-align: center;
     font-size: 60px;
-  }
-
-  .section-wrapper {
-    padding-bottom: 70px;
   }
 
   .single article {
@@ -2496,12 +2266,6 @@ footer .footer-social-divider:before {
 
   .portfolio-item-wrapper {
     margin-top: 50px;
-  }
-
-  .single .nav-links {
-    transform: none;
-    margin-top: 50px;
-    text-align: center;
   }
 }
 

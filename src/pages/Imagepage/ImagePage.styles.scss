@@ -5,7 +5,6 @@
   display: flex;
   width: 100vw;
   align-items: center;
-  height: 280vh;
 }
 
 .titlu {
@@ -82,5 +81,13 @@
 
 .banner-container {
   width: 100%;
+}
+.section {
   height: 90vh;
+}
+.page-title-holder::after {
+  display: none;
+}
+.page-title-holder {
+  visibility: hidden;
 }

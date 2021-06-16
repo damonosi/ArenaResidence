@@ -1,8 +1,34 @@
 import React from "react";
-
+import { motion } from "framer-motion";
+const containerVariants = {
+  hidden: {
+    opacity: 0,
+    x: 0,
+    y: 0,
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    y: 0,
+    transition: { delay: 0.5, duration: 0.5 },
+  },
+  exit: {
+    opacity: 0,
+    x: 0,
+    y: 0,
+    transition: { ease: "easeInOut" },
+  },
+};
 const ClientPage = () => {
   return (
-    <div id="clients" className="section no-page-title">
+    <motion.div
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+      id="clients"
+      className="section no-page-title"
+    >
       <div className="section-wrapper block content-1170 center-relative">
         <div className="content-wrapper">
           <div
@@ -76,7 +102,7 @@ const ClientPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

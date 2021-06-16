@@ -1,7 +1,7 @@
 import React from "react";
 
-import companyLogo from "../images/logoCladire.png";
-
+import companyLogo from "../../images/logoCladire.png";
+import "./footer.styles.scss";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 const Footer = () => {
@@ -13,7 +13,6 @@ const Footer = () => {
         </div>
         <div className="footer-logo-divider"></div>
 
-        <div className="footer-social-divider"></div>
         <div className="social-holder">
           <a href="https://www.facebook.com/arenaresidencebacau">
             <span className="fa fa-facebook"></span>
