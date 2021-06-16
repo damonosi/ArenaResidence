@@ -6,10 +6,10 @@
 }
 
 .slider-left {
-  display: none;
+  display: none !important;
 }
 .slider-right {
-  display: none;
+  display: none !important;
 }
 .react-3d-carousel .slider-container .slider-right div {
   border: none;
