@@ -60,7 +60,11 @@ const NewImageMapPage = () => {
     <Stage id="container" width={window.innerWidth} height={window.innerHeight}>
       <Layer>
         <BuildingImage />
-        <Parter onClick={() => setIsOpen(true)} />
+        <Parter
+          onClick={() => {
+            setIsOpen(true);
+          }}
+        />
 
         <Et1 onClick={() => setIsOpen2(true)} />
         <Et2 onClick={() => setIsOpen3(true)} />
