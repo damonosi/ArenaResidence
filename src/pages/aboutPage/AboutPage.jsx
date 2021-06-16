@@ -1,33 +1,12 @@
-import React, { useRef } from "react";
+import React from "react";
 
 import RoundImage1 from "../../images/decor/1.jpg";
-import Lottie from "react-lottie";
+
 import "./About.styles.scss";
-import Parallax, { Layer, Background } from "react-parallax-scroll";
+import Parallax, { Layer } from "react-parallax-scroll";
 import { Link } from "react-router-dom";
 
-const containerVariants = {
-  hidden: {
-    opacity: 0,
-    x: 0,
-    y: 0,
-  },
-  visible: {
-    opacity: 1,
-    x: 0,
-    y: 0,
-    transition: { delay: 0.1, duration: 1.5 },
-  },
-  exit: {
-    opacity: 0,
-    x: 0,
-    y: 0,
-    transition: { ease: "easeInOut" },
-  },
-};
-
 const AboutPage = () => {
-  const lottieRef = useRef(null);
   return (
     <div className="about-container">
       <div className="half-left">

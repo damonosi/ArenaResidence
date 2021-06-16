@@ -5,9 +5,7 @@ import blocOne from "../../images/decor/p6.png";
 import blocTwo from "../../images/decor/green.png";
 import blocTrei from "../../images/decor/3.jpg";
 
-import background from "../../images/on_black_left.png";
-
-import Parallax, { Layer, Background } from "react-parallax-scroll";
+import Parallax, { Layer } from "react-parallax-scroll";
 const AlteProiecte = () => {
   return (
     <Parallax>
@@ -38,28 +36,24 @@ const AlteProiecte = () => {
               >
                 <div className="member-social-holder2">
                   <div className="social">
-                    <a href="#" target="_blank">
+                    <a href="https://www.facebook.com/arenaresidencebacau">
                       <span className="fa fa-facebook"></span>
                     </a>
                   </div>
+                  <div className="social"></div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-twitter"></span>
-                    </a>
-                  </div>
-                  <div className="social">
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/arena_residence_bacau/">
                       <span className="fa fa-instagram"></span>
                     </a>
                   </div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-vimeo"></span>
+                    <a href=" https://wa.me/0770258169">
+                      <span className="fa fa-whatsapp"></span>
                     </a>
                   </div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-behance"></span>
+                    <a href="mailto:office.arenaresidence@gmail.com">
+                      <span class="fas fa-envelope"></span>
                     </a>
                   </div>
                 </div>
@@ -84,28 +78,24 @@ const AlteProiecte = () => {
               <Layer settings={{ speed: 0.3, type: ["translateX"] }}>
                 <div className="member-social-holder">
                   <div className="social">
-                    <a href="#" target="_blank">
+                    <a href="https://www.facebook.com/arenaresidencebacau">
                       <span className="fa fa-facebook"></span>
                     </a>
                   </div>
+                  <div className="social"></div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-twitter"></span>
-                    </a>
-                  </div>
-                  <div className="social">
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/arena_residence_bacau/">
                       <span className="fa fa-instagram"></span>
                     </a>
                   </div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-vimeo"></span>
+                    <a href=" https://wa.me/0770258169">
+                      <span className="fa fa-whatsapp"></span>
                     </a>
                   </div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-behance"></span>
+                    <a href="mailto:office.arenaresidence@gmail.com">
+                      <span class="fas fa-envelope"></span>
                     </a>
                   </div>
                 </div>
@@ -141,28 +131,24 @@ const AlteProiecte = () => {
               >
                 <div className="member-social-holder">
                   <div className="social">
-                    <a href="#" target="_blank">
+                    <a href="https://www.facebook.com/arenaresidencebacau">
                       <span className="fa fa-facebook"></span>
                     </a>
                   </div>
+                  <div className="social"></div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-twitter"></span>
-                    </a>
-                  </div>
-                  <div className="social">
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/arena_residence_bacau/">
                       <span className="fa fa-instagram"></span>
                     </a>
                   </div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-vimeo"></span>
+                    <a href=" https://wa.me/0770258169">
+                      <span className="fa fa-whatsapp"></span>
                     </a>
                   </div>
                   <div className="social">
-                    <a href="#" target="_blank">
-                      <span className="fa fa-behance"></span>
+                    <a href="mailto:office.arenaresidence@gmail.com">
+                      <span class="fas fa-envelope"></span>
                     </a>
                   </div>
                 </div>

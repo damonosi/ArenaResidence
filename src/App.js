@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
 import MainPage from "./pages/MainPage.jsx";
 import ImagePage from "./pages/Imagepage/ImagePage.jsx";

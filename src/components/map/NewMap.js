@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Stage, Layer, Image } from "react-konva";
 import { Html } from "react-konva-utils";
@@ -11,37 +11,37 @@ import { debounce } from "../functions/debounce";
 
 import { Parter, Et1, Et2, Et3, Et4, Et5, Et6, Et7, Et8 } from "./Etaje";
 
-const NewImageMapPage = ({ transition }) => {
-  const getWidth = () =>
-    window.innerWidth ||
-    document.documentElement.clientWidth ||
-    document.body.clientWidth;
+const NewImageMapPage = () => {
+  // const getWidth = () =>
+  //   window.innerWidth ||
+  //   document.documentElement.clientWidth ||
+  //   document.body.clientWidth;
 
-  function useCurrentWidth() {
-    // save current window width in the state object
-    let [width, setWidth] = useState(getWidth());
+  // function useCurrentWidth() {
+  //   // save current window width in the state object
+  //   let [width, setWidth] = useState(getWidth());
 
-    // in this case useEffect will execute only once because
-    // it does not have any dependencies.
-    useEffect(() => {
-      const resizeListener = () => {
-        // change width from the state object
-        setWidth(getWidth());
-      };
-      // set resize listener
-      window.addEventListener("resize", resizeListener);
+  //   // in this case useEffect will execute only once because
+  //   // it does not have any dependencies.
+  //   useEffect(() => {
+  //     const resizeListener = () => {
+  //       // change width from the state object
+  //       setWidth(getWidth());
+  //     };
+  //     // set resize listener
+  //     window.addEventListener("resize", resizeListener);
 
-      // clean up function
-      return () => {
-        // remove resize listener
-        window.removeEventListener("resize", resizeListener);
-      };
-    }, []);
+  //     // clean up function
+  //     return () => {
+  //       // remove resize listener
+  //       window.removeEventListener("resize", resizeListener);
+  //     };
+  //   }, []);
 
-    return width;
-  }
+  //   return width;
+  // }
 
-  const [dimensions, setDimensions] = useState({
+  const [setDimensions] = useState({
     height: window.innerHeight,
     width: window.innerWidth,
   });
@@ -63,12 +63,12 @@ const NewImageMapPage = ({ transition }) => {
 
     return <Image image={image} />;
   };
-  const [opacity, setOpacity] = useState(1);
+  const [setOpacity] = useState(1);
   const handleClose = (e) => {
     e.preventDefault();
     setOpacity(0);
   };
-  let width = useCurrentWidth();
+
   useEffect(() => {}, []);
   return (
     <Stage id="container" width={window.innerWidth} height={window.innerHeight}>

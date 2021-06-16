@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import NewImageMapPage from "../../components/map/NewMap";
 import "./ImagePage.styles.scss";
