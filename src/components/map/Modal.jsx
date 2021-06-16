@@ -1,18 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Modal.styles.scss";
-const Modalul = () => {
-  const handleClose = (e) => {
-    e.preventDefault();
-    var element = document.getElementById("container");
-    element.classList.add("closestyle");
-  };
+import ReactDom from "react-dom";
 
-  return (
-    <div id="container" className="modal-container">
-      <h1>Plan parter</h1>
+const MODAL_STYLES = {
+  position: "fixed",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%,-50%)",
+  backgroundColor: "#FFF",
+  padding: "50px",
+  zIndex: 10000,
+};
+const OVERLAY_STYLES = {
+  position: "fixed",
+  top: 0,
+  left: 0,
+  right: 0,
+  bottom: 0,
+  zIndex: 10000,
+  backgroundColor: "rgba(0,0,0,.7)",
+};
+const Modalul = ({ open, children, onClose }) => {
+  if (!open) return null;
 
-      <button onClick={handleClose}>Close</button>
-    </div>
+  return ReactDom.createPortal(
+    <>
+      <div style={OVERLAY_STYLES} />
+      <div style={MODAL_STYLES}>
+        {children}
+
+        <button onClick={onClose}>Close</button>
+      </div>
+    </>,
+    document.getElementById("portal")
   );
 };
 

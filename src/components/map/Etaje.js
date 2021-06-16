@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { Line, Tag, Text, Label, Group } from "react-konva";
 
-export const Parter = () => {
+export const Parter = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
 
   const handleEnter = (e) => {
@@ -19,6 +19,7 @@ export const Parter = () => {
 
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
@@ -58,7 +59,7 @@ export const Parter = () => {
     </Group>
   );
 };
-export const Et1 = () => {
+export const Et1 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -73,6 +74,7 @@ export const Et1 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
@@ -115,7 +117,7 @@ export const Et1 = () => {
     </Group>
   );
 };
-export const Et2 = () => {
+export const Et2 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -130,6 +132,7 @@ export const Et2 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
@@ -172,7 +175,7 @@ export const Et2 = () => {
     </Group>
   );
 };
-export const Et3 = () => {
+export const Et3 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -187,6 +190,7 @@ export const Et3 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
@@ -229,7 +233,7 @@ export const Et3 = () => {
     </Group>
   );
 };
-export const Et4 = () => {
+export const Et4 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -244,6 +248,7 @@ export const Et4 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
@@ -286,7 +291,7 @@ export const Et4 = () => {
     </Group>
   );
 };
-export const Et5 = () => {
+export const Et5 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -301,6 +306,7 @@ export const Et5 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
@@ -343,7 +349,7 @@ export const Et5 = () => {
     </Group>
   );
 };
-export const Et6 = () => {
+export const Et6 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -358,6 +364,7 @@ export const Et6 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
@@ -400,7 +407,7 @@ export const Et6 = () => {
     </Group>
   );
 };
-export const Et7 = () => {
+export const Et7 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -415,6 +422,7 @@ export const Et7 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseOver={handleEnter}
       onMouseLeave={handleLeave}
@@ -455,7 +463,7 @@ export const Et7 = () => {
   );
 };
 
-export const Et8 = () => {
+export const Et8 = ({ onClick }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -470,6 +478,7 @@ export const Et8 = () => {
   };
   return (
     <Group
+      onClick={onClick}
       opacity={opacity}
       onMouseOver={handleEnter}
       onMouseLeave={handleLeave}
