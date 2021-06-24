@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect, useEffect } from "react";
 import "./Modal.styles.scss";
 import ReactDom from "react-dom";
 
@@ -10,6 +10,8 @@ const MODAL_STYLES = {
   backgroundColor: "#FFF",
   padding: "50px",
   zIndex: 10000,
+  maxHeight: "100vh",
+  overflowY: "auto",
 };
 const OVERLAY_STYLES = {
   position: "fixed",
@@ -20,6 +22,7 @@ const OVERLAY_STYLES = {
   zIndex: 10000,
   backgroundColor: "rgba(0,0,0,.7)",
 };
+
 const Modalul = ({ open, children, onClose }) => {
   if (!open) return null;
 

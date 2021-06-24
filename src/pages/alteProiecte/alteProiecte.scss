@@ -4,6 +4,7 @@
   background-position: left center;
   background-repeat: no-repeat;
   background-size: auto;
+  transform: translateY(2.8em);
 }
 .section-wrapper {
   position: relative;
@@ -11,7 +12,7 @@
 .section-parallax {
   display: flex;
   position: relative;
-  padding: 10em;
+  padding: 7em;
   flex-direction: column;
 }
 
@@ -75,51 +76,54 @@
   display: flex;
   flex-direction: row;
   background: #c75a5a;
-  padding: 25px 50px;
-}
-.member-social-holder2 {
-  display: flex;
-  flex-direction: row;
-  background: #c75a5a;
-  padding: 25px 50px;
+  padding: 15px 10px !important;
+  width: fit-content !important;
 }
 
 .member-right .member-social-holder {
   left: auto;
-  right: -45px;
+  right: 0px;
 }
 
 .member-social-holder .social a {
   color: #fff !important;
+  padding: 30px;
 }
 .member-social-holder2 .social a {
   color: #fff !important;
+  padding: 30px;
 }
-
+.member-social-holder2 {
+  padding: 10px;
+}
+.member-social-holder {
+  padding: 10px;
+}
 .social {
   display: inline-block;
   font-size: 25px;
-  margin-right: 20px;
 }
 
 .member-left {
   display: flex;
+
   flex-direction: row;
   height: 33%;
 
   img {
     width: 30em;
-    height: 35em;
+    height: 45em;
+    transform: translateY(0.5em);
   }
 }
 .member-info {
-  width: 380px;
-  height: 580px;
+  max-width: 300px;
+
   background-color: #fff;
   padding: 65px 110px;
   display: inline-block;
   vertical-align: middle;
-
+  right: 0px;
   text-align: left;
   position: relative;
   z-index: 31;
@@ -129,21 +133,22 @@
   display: flex;
   flex-direction: row;
   height: 33%;
+
   img {
     width: 40em;
-    height: 40em;
-    transform: translateX(-9em) translateY(3em);
+    height: 48em;
+    transform: translateX(-9em) translateY(0.5em);
   }
 }
 
 .member-info2 {
-  width: 380px;
-  height: fit-content;
+  max-width: 300px;
+
   background-color: #fff;
   padding: 65px 110px;
   display: inline-block;
   vertical-align: middle;
-  left: -150px;
+  left: 0px;
 
   text-align: left;
   position: relative;
@@ -154,14 +159,15 @@
   display: flex;
   flex-direction: row;
   height: 33%;
+  width: 100%;
   img {
     width: 30em;
     height: 45em;
-    transform: translateY(3em);
+    transform: translateY(0.5em);
   }
 }
 .member-info3 {
-  width: 380px;
+  max-width: 300px;
   height: fit-content;
   background-color: #fff;
   padding: 65px 110px;
@@ -171,7 +177,4 @@
   text-align: left;
   position: relative;
   z-index: 31;
-}
-
-.ima1 {
 }

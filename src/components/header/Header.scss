@@ -20,13 +20,11 @@
 }
 
 .nav-logo {
-  color: #f5b921;
-  align-items: center;
-
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  flex-grow: 1;
+  margin-right: auto;
+
   img {
     height: 10vh;
     float: left;
@@ -68,12 +66,12 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #ffdd40;
+  background: #9e2e2e;
 }
 
 .nav-item .active {
-  color: #ffdd40;
-  border: 1px solid #ffdd40;
+  color: #9e2e2e;
+  border: 1px solid #9e2e2e;
 }
 
 .nav-icon {
@@ -85,7 +83,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-top: 1pxsolid #fff;
+    border-top: 1px solid #fff;
     position: absolute;
     top: 45px;
     left: -110%;
@@ -94,14 +92,14 @@
   }
 
   .nav-menu.active {
-    background: #1f5156;
+    background: #c75a5a;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
   .nav-item .active {
-    color: #ffdd40;
+    color: #9e2e2e;
     border: none;
   }
   .nav-links {
@@ -118,6 +116,6 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #9e2e2e;
   }
 }

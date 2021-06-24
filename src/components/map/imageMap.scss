@@ -1,18 +1,17 @@
-.line {
-  padding: 10px;
-  margin: 10px;
-  opacity: 0;
-  &:hover {
-    opacity: 1;
-  }
+canvas {
+  border: 5px solid !important;
+  padding: 0px !important;
+  margin: auto !important;
+  display: flex !important;
+  position: absolute !important;
+  align-items: center !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
 }
 
-#canvas-image {
-  height: 10px;
-  width: 10px;
-
-  img {
-    height: 10px;
-    width: 10px;
-  }
+h1 {
+  color: brown;
+  text-align: center;
 }

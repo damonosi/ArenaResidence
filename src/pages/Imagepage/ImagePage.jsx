@@ -27,36 +27,15 @@ const containerVariants = {
 };
 const ImagePage = () => {
   return (
-    <motion.div
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-      id="sus"
-      className="pagina"
-    >
-      <div className="containing">
-        <div className="title-container">
-          <h1 className="titlu">Alegeti Etajul</h1>
-          <div className="icon-div">
-            <Link to="image" spy={true} smooth={true}>
-              <IoIosArrowDropdown className="icon" />
-            </Link>
-          </div>
-        </div>
-        <div id="image" className="image-container">
-          <NewImageMapPage />
-        </div>
-        <div className="icon-div2">
-          <Link to="sus" spy={true} smooth={true}>
-            <IoIosArrowDropup className="icon2" />
-          </Link>
-        </div>
-        <div className="banner-container">
-          <ParteneriPage />
-        </div>
+    <div className="containing">
+      <div id="image" className="image-container">
+        <NewImageMapPage />
       </div>
-    </motion.div>
+
+      <div className="banner-container">
+        <ParteneriPage />
+      </div>
+    </div>
   );
 };
 

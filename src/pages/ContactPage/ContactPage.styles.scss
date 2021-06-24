@@ -1,8 +1,14 @@
 .contact-container {
   display: flex;
   flex-direction: column;
+  transform: translateY(8em);
 }
+.distance {
+  display: flex;
+  height: 8em;
 
+  width: 100vw;
+}
 .left-right-container {
   height: fit-content;
   display: flex;
