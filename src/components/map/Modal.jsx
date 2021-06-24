@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useEffect } from "react";
+import React from "react";
 import "./Modal.styles.scss";
 import ReactDom from "react-dom";
 
