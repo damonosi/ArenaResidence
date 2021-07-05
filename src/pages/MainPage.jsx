@@ -14,10 +14,13 @@ const MainPage = () => {
       <Parallax>
         <div id="content" className="site-content center-relative">
           <HomePage />
-
-          <AboutPage />
-
-          <AlteProiecte />
+          <section className="absec">
+            <AboutPage />
+          </section>
+          <div className="separation"></div>
+          <section className="alteProiecte-container">
+            <AlteProiecte />
+          </section>
 
           <ContactPage />
         </div>

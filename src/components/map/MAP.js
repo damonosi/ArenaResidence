@@ -34,6 +34,7 @@ export const Data = () => {
     },
   };
 };
+
 // function updateTooltip(tooltip, x, y, text) {
 //   tooltip.getText().text(text);
 //   tooltip.position({

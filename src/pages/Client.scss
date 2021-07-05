@@ -1,0 +1,30 @@
+.contine {
+  padding: 10em;
+}
+
+.carBack {
+  margin: 50px;
+}
+.slides {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 38%,
+    rgba(71, 71, 71, 1) 100%
+  );
+
+  border-radius: 5em;
+  height: 26em !important;
+}
+.botcar {
+}
+
+.sliText {
+  font-size: 1.1rem !important;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.sliText2 {
+  font-size: 1rem !important;
+  font-family: "Raleway", sans-serif;
+}

@@ -6,9 +6,11 @@ import Modalul from "./Modal";
 import "./imageMap.scss";
 import useImage from "use-image";
 import MapImage from "../../images/decor/1.jpg";
+import ApImage from "../../images/decor/apartament.png";
 import imageMapResize from "image-map-resizer";
 import { Parter, Et1, Et2, Et3, Et4, Et5, Et6, Et7, Et8 } from "./Etaje";
-
+import { Ap1 } from "./Apartamente";
+import { useHistory } from "react-router-dom";
 const NewImageMapPage = () => {
   const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
@@ -44,10 +46,15 @@ const NewImageMapPage = () => {
     };
   }, []);
 
-  const BuildingImage = ({ x, y, height, width }) => {
+  const BuildingImage = () => {
     const [image] = useImage(MapImage, "Anonymous");
 
-    return <Image x={x} y={y} height={height} width={width} image={image} />;
+    return <Image image={image} />;
+  };
+  const ApartamentImage = () => {
+    const [image] = useImage(ApImage, "Anonymous");
+
+    return <Image image={image} />;
   };
 
   const [isOpen, setIsOpen] = useState(false);
@@ -69,13 +76,7 @@ const NewImageMapPage = () => {
   useEffect(() => {
     imageMapResize();
   }, []);
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [isOpen]);
+
   useEffect(() => {
     if (isOpen2) {
       document.body.style.overflow = "hidden";
@@ -132,10 +133,18 @@ const NewImageMapPage = () => {
       document.body.style.overflow = "auto";
     }
   }, [isOpen9]);
+
+  let history = useHistory();
+
+  function handleClick() {
+    history.push("/apartamente/1");
+    history.go(0);
+  }
+
   return (
     <Stage
       id="container"
-      width={dimensions.width}
+      width={window.innerWidth}
       height={dimensions.height}
       scaleX={scale}
       scaleY={scale}
@@ -162,10 +171,20 @@ const NewImageMapPage = () => {
         <Html>
           <Modalul open={isOpen} onClose={() => setIsOpen(false)}>
             <h1>Plan Parter</h1>
-            <div className="">
-              <Layer>
-                <img src="https://picsum.photos/500/1000" alt="" />
-              </Layer>
+            <div className="modstg">
+              <Stage
+                id="container2"
+                width={750}
+                height={950}
+                x={"50%"}
+                scaleX={scale}
+                scaleY={scale}
+              >
+                <Layer>
+                  <ApartamentImage />
+                  <Ap1 onClick={handleClick} />
+                </Layer>
+              </Stage>
             </div>
           </Modalul>
           <Modalul open={isOpen2} onClose={() => setIsOpen2(false)}>

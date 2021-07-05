@@ -1,10 +1,10 @@
 #team {
   background-image: url(../../images/on_black_left.png) cover;
-  background-color: #000000;
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  transform: translateY(2.8em);
+  inset: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
 .section-wrapper {
   position: relative;
@@ -36,10 +36,12 @@
   max-width: 100%;
 }
 
-.section.no-padding .portfolio-content-wrapper {
-}
-
 .member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px red solid;
   img {
     display: inline-block;
     vertical-align: middle;
@@ -93,9 +95,7 @@
   color: #fff !important;
   padding: 30px;
 }
-.member-social-holder2 {
-  padding: 10px;
-}
+
 .member-social-holder {
   padding: 10px;
 }
@@ -109,50 +109,38 @@
 
   flex-direction: row;
   height: 33%;
-
-  img {
-    width: 30em;
-    height: 45em;
-    transform: translateY(0.5em);
-  }
-}
-.member-info {
-  max-width: 300px;
-
-  background-color: #fff;
-  padding: 65px 110px;
-  display: inline-block;
-  vertical-align: middle;
-  right: 0px;
-  text-align: left;
-  position: relative;
-  z-index: 31;
+  width: 100%;
 }
 
 .member-right {
   display: flex;
   flex-direction: row;
   height: 33%;
-
-  img {
-    width: 40em;
-    height: 48em;
-    transform: translateX(-9em) translateY(0.5em);
-  }
 }
-
+.member-info {
+  width: 50%;
+  background-color: rgba(219, 219, 219, 0.301);
+  padding: 65px 110px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  right: 0px;
+  text-align: left;
+  position: relative;
+  z-index: 31;
+  box-shadow: 0 0 3rem #d4726a;
+}
 .member-info2 {
-  max-width: 300px;
-
-  background-color: #fff;
+  width: 50%;
+  background-color: rgba(219, 219, 219, 0.301);
   padding: 65px 110px;
   display: inline-block;
   vertical-align: middle;
   left: 0px;
-
   text-align: left;
   position: relative;
   z-index: 31;
+  box-shadow: 0 0 3rem #d4726a;
 }
 
 .member-left2 {
@@ -160,21 +148,110 @@
   flex-direction: row;
   height: 33%;
   width: 100%;
-  img {
-    width: 30em;
-    height: 45em;
-    transform: translateY(0.5em);
-  }
 }
 .member-info3 {
-  max-width: 300px;
-  height: fit-content;
-  background-color: #fff;
+  width: 50%;
+  background-color: rgba(219, 219, 219, 0.301);
   padding: 65px 110px;
   display: inline-block;
   vertical-align: middle;
-
   text-align: left;
   position: relative;
   z-index: 31;
+  box-shadow: 0 0 3rem #d4726a;
+}
+.ima1 {
+  width: 50%;
+}
+.ima2 {
+  width: 50%;
+}
+.ima3 {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-parallax {
+    padding: 0px;
+  }
+  .social {
+    font-size: 1em;
+  }
+  .member {
+    flex-direction: column;
+  }
+  .member-info {
+    padding: 0px !important;
+    width: 100% !important;
+  }
+  .member-info2 {
+    padding: 0px !important;
+    width: 100% !important;
+    h5 {
+      padding-right: 3em !important;
+      padding-left: 0.5em;
+      max-width: fit-content !important;
+    }
+  }
+  .member-info3 {
+    padding: 0px !important;
+    width: 100%;
+    h5 {
+      padding-right: 1em !important;
+      max-width: fit-content !important;
+    }
+  }
+  .member-left {
+    flex-direction: column !important;
+    img {
+      transform: none !important;
+    }
+  }
+  .member-left2 {
+    flex-direction: column !important;
+    img {
+      transform: none !important;
+    }
+  }
+  .member-right {
+    flex-direction: column !important;
+    img {
+      transform: none !important;
+    }
+  }
+  .member-content {
+    inset: 0rem;
+    display: flex;
+    flex-direction: column;
+    p {
+      padding-right: 0.5em;
+      padding-left: 0.5em;
+    }
+  }
+  .member-social-holder {
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .ima1 {
+    width: 100% !important;
+    height: 20em;
+    img {
+      height: 100%;
+    }
+  }
+  .ima2 {
+    width: 100% !important;
+    height: 20em;
+    img {
+      height: 100%;
+    }
+  }
+  .ima3 {
+    width: 100% !important;
+    height: 20em;
+    img {
+      height: 100%;
+    }
+  }
 }

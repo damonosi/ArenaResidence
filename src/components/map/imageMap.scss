@@ -1,17 +1,14 @@
-canvas {
-  border: 5px solid !important;
-  padding: 0px !important;
-  margin: auto !important;
-  display: flex !important;
-  position: absolute !important;
-  align-items: center !important;
-  top: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-}
-
 h1 {
   color: brown;
   text-align: center;
+}
+.modstg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+}
+#container {
+  position: absolute;
+  width: 100%;
 }

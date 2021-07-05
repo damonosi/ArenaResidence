@@ -14,6 +14,8 @@ import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
 import ScrollToTop from "./components/functions/scrollToTop";
 import { AnimatePresence } from "framer-motion";
+import Apartament from "./components/apartamente/Apartament";
+import ApartamenteList from "./components/apartamente/ApartamenteList";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -51,6 +53,12 @@ function App() {
                   <Route path="/clients" component={ClientPage} />
                   <Route path="/contact" component={ContactPage} />
                   <Route path="/alte" component={AlteProiecte} />
+                  <Route
+                    exact
+                    path="/apartamente"
+                    component={ApartamenteList}
+                  />
+                  <Route path="/apartamente/:id" component={Apartament} />
                 </ErrorBoundary>
               </Suspense>
             </Switch>

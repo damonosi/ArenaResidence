@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import companyLogo from "../../images/logoCladire.png";
 import { NavLink } from "react-router-dom";
 import "./Header.scss";
@@ -8,6 +8,13 @@ const Header = () => {
   const handleClick = () => {
     setClick(!click);
   };
+  useEffect(() => {
+    if (click) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [click]);
   return (
     <>
       <nav className="navbar">
@@ -50,17 +57,7 @@ const Header = () => {
                 About
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                className="nav-links"
-                activeClassName="active"
-                onClick={handleClick}
-                to="/clients"
-              >
-                Clients
-              </NavLink>
-            </li>
+
             <li className="nav-item">
               <NavLink
                 exact

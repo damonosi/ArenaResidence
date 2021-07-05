@@ -1,7 +1,7 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  transform: translateY(8em);
+  width: 100%;
 }
 .distance {
   display: flex;
@@ -18,12 +18,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: relative;
   text-align: left;
-  height: 50vh;
+  height: 50%;
   padding: 50px;
 
   h2 {
-    font-size: 60px;
+    font-size: 3.8rem;
     line-height: 1;
     font-weight: 900;
     color: black;
@@ -51,4 +52,25 @@
 .frame-container {
   margin-top: 5px;
   padding: 100px;
+}
+@media only screen and (max-width: 700px) {
+  .left-right-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-contact {
+    width: unset;
+    padding: 15px;
+    h2 {
+      font-size: 2.8rem;
+    }
+  }
+  .right-contact {
+    display: none;
+  }
+  .frame-container {
+    margin-top: 5px;
+    padding: 0px;
+  }
 }
