@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { Line, Tag, Text, Label, Group } from "react-konva";
 
-export const Parter = ({ onClick }) => {
+export const Parter = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
 
   const handleEnter = (e) => {
@@ -19,6 +19,7 @@ export const Parter = ({ onClick }) => {
 
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
@@ -59,7 +60,7 @@ export const Parter = ({ onClick }) => {
     </Group>
   );
 };
-export const Et1 = ({ onClick }) => {
+export const Et1 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -74,6 +75,7 @@ export const Et1 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
@@ -117,7 +119,7 @@ export const Et1 = ({ onClick }) => {
     </Group>
   );
 };
-export const Et2 = ({ onClick }) => {
+export const Et2 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -132,6 +134,7 @@ export const Et2 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
@@ -175,7 +178,7 @@ export const Et2 = ({ onClick }) => {
     </Group>
   );
 };
-export const Et3 = ({ onClick }) => {
+export const Et3 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -190,6 +193,7 @@ export const Et3 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
@@ -233,7 +237,7 @@ export const Et3 = ({ onClick }) => {
     </Group>
   );
 };
-export const Et4 = ({ onClick }) => {
+export const Et4 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -248,6 +252,7 @@ export const Et4 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
@@ -291,7 +296,7 @@ export const Et4 = ({ onClick }) => {
     </Group>
   );
 };
-export const Et5 = ({ onClick }) => {
+export const Et5 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -306,6 +311,7 @@ export const Et5 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
@@ -349,7 +355,7 @@ export const Et5 = ({ onClick }) => {
     </Group>
   );
 };
-export const Et6 = ({ onClick }) => {
+export const Et6 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -364,6 +370,7 @@ export const Et6 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseEnter={handleEnter}
@@ -407,7 +414,7 @@ export const Et6 = ({ onClick }) => {
     </Group>
   );
 };
-export const Et7 = ({ onClick }) => {
+export const Et7 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -422,6 +429,7 @@ export const Et7 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseOver={handleEnter}
@@ -463,7 +471,7 @@ export const Et7 = ({ onClick }) => {
   );
 };
 
-export const Et8 = ({ onClick }) => {
+export const Et8 = ({ onClick, onTap }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();
@@ -478,6 +486,7 @@ export const Et8 = ({ onClick }) => {
   };
   return (
     <Group
+      onTap={onTap}
       onClick={onClick}
       opacity={opacity}
       onMouseOver={handleEnter}

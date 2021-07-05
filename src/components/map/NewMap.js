@@ -152,19 +152,62 @@ const NewImageMapPage = () => {
       <Layer>
         <BuildingImage id="build" />
         <Parter
+          onTap={() => {
+            setIsOpen(true);
+          }}
           onClick={() => {
             setIsOpen(true);
           }}
         />
 
-        <Et1 onClick={() => setIsOpen2(true)} />
-        <Et2 onClick={() => setIsOpen3(true)} />
-        <Et3 onClick={() => setIsOpen4(true)} />
-        <Et4 onClick={() => setIsOpen5(true)} />
-        <Et5 onClick={() => setIsOpen6(true)} />
-        <Et6 onClick={() => setIsOpen7(true)} />
-        <Et7 onClick={() => setIsOpen8(true)} />
-        <Et8 onClick={() => setIsOpen9(true)} />
+        <Et1
+          onTap={() => {
+            setIsOpen2(true);
+          }}
+          onClick={() => setIsOpen2(true)}
+        />
+        <Et2
+          onTap={() => {
+            setIsOpen3(true);
+          }}
+          onClick={() => setIsOpen3(true)}
+        />
+        <Et3
+          onTap={() => {
+            setIsOpen4(true);
+          }}
+          onClick={() => setIsOpen4(true)}
+        />
+        <Et4
+          onTap={() => {
+            setIsOpen5(true);
+          }}
+          onClick={() => setIsOpen5(true)}
+        />
+        <Et5
+          onTap={() => {
+            setIsOpen6(true);
+          }}
+          onClick={() => setIsOpen6(true)}
+        />
+        <Et6
+          onTap={() => {
+            setIsOpen7(true);
+          }}
+          onClick={() => setIsOpen7(true)}
+        />
+        <Et7
+          onTap={() => {
+            setIsOpen8(true);
+          }}
+          onClick={() => setIsOpen8(true)}
+        />
+        <Et8
+          onTap={() => {
+            setIsOpen9(true);
+          }}
+          onClick={() => setIsOpen9(true)}
+        />
       </Layer>
 
       <Layer>
