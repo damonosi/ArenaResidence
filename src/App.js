@@ -8,7 +8,7 @@ import "./App.css";
 import Footer from "./pages/footer/footerPage.jsx";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import AboutPage from "./pages/aboutPage/AboutPage.jsx";
-import ClientPage from "./pages/ClientPage";
+
 import ContactPage from "./pages/ContactPage/ContactPage";
 import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
@@ -50,7 +50,7 @@ function App() {
                   <Route exact path="/home" component={MainPage} />
                   <Route exact path="/map" component={ImagePage} />
                   <Route path="/about" component={AboutPage} />
-                  <Route path="/clients" component={ClientPage} />
+
                   <Route path="/contact" component={ContactPage} />
                   <Route path="/alte" component={AlteProiecte} />
                   <Route
