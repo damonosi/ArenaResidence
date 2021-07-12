@@ -30,42 +30,28 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
-      {loading ? (
-        <div className="spinner">
-          <ClimbingBoxLoader
-            speedMultiplier={1.5}
-            size={30}
-            color={"#F8A318"}
-            loading={loading}
-          />
-        </div>
-      ) : (
-        <>
-          <Header />
-          <AnimatePresence exitBeforeEnter>
-            <Switch location={location} key={location.key}>
-              <Suspense>
-                <ErrorBoundary>
-                  <Route exact path="/" component={MainPage} />
-                  <Route exact path="/home" component={MainPage} />
-                  <Route exact path="/map" component={ImagePage} />
-                  <Route path="/about" component={AboutPage} />
 
-                  <Route path="/contact" component={ContactPage} />
-                  <Route path="/alte" component={AlteProiecte} />
-                  <Route
-                    exact
-                    path="/apartamente"
-                    component={ApartamenteList}
-                  />
-                  <Route path="/apartamente/:id" component={Apartament} />
-                </ErrorBoundary>
-              </Suspense>
-            </Switch>
-          </AnimatePresence>
-          <Footer />
-        </>
-      )}
+      <>
+        <Header />
+        <AnimatePresence exitBeforeEnter>
+          <Switch location={location} key={location.key}>
+            <Suspense>
+              <ErrorBoundary>
+                <Route exact path="/" component={MainPage} />
+                <Route exact path="/home" component={MainPage} />
+                <Route exact path="/map" component={ImagePage} />
+                <Route path="/about" component={AboutPage} />
+
+                <Route path="/contact" component={ContactPage} />
+                <Route path="/alte" component={AlteProiecte} />
+                <Route exact path="/apartamente" component={ApartamenteList} />
+                <Route path="/apartamente/:id" component={Apartament} />
+              </ErrorBoundary>
+            </Suspense>
+          </Switch>
+        </AnimatePresence>
+        <Footer />
+      </>
     </div>
   );
 }
