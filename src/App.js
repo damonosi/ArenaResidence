@@ -6,7 +6,6 @@ import Header from "./components/header/Header.jsx";
 import ErrorBoundary from "./components/error-boudary/error-boudary.component";
 import "./App.css";
 import Footer from "./pages/footer/footerPage.jsx";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import AboutPage from "./pages/aboutPage/AboutPage.jsx";
 
 import ContactPage from "./pages/ContactPage/ContactPage";
@@ -18,7 +17,7 @@ import Apartament from "./components/apartamente/Apartament";
 import ApartamenteList from "./components/apartamente/ApartamenteList";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [setLoading] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
