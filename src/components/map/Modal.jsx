@@ -11,8 +11,8 @@ const Modalul = ({ open, children, onClose }) => {
       <div className="stil">
         {children}
         <div className="butoni">
-          <div class="outer">
-            <div class="inner">
+          <div className="outer">
+            <div className="inner">
               <label onClick={onClose}>Back</label>
             </div>
           </div>
