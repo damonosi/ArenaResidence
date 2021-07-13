@@ -57,5 +57,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "compress-create-react-app": "^1.0.6"
+  }
 }

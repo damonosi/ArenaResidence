@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
 import MainPage from "./pages/MainPage.jsx";
 import ImagePage from "./pages/Imagepage/ImagePage.jsx";
@@ -11,18 +11,21 @@ import AboutPage from "./pages/aboutPage/AboutPage.jsx";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
-import ScrollToTop from "./components/functions/scrollToTop";
 import { AnimatePresence } from "framer-motion";
 import Apartament from "./components/apartamente/Apartament";
 import ApartamenteList from "./components/apartamente/ApartamenteList";
 
 function App() {
   const location = useLocation();
+  const { pathname } = useLocation();
+  useEffect(() => {
+    // some browsers (like safari) may require a timeout to delay calling this
+    // function after a page has loaded; otherwise, it may not update the position
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className="App">
-      <ScrollToTop />
-
       <Header />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>

@@ -17,7 +17,7 @@ const MainPage = () => {
           <section className="absec">
             <AboutPage />
           </section>
-          <div className="separation"></div>
+
           <section className="alteProiecte-container">
             <AlteProiecte />
           </section>
