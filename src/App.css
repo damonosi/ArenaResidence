@@ -114,6 +114,7 @@ body pre {
   top: 0;
   position: fixed;
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .sticky-wrapper {
@@ -858,6 +859,7 @@ h1.big-text {
   overflow: hidden;
   margin-bottom: -10px;
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 /* ===================================
@@ -1279,7 +1281,7 @@ h1.big-text {
   display: inline-block;
   width: calc(100% - 145px);
   margin-right: 0;
-  float: right;
+
   vertical-align: text-top;
 }
 
@@ -1808,7 +1810,7 @@ body.blog {
   text-align: center;
   padding: 10px 40px;
   cursor: pointer;
-  vertical-align: middle;
+
   text-decoration: none;
   transition: all 0.2s linear;
   margin-bottom: 17px;
@@ -2027,6 +2029,7 @@ body.blog {
 
   .header-holder {
     -webkit-transform: none;
+    transform: none;
   }
 
   .menu-holder.show {
