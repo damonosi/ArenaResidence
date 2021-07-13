@@ -29,7 +29,7 @@ const AboutPage = () => {
         <br />
 
         <Link to="/contact" className="colored">
-          LEARN MORE
+          Contactati-ne
         </Link>
       </div>
     </div>

@@ -20,16 +20,21 @@ const AlteProiecte = () => {
           </Layer>
           <div className="member-info">
             <p className="member-postition">bloc</p>
-            <h5 className="member-name">Rezidential P+6</h5>
+            <h5 className="member-name">Arena Residence Strada 1 mai 60</h5>
             <div className="member-content">
               <p>
-                Strada 1 Mai nr. 60 . Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Velit quidem magni praesentium eveniet
-                delectus alias exercitationem ad voluptatem accusantium et
-                ratione veniam fugit totam natus fugiat dolore, qui aut
-                accusamus aspernatur amet perspiciatis. Esse quas doloribus
-                voluptas dolorem nemo rerum nobis, quod animi quia repudiandae
-                suscipit recusandae illo, incidunt error.
+                Cladirea este dispusa pe structura de inaltime P+6. Constructia
+                este pe cadre din caramida porotherm: 30cm exterior /25cm intre
+                apartamente/11cm comparimentare. Termosistem vata bazaltica 10cm
+                cu tencuiala decorativa tip Baumit.
+              </p>
+              <p>-Lift kelmann pentru 8 persoane/6 statii</p>
+              <p>-Receptie acces imobile placata cu granit</p>
+              <p>-Subsolul tehnic dispune de spatiu de depozitare</p>
+              <p>-Parcari private zona A, B, C. </p>
+              <p>
+                -Tamplaria exterioara este din PVC tristrat (culoare wengue) cu
+                geam termopan. Glafuri granit interior si exterior.{" "}
               </p>
               <Layer
                 style={{ top: "300px", left: "auto", right: "230px" }}
@@ -69,12 +74,26 @@ const AlteProiecte = () => {
             <h5 className="member-name">Cartierul de case Green Town</h5>
             <div className="member-content">
               <p>
-                Code the energy hidden in matter citizens of distant epochs sun.
-                Citizens of distant epochs encyclopaedia galant ctica the ash of
-                stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim
-                ipsam volupta tem quia voluptas sit aspernatur aut odit aut
-                fugit radio telescope quis nostrum exercitatio nem ullam
-                corporis suscipit laboriosam quis.
+                Situat intr-o zona rezidentiala, cartierul Green Town Bacau
+                ofera locuitorilor privilegiul de a se bucura din plin de
+                liniste si intimitate. Proiectul este conceput pentru linistea
+                si siguranta dumneavoastra. Arhitectura cladirilor se remarca
+                prin eleganta si rafinament iar clasicul se impleteste armonios
+                cu modernul.
+              </p>
+              <p>
+                <span className="bold">Parter : </span> living, hol, baie,
+                bucatarie, loc de luat masa, terasa acces principal, terasa
+                acces secundar
+              </p>
+              <p>
+                <span className="bold">Etaj : </span> 3 dormitoare, baie, hol,
+                scari, balcon
+              </p>
+              <p>
+                <span className="bold">
+                  Proiect finalizat in noiembrie 2014{" "}
+                </span>
               </p>
               <Layer settings={{ speed: 0.1, type: ["translateX"] }}>
                 <div className="member-social-holder">
@@ -120,16 +139,29 @@ const AlteProiecte = () => {
           </Layer>
           <div className="member-info3">
             <p className="member-postition">bloc</p>
-            <h5 className="member-name">Rezidential P+5 Prieteniei 89-91</h5>
+            <h5 className="member-name">Gemenii din Stefan Cel Mare</h5>
             <div className="member-content">
               <p>
-                Code the energy hidden in matter citizens of distant epochs sun.
-                Citizens of distant epochs encyclopaedia galant ctica the ash of
-                stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim
-                ipsam volupta tem quia voluptas sit aspernatur aut odit aut
-                fugit radio telescope quis nostrum exercitatio nem ullam
-                corporis suscipit laboriosam quis.
+                Noul asamblu residential - Arena Residence este proiectul
+                imobiliar care creste in cea mai exclusivista zona a Bacaului.
+                Un bloc de 7 etaje, retras cu doua tronsoane distincte ce
+                reunesc peste 98 de apartamente.
               </p>
+              <p>
+                Dotarile, instalatiile, materialele, si finisajele rafinate la
+                care se adauga atentia obsesiva acordata celor mai mici detalii,
+                fac ca imobilul sa capteze esenta locuintei moderne, elegante si
+                comfortabile.
+              </p>
+
+              <p>
+                Localizat intr-o zona de exceptie a municipiului bacau, la o
+                distanta aproximativa de 2,5 km de centrul orasului, in plan
+                secund de artera de maxima importanta - Str. Stefan cel Mare,
+                iar in partea opusa , la nici 600m de Rezervatia Naturala a
+                lacului Bacau II.
+              </p>
+
               <Layer
                 style={{ top: "300px", left: "auto", right: "230px" }}
                 settings={{ speed: 0.1, type: ["translateX"] }}
