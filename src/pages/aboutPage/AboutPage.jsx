@@ -1,7 +1,7 @@
 import React from "react";
 
 import RoundImage1 from "../../images/decor/1.jpg";
-
+import { Link } from "react-router-dom";
 import "./About.styles.scss";
 import Parallax, { Layer } from "react-parallax-scroll";
 
@@ -28,9 +28,9 @@ const AboutPage = () => {
         </p>
         <br />
 
-        <a href="http://www.residence-arena.ro/" className="colored">
+        <Link to="/contact" className="colored">
           LEARN MORE
-        </a>
+        </Link>
       </div>
     </div>
   );

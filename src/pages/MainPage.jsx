@@ -4,7 +4,7 @@ import AboutPage from "./aboutPage/AboutPage.jsx";
 import ParteneriPage from "./ParteneriPage.jsx";
 import AlteProiecte from "./alteProiecte/alteProiecte";
 import HomePage from "./homePage/HomePage.jsx";
-import ContactPage from "./ContactPage/ContactPage";
+
 import Parallax from "react-parallax-scroll";
 import "./MainPage.styles.scss";
 
@@ -21,8 +21,6 @@ const MainPage = () => {
           <section className="alteProiecte-container">
             <AlteProiecte />
           </section>
-
-          <ContactPage />
         </div>
       </Parallax>
       <ParteneriPage />

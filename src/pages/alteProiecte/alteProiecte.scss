@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  border: 1px red solid;
+
   img {
     display: inline-block;
     vertical-align: middle;
@@ -128,7 +128,6 @@
   text-align: left;
   position: relative;
   z-index: 31;
-  box-shadow: 0 0 3rem #d4726a;
 }
 .member-info2 {
   width: 50%;
@@ -140,7 +139,6 @@
   text-align: left;
   position: relative;
   z-index: 31;
-  box-shadow: 0 0 3rem #d4726a;
 }
 
 .member-left2 {
@@ -158,7 +156,6 @@
   text-align: left;
   position: relative;
   z-index: 31;
-  box-shadow: 0 0 3rem #d4726a;
 }
 .ima1 {
   width: 50%;
@@ -214,7 +211,7 @@
     }
   }
   .member-right {
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
     img {
       transform: none !important;
     }

@@ -64,12 +64,6 @@ const AlteProiecte = () => {
         </div>
 
         <div className="member big-screen member-right">
-          <Layer
-            className="ima2"
-            settings={{ speed: 0.2, type: ["translateY"] }}
-          >
-            <img src={blocTwo} alt="" />
-          </Layer>
           <div className="member-info2">
             <p className="member-postition">Case</p>
             <h5 className="member-name">Cartierul de case Green Town</h5>
@@ -109,6 +103,12 @@ const AlteProiecte = () => {
               </Layer>
             </div>
           </div>
+          <Layer
+            className="ima2"
+            settings={{ speed: 0.2, type: ["translateY"] }}
+          >
+            <img src={blocTwo} alt="" />
+          </Layer>
         </div>
 
         <div className="member member-left2">
