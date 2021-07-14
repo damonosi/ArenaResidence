@@ -59,7 +59,7 @@ const AlteProiecte = () => {
                   </div>
                   <div className="social">
                     <a href="mailto:office.arenaresidence@gmail.com">
-                      <span class="fas fa-envelope"></span>
+                      <span className="fas fa-envelope"></span>
                     </a>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const AlteProiecte = () => {
                   </div>
                   <div className="social">
                     <a href="mailto:office.arenaresidence@gmail.com">
-                      <span class="fas fa-envelope"></span>
+                      <span className="fas fa-envelope"></span>
                     </a>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ const AlteProiecte = () => {
                   </div>
                   <div className="social">
                     <a href="mailto:office.arenaresidence@gmail.com">
-                      <span class="fas fa-envelope"></span>
+                      <span className="fas fa-envelope"></span>
                     </a>
                   </div>
                 </div>
