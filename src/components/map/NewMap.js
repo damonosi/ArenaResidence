@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import { Stage, Layer, Image } from "react-konva";
 import { Html } from "react-konva-utils";
 import Modalul from "./Modal";
 import "./imageMap.scss";
 import useImage from "use-image";
-import MapImage from "../../images/decor/1.jpg";
+import MapImage from "../../images/decor/1 new.png";
 import ApImage from "../../images/decor/apartament.png";
 import imageMapResize from "image-map-resizer";
 import { Parter, Et1, Et2, Et3, Et4, Et5, Et6, Et7, Et8 } from "./Etaje";
@@ -136,13 +136,43 @@ const NewImageMapPage = () => {
 
   let history = useHistory();
 
+  const stageRef = useRef();
+
   function handleClick() {
     history.push("/apartamente/1");
     history.go(0);
   }
+  const onDblTap = () => {
+    setIsOpen(true);
+  };
+  const onDblTap2 = () => {
+    setIsOpen2(true);
+  };
+  const onDblTap3 = () => {
+    setIsOpen3(true);
+  };
+  const onDblTap4 = () => {
+    setIsOpen4(true);
+  };
+  const onDblTap5 = () => {
+    setIsOpen5(true);
+  };
+  const onDblTap6 = () => {
+    setIsOpen6(true);
+  };
+  const onDblTap7 = () => {
+    setIsOpen7(true);
+  };
+  const onDblTap8 = () => {
+    setIsOpen8(true);
+  };
+  const onDblTap9 = () => {
+    setIsOpen9(true);
+  };
 
   return (
     <Stage
+      ref={stageRef}
       id="container"
       width={window.innerWidth}
       height={dimensions.height}
@@ -152,62 +182,20 @@ const NewImageMapPage = () => {
       <Layer>
         <BuildingImage id="build" />
         <Parter
-          onTap={() => {
-            setIsOpen(true);
-          }}
+          onDblTap={onDblTap}
           onClick={() => {
             setIsOpen(true);
           }}
         />
 
-        <Et1
-          onTap={() => {
-            setIsOpen2(true);
-          }}
-          onClick={() => setIsOpen2(true)}
-        />
-        <Et2
-          onTap={() => {
-            setIsOpen3(true);
-          }}
-          onClick={() => setIsOpen3(true)}
-        />
-        <Et3
-          onTap={() => {
-            setIsOpen4(true);
-          }}
-          onClick={() => setIsOpen4(true)}
-        />
-        <Et4
-          onTap={() => {
-            setIsOpen5(true);
-          }}
-          onClick={() => setIsOpen5(true)}
-        />
-        <Et5
-          onTap={() => {
-            setIsOpen6(true);
-          }}
-          onClick={() => setIsOpen6(true)}
-        />
-        <Et6
-          onTap={() => {
-            setIsOpen7(true);
-          }}
-          onClick={() => setIsOpen7(true)}
-        />
-        <Et7
-          onTap={() => {
-            setIsOpen8(true);
-          }}
-          onClick={() => setIsOpen8(true)}
-        />
-        <Et8
-          onTap={() => {
-            setIsOpen9(true);
-          }}
-          onClick={() => setIsOpen9(true)}
-        />
+        <Et1 onDblTap2={onDblTap2} onClick={() => setIsOpen2(true)} />
+        <Et2 onDblTap3={onDblTap3} onClick={() => setIsOpen3(true)} />
+        <Et3 onDblTap4={onDblTap4} onClick={() => setIsOpen4(true)} />
+        <Et4 onDblTap5={onDblTap5} onClick={() => setIsOpen5(true)} />
+        <Et5 onDblTap6={onDblTap6} onClick={() => setIsOpen6(true)} />
+        <Et6 onDblTap7={onDblTap7} onClick={() => setIsOpen7(true)} />
+        <Et7 onDblTap8={onDblTap8} onClick={() => setIsOpen8(true)} />
+        <Et8 onDblTap9={onDblTap9} onClick={() => setIsOpen9(true)} />
       </Layer>
 
       <Layer>

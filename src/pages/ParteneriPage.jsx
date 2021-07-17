@@ -17,7 +17,7 @@ const ParteneriPage = () => {
   return (
     <div id="services" className="services-section backy">
       <div className="content-wrapper">
-        <Carousel slides={slides} autoplay={true} interval={1200} />
+        <Carousel slides={slides} autoplay={true} interval={1400} />
       </div>
     </div>
   );
