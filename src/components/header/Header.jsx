@@ -34,7 +34,7 @@ const Header = () => {
               className="nav-links"
               activeClassName="active"
               onClick={handleClick}
-              to="/map"
+              to="/bloc"
             >
               Apartamente
             </NavLink>

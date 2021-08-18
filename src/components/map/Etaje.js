@@ -488,7 +488,7 @@ export const Et6 = ({ onClick, onTap, onDblTap7 }) => {
     </Group>
   );
 };
-export const Et7 = ({ onClick, onTap, onDblTap8 }) => {
+export const Et7 = ({ onClick, onTap, onDblTap8, stageRef }) => {
   const [opacity, setOpacity] = useState(0);
   const handleEnter = (e) => {
     const stage = e.target.getStage();

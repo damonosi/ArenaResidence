@@ -33,13 +33,13 @@ function App() {
             <ErrorBoundary>
               <Route exact path="/" component={MainPage} />
               <Route exact path="/home" component={MainPage} />
-              <Route exact path="/map" component={ImagePage} />
+              <Route exact path="/bloc" component={ImagePage} />
               <Route path="/about" component={AboutPage} />
 
               <Route path="/contact" component={ContactPage} />
               <Route path="/alte" component={AlteProiecte} />
               <Route exact path="/apartamente" component={ApartamenteList} />
-              <Route path="/apartamente/:id" component={Apartament} />
+              <Route path="/bloc/:id" component={Apartament} />
             </ErrorBoundary>
           </Suspense>
         </Switch>
