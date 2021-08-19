@@ -14,7 +14,7 @@ const HomePage = () => {
               DESIGN <br />& SERIOZITATE
             </h1>
             <div className="button-holder text-left">
-              <Link className="colored" to="/map">
+              <Link className="colored" to="/bloc">
                 ALEGETI APARTAMENTUL
               </Link>
             </div>

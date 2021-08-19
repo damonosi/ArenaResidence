@@ -15,6 +15,17 @@ import { AnimatePresence } from "framer-motion";
 import Apartament from "./components/apartamente/Apartament";
 import ApartamenteList from "./components/apartamente/ApartamenteList";
 
+import ReactPixel from "react-facebook-pixel";
+
+const advancedMatching = { em: "dam195@yahoo.com" }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+const options = {
+  autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
+  debug: false, // enable logs
+};
+ReactPixel.init("372153681294767", advancedMatching, options);
+
+ReactPixel.pageView(); // For tracking page view
+
 function App() {
   const location = useLocation();
   const { pathname } = useLocation();
