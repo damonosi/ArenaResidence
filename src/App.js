@@ -17,15 +17,6 @@ import ApartamenteList from "./components/apartamente/ApartamenteList";
 
 import ReactPixel from "react-facebook-pixel";
 
-const advancedMatching = { em: "dam195@yahoo.com" }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
-const options = {
-  autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
-  debug: false, // enable logs
-};
-ReactPixel.init("372153681294767", advancedMatching, options);
-
-ReactPixel.pageView(); // For tracking page view
-
 function App() {
   const location = useLocation();
   const { pathname } = useLocation();
@@ -34,7 +25,16 @@ function App() {
     // function after a page has loaded; otherwise, it may not update the position
     window.scrollTo(0, 0);
   }, [pathname]);
+  useEffect(() => {
+    const advancedMatching = { em: "dam195@yahoo.com" };
+    const options = {
+      autoConfig: true,
+      debug: false,
+    };
+    ReactPixel.init("372153681294767", advancedMatching, options);
 
+    ReactPixel.pageView();
+  }, []);
   return (
     <div className="App">
       <Header />
