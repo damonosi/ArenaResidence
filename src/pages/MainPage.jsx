@@ -14,6 +14,9 @@ const MainPage = () => {
       <Parallax>
         <div id="content" className="site-content center-relative">
           <HomePage />
+          <button onclick='FB.AppEvents.logEvent("buttonClicked")'>
+            Click me
+          </button>
           <section className="absec">
             <AboutPage />
           </section>
