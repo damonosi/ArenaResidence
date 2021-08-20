@@ -25,16 +25,16 @@ function App() {
     // function after a page has loaded; otherwise, it may not update the position
     window.scrollTo(0, 0);
   }, [pathname]);
-  useEffect(() => {
-    const advancedMatching = { em: "dam195@yahoo.com" };
-    const options = {
-      autoConfig: true,
-      debug: false,
-    };
-    ReactPixel.init("372153681294767", advancedMatching, options);
 
-    ReactPixel.pageView();
-  }, []);
+  const advancedMatching = { em: "dam195@yahoo.com" };
+  const options = {
+    autoConfig: true,
+    debug: false,
+  };
+  ReactPixel.init("372153681294767", advancedMatching, options);
+
+  ReactPixel.pageView();
+
   return (
     <div className="App">
       <Header />
