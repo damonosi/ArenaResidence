@@ -16,7 +16,14 @@ import Apartament from "./components/apartamente/Apartament";
 import ApartamenteList from "./components/apartamente/ApartamenteList";
 
 import ReactPixel from "react-facebook-pixel";
+const advancedMatching = { em: "dam195@yahoo.com" };
+const options = {
+  autoConfig: true,
+  debug: false,
+};
+ReactPixel.init("403631571131697", advancedMatching, options);
 
+ReactPixel.pageView();
 function App() {
   const location = useLocation();
   const { pathname } = useLocation();
@@ -25,15 +32,6 @@ function App() {
     // function after a page has loaded; otherwise, it may not update the position
     window.scrollTo(0, 0);
   }, [pathname]);
-
-  const advancedMatching = { em: "dam195@yahoo.com" };
-  const options = {
-    autoConfig: true,
-    debug: false,
-  };
-  ReactPixel.init("372153681294767", advancedMatching, options);
-
-  ReactPixel.pageView();
 
   return (
     <div className="App">
