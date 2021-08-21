@@ -9,6 +9,7 @@ import Footer from "./pages/footer/footerPage.jsx";
 import AboutPage from "./pages/aboutPage/AboutPage.jsx";
 
 import ContactPage from "./pages/ContactPage/ContactPage";
+
 import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
 import { AnimatePresence } from "framer-motion";
