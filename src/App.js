@@ -50,7 +50,7 @@ function App() {
               <Route path="/contact" component={ContactPage} />
               <Route path="/alte" component={AlteProiecte} />
               <Route exact path="/apartamente" component={ApartamenteList} />
-              <Route path="/bloc/:id" component={Apartament} />
+              <Route path="/apartamente/:id" component={Apartament} />
             </ErrorBoundary>
           </Suspense>
         </Switch>

@@ -12,7 +12,7 @@ const Apartament = () => {
     <div className="contain">
       <div className="apartament">
         <div className="back-cont">
-          <Link to="/map">
+          <Link to="/bloc">
             <button className="butonus">Back</button>
           </Link>
         </div>
