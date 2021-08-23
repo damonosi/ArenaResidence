@@ -238,7 +238,7 @@ const AlteProiecte = () => {
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
-          <h1>Cartierul de case Green Town</h1> <Galerie />
+          <Galerie /> <h1>Cartierul de case Green Town</h1>
         </div>
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
