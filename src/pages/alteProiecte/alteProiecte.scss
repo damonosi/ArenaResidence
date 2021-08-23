@@ -198,13 +198,34 @@
   }
 }
 
-.galerie{
+.galerie {
   width:100%;
   height:50px;
   margin-top:10px;
-  
   position: relative;
+  background-color: #403075;
+  opacity:0.9;
+  color:white;
+  font-weight:italic;
+  font-size:1rem;
+
+  &:hover{
+  background-color: #9c86e6;
+  cursor:pointer;
+  
+  }
+  
 }
+.co{
+  display:flex;
+  float: inline-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
 .to-member{
   display:flex;
   position: relative;

@@ -10,6 +10,8 @@ import ImageModal from "../../components/AlteProiecte/imageModal";
 
 import Galerie from "../../components/AlteProiecte/imageGallery";
 
+import { HiOutlinePhotograph } from "react-icons/hi";
+
 const AlteProiecte = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
@@ -85,7 +87,8 @@ const AlteProiecte = () => {
                       </div>
                     </div>
                     <button className="galerie" onClick={handleClick}>
-                      Galerie Foto
+                      Spre Galeria Foto
+                      <HiOutlinePhotograph />
                     </button>
                   </div>
                 </Layer>
@@ -146,7 +149,7 @@ const AlteProiecte = () => {
                       </div>
                     </div>
                     <button onClick={handleClick2} className="galerie">
-                      Galerie Foto
+                      Spre Galeria Foto <HiOutlinePhotograph />
                     </button>
                   </div>
                 </Layer>
@@ -222,7 +225,7 @@ const AlteProiecte = () => {
                       </div>
                     </div>
                     <button onClick={handleClick3} className="galerie">
-                      Galerie Foto
+                      Spre Galeria Foto <HiOutlinePhotograph />
                     </button>
                   </div>
                 </Layer>

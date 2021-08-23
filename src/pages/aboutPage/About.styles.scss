@@ -2,12 +2,13 @@
   display: flex;
   align-items: row;
   height: 100%;
-  background-color: white;
+
 }
 
 .half-right {
   width: 100%;
   padding: 0px;
+  
 
   img {
     height: 50rem;
@@ -17,7 +18,7 @@
   }
 }
 .half-left {
-  background-color: white;
+  background-color:rgba(34, 21, 21, 0.658);
   width: 100% !important;
   float: none;
   margin-right: auto !important;
