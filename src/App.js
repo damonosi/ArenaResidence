@@ -22,9 +22,8 @@ const options = {
   autoConfig: true,
   debug: false,
 };
-ReactPixel.init("372153681294767", advancedMatching, options);
-
 ReactPixel.pageView();
+ReactPixel.init("372153681294767", advancedMatching, options);
 
 function App() {
   const location = useLocation();
