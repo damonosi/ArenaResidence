@@ -1,7 +1,7 @@
 import React from "react";
 
 import AboutPage from "./aboutPage/AboutPage.jsx";
-import ParteneriPage from "./ParteneriPage.jsx";
+import ParteneriPage from "./Parteneri/ParteneriComponent";
 import AlteProiecte from "./alteProiecte/alteProiecte";
 import HomePage from "./homePage/HomePage.jsx";
 

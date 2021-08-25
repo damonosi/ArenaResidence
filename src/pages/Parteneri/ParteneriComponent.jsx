@@ -1,12 +1,12 @@
 import React from "react";
 import { Carousel } from "3d-react-carousal";
 
-import BarrierLogo from "../images/parteneri/barrier.svg";
-import Schneider from "../images/parteneri/Scheider.svg";
-import Porotherm from "../images/parteneri/Porotherm2.png";
-import Rehau from "../images/parteneri/Rehau.svg";
+import BarrierLogo from "../../images/parteneri/barrier.svg";
+import Schneider from "../../images/parteneri/Scheider.svg";
+import Porotherm from "../../images/parteneri/Porotherm2.png";
+import Rehau from "../../images/parteneri/Rehau.svg";
 import "./Parteneri.scss";
-const ParteneriPage = () => {
+const ParteneriComponent = () => {
   let slides = [
     <img src={Rehau} alt="0" />,
     <img src={BarrierLogo} alt="1" />,
@@ -23,4 +23,4 @@ const ParteneriPage = () => {
   );
 };
 
-export default ParteneriPage;
+export default ParteneriComponent;

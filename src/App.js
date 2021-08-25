@@ -9,6 +9,7 @@ import Footer from "./pages/footer/footerPage.jsx";
 import AboutPage from "./pages/aboutPage/AboutPage.jsx";
 
 import ContactPage from "./pages/ContactPage/ContactPage";
+import ParteneriPage from "./pages/Parteneri/ParteneriPage";
 
 import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
@@ -47,6 +48,7 @@ function App() {
               <Route path="/about" component={AboutPage} />
 
               <Route path="/contact" component={ContactPage} />
+              <Route path="/parteneri" component={ParteneriPage} />
               <Route path="/alte" component={AlteProiecte} />
               <Route exact path="/apartamente" component={ApartamenteList} />
               <Route path="/apartamente/:id" component={Apartament} />

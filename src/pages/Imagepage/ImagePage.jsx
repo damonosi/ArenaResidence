@@ -3,7 +3,7 @@ import React from "react";
 import NewImageMapPage from "../../components/map/NewMap";
 import "./ImagePage.styles.scss";
 
-import ParteneriPage from "../ParteneriPage";
+import ParteneriPage from "../Parteneri/ParteneriComponent";
 
 // const containerVariants = {
 //   hidden: {
