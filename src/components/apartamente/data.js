@@ -1,16 +1,15 @@
-export const apartamenteData = [
+export const Data_c1 = [
   {
     title: "Apartament 1",
-    price: "100.000",
     etaj: "parter",
-    camere: "2",
+    camere: "3",
+    suprafataUtila: "86.62 mp",
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 1,
   },
   {
     title: "Apartament 2",
-    price: "140.000",
     etaj: "parter",
     camere: "2",
     descriere:
@@ -19,7 +18,6 @@ export const apartamenteData = [
   },
   {
     title: "Apartament 3",
-    price: "120.000",
     etaj: "parter",
     camere: "2",
     descriere:
@@ -28,8 +26,7 @@ export const apartamenteData = [
   },
   {
     title: "Apartament 4",
-    price: "110.000",
-    etaj: "parter",
+    etaj: "et_1",
     camere: "3",
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
@@ -38,7 +35,7 @@ export const apartamenteData = [
   {
     title: "Apartament 5",
     price: "130.000",
-    etaj: "parter",
+    etaj: "et_1",
     camere: "3",
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",

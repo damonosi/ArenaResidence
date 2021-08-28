@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { apartamenteData } from "./data.js";
+import { Data_c1 } from "./data.js";
 import "./apartamente.scss";
 const ApartamenteList = ({ title }) => {
   return (
     <div className="apartamente-list">
-      {apartamenteData.map((apartament) => (
+      {Data_c1.map((apartament) => (
         <div
           className="apartament-preview"
           key={apartament.id}

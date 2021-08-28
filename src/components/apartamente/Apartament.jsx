@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { apartamenteData } from "./data.js";
+import { Data_c1 } from "./data.js";
 import "./apartamente.scss";
 import drImg from "../../images/decor/6.jpg";
 import { FaWhatsapp } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Apartament = () => {
             <button className="butonus">Back</button>
           </Link>
         </div>
-        {apartamenteData
+        {Data_c1
           // eslint-disable-next-line eqeqeq
           .filter((apartament) => apartament.id == id)
           .map((filteredApartment) => (
@@ -30,7 +30,7 @@ const Apartament = () => {
                     SUNATI <br /> <FaWhatsapp />
                   </button>
                 </a>
-                <h2>Pret : {filteredApartment.price}</h2>
+                <div>Pret : {filteredApartment.photo}</div>
                 <h2>Etaj : {filteredApartment.etaj}</h2>
               </div>
               <div className="imagine">
