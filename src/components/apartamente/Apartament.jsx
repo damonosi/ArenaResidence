@@ -13,9 +13,6 @@ const Apartament = () => {
   return (
     <div className="contain">
       <div className="apartament">
-        <div className="back-cont">
-           
-        </div>
         {Data_c1
           // eslint-disable-next-line eqeqeq
           .filter((apartament) => apartament.id == id)
