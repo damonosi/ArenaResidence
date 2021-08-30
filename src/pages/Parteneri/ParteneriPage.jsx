@@ -1,6 +1,6 @@
 import React from "react";
 import ParteneriComponent from "./ParteneriComponent";
-import "./ParteneriPage.scss";
+import "./ParteneriPage.css";
 
 import Barrier from "../../images/parteneri/Barrier_Bistrita2.png";
 import Porotherm from "../../images/parteneri/Porotherm2.png";

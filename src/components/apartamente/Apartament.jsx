@@ -1,10 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
 import { Data_c1 } from "./data.js";
-import "./apartamente.scss";
-import drImg from "../../images/decor/6.jpg";
+import "./Apartament.css";
+import fullParter from "../../images/apartamente/c1/etaj_0/PLAN PARTER C1- CATALOG- V2.png";
+import PlanAp from "../../images/apartamente/c1/etaj_0/AP 1-min.png";
 import { FaWhatsapp } from "react-icons/fa";
+
+
 const Apartament = () => {
   const { id } = useParams();
 
@@ -12,9 +14,7 @@ const Apartament = () => {
     <div className="contain">
       <div className="apartament">
         <div className="back-cont">
-          <Link to="/bloc">
-            <button className="butonus">Back</button>
-          </Link>
+           
         </div>
         {Data_c1
           // eslint-disable-next-line eqeqeq
@@ -22,20 +22,30 @@ const Apartament = () => {
           .map((filteredApartment) => (
             <div className="produs">
               <div className="fler">
-                <h1>{filteredApartment.title}</h1>
-                <h1>Apartament cu {filteredApartment.camere} camere</h1>
-                <p>{filteredApartment.descriere}</p>
-                <a href="https://wa.me/0770258169">
-                  <button>
-                    SUNATI <br /> <FaWhatsapp />
-                  </button>
-                </a>
-                <div>Pret : {filteredApartment.photo}</div>
-                <h2>Etaj : {filteredApartment.etaj}</h2>
+                <div className="info-apartament">
+                  <h1 className="title">{filteredApartment.title}</h1>
+                  <h4>Apartament cu {filteredApartment.camere} camere</h4>
+                  <h8>{filteredApartment.descriere}</h8>
+                  <p className="firstt">Etaj : {filteredApartment.etaj}</p>
+                  <p>Scara : {filteredApartment.scara}</p>
+                  <p>Liber : {filteredApartment.liber}</p>
+
+                  <a className="wapp-button" href="https://wa.me/0770258169">
+                    <button>
+                      <FaWhatsapp /> SUNATI
+                    </button>
+                  </a>      
+                </div>
+
+                <div className="imagine">
+                     <img src={fullParter} alt="" />
+                </div>
               </div>
-              <div className="imagine">
-                <img src={drImg} alt="" />
-              </div>
+              
+                <div className="plan-detaliat">
+                    <h1>Plan detaliat</h1>
+                    <img src={PlanAp} alt="plan detaliat" />
+                </div>
             </div>
           ))}
       </div>
