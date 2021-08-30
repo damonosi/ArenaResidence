@@ -6,7 +6,7 @@ import Modalul from "./Modal";
 import "./imageMap.scss";
 import useImage from "use-image";
 import MapImage from "../../images/decor/1 new.png";
-import ApImage from "../../images/decor/apartament.png";
+import ApImage from "../../images/plan_etaje/c1/plan_parter.png";
 import imageMapResize from "image-map-resizer";
 import { Parter, Et1, Et2, Et3, Et4, Et5, Et6, Et7, Et8 } from "./Etaje";
 import { Ap1 } from "./Apartamente";
@@ -30,6 +30,7 @@ const NewImageMapPage = () => {
       }, ms);
     };
   }
+
   useEffect(() => {
     const debouncedHandleResize = debounce(function handleResize() {
       setDimensions({
@@ -51,10 +52,10 @@ const NewImageMapPage = () => {
 
     return <Image image={image} />;
   };
-  const ApartamentImage = () => {
+  const PlanImage = ({ width, height }) => {
     const [image] = useImage(ApImage, "Anonymous");
 
-    return <Image image={image} />;
+    return <Image width={width} height={height} image={image} />;
   };
 
   const [isOpen, setIsOpen] = useState(false);
@@ -212,12 +213,18 @@ const NewImageMapPage = () => {
                 scaleY={scale}
               >
                 <Layer>
-                  <ApartamentImage />
+                  <PlanImage width={750} height={600} />
+                  <Ap1 onClick={handleClick} />
+                </Layer>
+
+                <Layer>
+                  <PlanImage width={350} height={200} />
                   <Ap1 onClick={handleClick} />
                 </Layer>
               </Stage>
             </div>
           </Modalul>
+
           <Modalul open={isOpen2} onClose={() => setIsOpen2(false)}>
             <h1>Plan Etaj 1</h1>
             <div className="">
