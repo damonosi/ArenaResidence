@@ -1,12 +1,13 @@
-h1 {
-  color: brown;
-  text-align: center;
-}
+
 .modstg {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: blueviolet;
+  h1 {
+  color: brown;
+  text-align: center;
+}
 }
 #container {
   width: 100%;

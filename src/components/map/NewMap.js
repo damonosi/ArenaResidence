@@ -5,7 +5,7 @@ import { Html } from "react-konva-utils";
 import Modalul from "./Modal";
 import "./imageMap.scss";
 import useImage from "use-image";
-import MapImage from "../../images/decor/1 new.png";
+import MapImage from "../../images/mapare_bloc/bloc_map.png";
 import ApImage from "../../images/plan_etaje/c1/plan_parter.png";
 import imageMapResize from "image-map-resizer";
 import { Parter, Et1, Et2, Et3, Et4, Et5, Et6, Et7, Et8 } from "./Etaje";
@@ -180,7 +180,7 @@ const NewImageMapPage = () => {
       scaleX={scale}
       scaleY={scale}
     >
-      <Layer>
+      <Layer className="layer_to_be">
         <BuildingImage id="build" />
         <Parter
           onDblTap={onDblTap}
