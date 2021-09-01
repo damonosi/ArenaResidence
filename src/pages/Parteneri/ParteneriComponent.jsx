@@ -3,7 +3,7 @@ import { Carousel } from "3d-react-carousal";
 
 import BarrierLogo from "../../images/parteneri/barrier.svg";
 import Schneider from "../../images/parteneri/Scheider.svg";
-import Porotherm from "../../images/parteneri/Porotherm2.png";
+import Porotherm from "../../images/parteneri/Porotherm2.svg";
 import Rehau from "../../images/parteneri/Rehau.svg";
 import "./Parteneri.scss";
 const ParteneriComponent = () => {

@@ -1,11 +1,11 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Data_c1 } from "./data.js";
-import "./Apartament.css";
+
 import fullParter from "../../images/apartamente/c1/etaj_0/PLAN PARTER C1- CATALOG- V2.png";
 import PlanAp from "../../images/apartamente/c1/etaj_0/AP 1-min.png";
 import { FaWhatsapp } from "react-icons/fa";
-
+import "./apartament.css";
 
 const Apartament = () => {
   const { id } = useParams();
@@ -31,18 +31,18 @@ const Apartament = () => {
                     <button>
                       <FaWhatsapp /> SUNATI
                     </button>
-                  </a>      
+                  </a>
                 </div>
 
                 <div className="imagine">
-                     <img src={fullParter} alt="" />
+                  <img src={fullParter} alt="" />
                 </div>
               </div>
-              
-                <div className="plan-detaliat">
-                    <h1>Plan detaliat</h1>
-                    <img src={PlanAp} alt="plan detaliat" />
-                </div>
+
+              <div className="plan-detaliat">
+                <h1>Plan detaliat</h1>
+                <img src={PlanAp} alt="plan detaliat" />
+              </div>
             </div>
           ))}
       </div>
