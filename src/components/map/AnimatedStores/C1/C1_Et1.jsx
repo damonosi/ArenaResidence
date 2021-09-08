@@ -10,10 +10,10 @@ class C1Et1 extends React.Component {
     const { flag } = this.state;
     return (
       <Spring
-        native
+        config={{ duration: 10 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 0.6 : 0,
+          opacity: flag ? 1 : 0,
         }}
       >
         {(props) => (
@@ -24,7 +24,6 @@ class C1Et1 extends React.Component {
           >
             <animated.Line
               points={[640, 853, 640, 786, 97, 790, 98, 859]}
-              key={11}
               // bezier={true}
               // tension={0.1}
               lineJoin={"round"}

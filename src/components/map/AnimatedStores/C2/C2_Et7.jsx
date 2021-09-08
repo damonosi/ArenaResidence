@@ -12,6 +12,7 @@ class C2Et7 extends React.Component {
       <Spring
         native
         from={{ opacity: 1 }}
+        config={{ duration: 10 }}
         to={{
           opacity: flag ? 0.6 : 0,
         }}

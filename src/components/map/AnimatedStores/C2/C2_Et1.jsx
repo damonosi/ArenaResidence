@@ -10,6 +10,7 @@ class C2Et1 extends React.Component {
     const { flag } = this.state;
     return (
       <Spring
+        config={{ duration: 10 }}
         native
         from={{ opacity: 1 }}
         to={{

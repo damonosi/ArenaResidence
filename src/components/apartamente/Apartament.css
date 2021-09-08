@@ -40,7 +40,7 @@
 
 .info-apartament{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-direction: column;
     width: 40%;
     padding-left: 2rem;

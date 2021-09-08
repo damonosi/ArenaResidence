@@ -11,6 +11,7 @@ class C1Parter extends React.Component {
     return (
       <Spring
         native
+        config={{ duration: 10 }}
         from={{ opacity: 1 }}
         to={{
           opacity: flag ? 0.6 : 0,
