@@ -1,17 +1,30 @@
-h1 {
+
+
+#container {
+ 
+  h1 {
   color: brown;
   text-align: center;
 }
-.modstg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: blueviolet;
-}
-#container {
-  width: 100%;
 }
 
 .parent {
   width: 100%;
 }
+.map-container{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  
+  margin:0;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  
+
+
+}
+
+
