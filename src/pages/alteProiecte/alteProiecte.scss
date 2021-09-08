@@ -1,10 +1,17 @@
 #team {
-  background-image: url(../../images/on_black_left.png) cover;
+
   inset: 0px;
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: center;
+// background: hsla(182, 87%, 47%, 1);
+
+// background: linear-gradient(180deg, hsla(182, 87%, 47%, 1) 0%, hsla(244, 84%, 50%, 1) 100%);
+
+// background: -moz-linear-gradient(180deg, hsla(182, 87%, 47%, 1) 0%, hsla(244, 84%, 50%, 1) 100%);
+
+// background: -webkit-linear-gradient(180deg, hsla(182, 87%, 47%, 1) 0%, hsla(244, 84%, 50%, 1) 100%);
 }
 .bold {
   font-weight: bold;
@@ -114,6 +121,8 @@
   flex-direction: row;
   height: 33%;
   width: 100%;
+  
+
 }
 
 .member-right {
@@ -176,7 +185,7 @@
 
 .ima1 {
   width: 50%;
-  max-width: 400px;
+  max-width: 500px;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   img {
@@ -186,7 +195,7 @@
 }
 .ima2 {
   width: 50%;
-  max-width: 400px;
+  max-width: 500px;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   img {
@@ -196,7 +205,7 @@
 }
 .ima3 {
   width: 50%;
-  max-width: 400px;
+  max-width: 500px;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   

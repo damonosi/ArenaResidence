@@ -5,7 +5,7 @@ import { Data_c1 } from "./data.js";
 import fullParter from "../../images/apartamente/c1/etaj_0/PLAN PARTER C1- CATALOG- V2.png";
 import PlanAp from "../../images/apartamente/c1/etaj_0/AP 1-min.png";
 import { FaWhatsapp } from "react-icons/fa";
-import "./apartament.css";
+import "./Apartament.scss";
 
 const Apartament = () => {
   const { id } = useParams();
