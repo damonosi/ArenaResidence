@@ -27,7 +27,7 @@ import ParteneriPage from "../Parteneri/ParteneriComponent";
 const ImagePage = () => {
   return (
     <div className="containing">
-      <div id="image" className="image-container">
+      <div className="image-container">
         <NewImageMapPage />
       </div>
 

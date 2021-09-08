@@ -3,18 +3,26 @@
   height: auto;
   top: 0;
   left: 0;
+  margin-top:20px;
+  margin-left:20px;
 }
-
+.modstg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: red;
+  
+}
 .stil {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width:100%;
+ 
   background-color: #fff;
-  padding: 50px;
+  padding:80px;
   z-index: 10000;
   max-height: 100vh;
-  overflow-y: auto;
+  
 }
 
 .overlay {
@@ -24,30 +32,23 @@
   right: 0;
   bottom: 0;
   z-index: 10000;
-  background-color: rgba(0, 0, 0, 0.7);
+ 
 }
 
 .outer {
   position: relative;
   margin: auto;
   width: 3em;
-  margin-top: 60px;
+ 
   cursor: pointer;
+   
 }
 
 .inner {
   width: inherit;
   text-align: center;
 }
-label {
-  font-size: 0.8em;
-  line-height: 4em;
-  text-transform: uppercase;
-  color: rgb(7, 7, 7);
-  transition: all 0.3s ease-in;
-  opacity: 0;
-  cursor: pointer;
-}
+
 
 .inner:before,
 .inner:after {

@@ -2,17 +2,17 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { Data_c1 } from "./data.js";
 
-import fullParter from "../../images/plan_etaje/c1/plan_parter.png";
+import fullParter from "../../images/apartamente/c1/etaj_0/PLAN PARTER C1- CATALOG- V2.png";
 import PlanAp from "../../images/apartamente/c1/etaj_0/AP 1-min.png";
 import { FaWhatsapp } from "react-icons/fa";
-import "./Apartament.scss";
+import "./apartament.css";
+
 const Apartament = () => {
   const { id } = useParams();
 
   return (
     <div className="contain">
       <div className="apartament">
-        <div className="back-cont"></div>
         {Data_c1
           // eslint-disable-next-line eqeqeq
           .filter((apartament) => apartament.id == id)
