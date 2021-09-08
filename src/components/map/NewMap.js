@@ -50,6 +50,7 @@ const NewImageMapPage = () => {
       }, ms);
     };
   }
+
   useEffect(() => {
     const debouncedHandleResize = debounce(function handleResize() {
       setDimensions({
