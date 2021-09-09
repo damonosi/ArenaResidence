@@ -18,7 +18,6 @@ import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
 import { AnimatePresence } from "framer-motion";
 import Apartament from "./components/apartamente/Apartament";
-import ApartamenteList from "./components/apartamente/ApartamenteList";
 
 import ReactPixel from "react-facebook-pixel";
 const advancedMatching = { em: "dam195@yahoo.com" };
@@ -55,7 +54,7 @@ function App() {
               <Route path="/contact" component={ContactPage} />
               <Route path="/parteneri" component={ParteneriPage} />
               <Route path="/alte" component={AlteProiecte} />
-              <Route exact path="/apartamente" component={ApartamenteList} />
+
               <Route path="/apartamente/:id" component={Apartament} />
             </ErrorBoundary>
           </Suspense>

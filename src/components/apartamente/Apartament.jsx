@@ -1,11 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Data_c1 } from "./data.js";
-
+import "./Apartament.scss";
 import fullParter from "../../images/apartamente/c1/etaj_0/PLAN PARTER C1- CATALOG- V2.png";
 import PlanAp from "../../images/apartamente/c1/etaj_0/AP 1-min.png";
 import { FaWhatsapp } from "react-icons/fa";
-import "./Apartament.scss";
 
 const Apartament = () => {
   const { id } = useParams();
@@ -35,7 +34,7 @@ const Apartament = () => {
                 </div>
 
                 <div className="imagine">
-                  <img src={fullParter} alt="" />
+                  <img src={fullParter} alt="plan" />
                 </div>
               </div>
 
