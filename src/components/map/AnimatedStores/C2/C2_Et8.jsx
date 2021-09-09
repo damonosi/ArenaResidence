@@ -15,7 +15,7 @@ class C2Et8 extends React.Component {
         from={{ opacity: 1 }}
         config={{ duration: 10 }}
         to={{
-          opacity: flag ? 0.6 : 0,
+          opacity: flag ? 1 : 0,
         }}
       >
         {(props) => (
@@ -26,8 +26,8 @@ class C2Et8 extends React.Component {
           >
             <animated.Line
               points={[
-                1194, 348, 1194, 387, 641, 378, 642, 277, 1146, 279, 1146, 300,
-                1157, 302, 1158, 317, 1158, 345,
+                774, 337, 775, 246, 1387, 249, 1386, 268, 1400, 268, 1401, 305,
+                1447, 307, 1447, 342,
               ]}
               key={11}
               // bezier={true}
@@ -39,7 +39,7 @@ class C2Et8 extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={800} y={330}>
+            <animated.Label id="tooltip" x={780} y={280}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -49,7 +49,7 @@ class C2Et8 extends React.Component {
                 shadowOffsetY={10}
                 shadowOpacity={0.5}
                 lineJoin={"round"}
-                pointerDirection={"left"}
+                pointerDirection={"right"}
                 pointerWidth={10}
                 pointerHeight={10}
                 cornerRadius={5}

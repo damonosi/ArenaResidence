@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 
 import { Stage, Layer, Image, Group } from "react-konva";
 
@@ -9,8 +9,18 @@ import useImage from "use-image";
 import LaptopImage from "../../../images/building_map/C2_map_laptop-.png";
 import MobileImage from "../../../images/building_map/C1_map_mobile.png";
 
-const C1 = () => {
-  const [dimensions, setDimensions] = useState({
+import C2Parter from "../AnimatedStores/C2/C2_Parter";
+import C2Et1 from "../AnimatedStores/C2/C2_Et1";
+import C2Et2 from "../AnimatedStores/C2/C2_Et2";
+import C2Et3 from "../AnimatedStores/C2/C2_Et3";
+import C2Et4 from "../AnimatedStores/C2/C2_Et4";
+import C2Et5 from "../AnimatedStores/C2/C2_Et5";
+import C2Et6 from "../AnimatedStores/C2/C2_Et6";
+import C2Et7 from "../AnimatedStores/C2/C2_Et7";
+import C2Et8 from "../AnimatedStores/C2/C2_Et8";
+
+const C2 = () => {
+  const [dimensions] = useState({
     height: window.innerHeight,
 
     width: window.innerWidth,
@@ -51,12 +61,37 @@ const C1 = () => {
       >
         <Layer>
           <BuildingImage id="build" />
-          <Group onClick={handleClick}></Group>
-          <Group onClick={handleClick2}></Group>
+          <Group onClick={handleClick}>
+            <C2Parter />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et1 />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et2 />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et3 />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et4 />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et5 />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et6 />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et7 />
+          </Group>
+          <Group onClick={handleClick2}>
+            <C2Et8 />
+          </Group>
         </Layer>
       </Stage>
     </div>
   );
 };
 
-export default C1;
+export default C2;

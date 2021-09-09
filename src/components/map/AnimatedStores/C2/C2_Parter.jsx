@@ -14,7 +14,7 @@ class C2Parter extends React.Component {
         from={{ opacity: 1 }}
         config={{ duration: 10 }}
         to={{
-          opacity: flag ? 0.6 : 0,
+          opacity: flag ? 1 : 0,
         }}
       >
         {(props) => (
@@ -24,7 +24,7 @@ class C2Parter extends React.Component {
             onMouseEnter={this.handleEnter}
           >
             <animated.Line
-              points={[640, 920, 1160, 920, 1160, 860, 640, 858]}
+              points={[1407, 818, 1407, 758, 775, 753, 774, 817]}
               key={11}
               // bezier={true}
               // tension={0.1}
@@ -35,7 +35,7 @@ class C2Parter extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={800} y={890}>
+            <animated.Label id="tooltip" x={780} y={790}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -45,7 +45,7 @@ class C2Parter extends React.Component {
                 shadowOffsetY={10}
                 shadowOpacity={0.5}
                 lineJoin={"round"}
-                pointerDirection={"left"}
+                pointerDirection={"right"}
                 pointerWidth={10}
                 pointerHeight={10}
                 cornerRadius={5}

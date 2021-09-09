@@ -1,6 +1,5 @@
 import React from "react";
 
-import NewImageMapPage from "../../components/map/LaptopMap";
 import AlegeScara from "../../components/map/AlegeScara";
 import "./ImagePage.styles.scss";
 

@@ -14,7 +14,7 @@ class C2Et7 extends React.Component {
         from={{ opacity: 1 }}
         config={{ duration: 10 }}
         to={{
-          opacity: flag ? 0.6 : 0,
+          opacity: flag ? 1 : 0,
         }}
       >
         {(props) => (
@@ -24,7 +24,7 @@ class C2Et7 extends React.Component {
             onMouseEnter={this.handleEnter}
           >
             <animated.Line
-              points={[1147, 444, 1146, 380, 653, 377, 653, 441]}
+              points={[1418, 397, 1419, 339, 778, 336, 779, 390]}
               key={11}
               // bezier={true}
               // tension={0.1}
@@ -35,7 +35,7 @@ class C2Et7 extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={800} y={415}>
+            <animated.Label id="tooltip" x={780} y={360}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -45,7 +45,7 @@ class C2Et7 extends React.Component {
                 shadowOffsetY={10}
                 shadowOpacity={0.5}
                 lineJoin={"round"}
-                pointerDirection={"left"}
+                pointerDirection={"right"}
                 pointerWidth={10}
                 pointerHeight={10}
                 cornerRadius={5}

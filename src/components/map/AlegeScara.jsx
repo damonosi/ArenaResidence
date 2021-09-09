@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 
 import { Stage, Layer, Image, Group } from "react-konva";
 
@@ -13,7 +13,7 @@ import ScaraC2 from "./AnimatedStores/AlegeScara/ScaraC2";
 import "./imageMap.scss";
 
 const AlegeScara = () => {
-  const [dimensions, setDimensions] = useState({
+  const [dimensions] = useState({
     height: window.innerHeight,
 
     width: window.innerWidth,

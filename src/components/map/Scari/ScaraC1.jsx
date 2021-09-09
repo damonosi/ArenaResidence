@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 
 import { Stage, Layer, Image, Group } from "react-konva";
 
@@ -20,7 +20,7 @@ import C1Et7 from "../AnimatedStores/C1/C1_Et7";
 import C1Et8 from "../AnimatedStores/C1/C1_Et8";
 
 const C1 = () => {
-  const [dimensions, setDimensions] = useState({
+  const [dimensions] = useState({
     height: window.innerHeight,
 
     width: window.innerWidth,
