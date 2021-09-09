@@ -1,5 +1,5 @@
 import React from "react";
-import ParteneriComponent from "./ParteneriComponent";
+
 import "./ParteneriPage.scss";
 
 import Barrier from "../../images/parteneri/Barrier_Bistrita2.png";
