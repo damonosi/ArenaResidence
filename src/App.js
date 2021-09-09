@@ -47,10 +47,10 @@ function App() {
             <ErrorBoundary>
               <Route exact path="/" component={MainPage} />
               <Route exact path="/home" component={MainPage} />
-              <Route exact path="/bloc" component={ImagePage} />
+              <Route exact path="/scara" component={ImagePage} />
               <Route path="/about" component={AboutPage} />
-              <Route path="/c1" component={ScaraC1} />
-              <Route path="/c2" component={ScaraC2} />
+              <Route path="/scara/c1" component={ScaraC1} />
+              <Route path="/scara/c2" component={ScaraC2} />
 
               <Route path="/contact" component={ContactPage} />
               <Route path="/parteneri" component={ParteneriPage} />

@@ -13,7 +13,7 @@ const HomePage = () => {
             APARTAMENTE <br /> DE VISAT
           </h1>
           <div className="button-holder text-left">
-            <Link className="colored" to="/bloc">
+            <Link className="colored" to="/scara">
               ALEGETI SCARA
             </Link>
           </div>
