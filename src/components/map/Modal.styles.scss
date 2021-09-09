@@ -1,10 +1,14 @@
+
+
+
 .butoni {
-  position: absolute;
-  height: auto;
-  top: 0;
-  left: 0;
-  margin-top:20px;
-  margin-left:20px;
+  position: fixed;
+  display: flex;
+  align-self: flex-start;
+  right:0;
+  top:50px;
+  
+  
 }
 .modstg {
   display: flex;
@@ -16,12 +20,12 @@
 }
 .stil {
   position: fixed;
-  width:100%;
+  padding-top:40px;
  
   background-color: #fff;
-  padding:80px;
+  
   z-index: 10000;
-  max-height: 100vh;
+  
   
 }
 
@@ -56,7 +60,7 @@
   content: "";
   height: 1px;
   width: inherit;
-  background: #ffc107;
+  background: #1b71b0;
   left: 0;
   transition: all 0.3s ease-in;
 }

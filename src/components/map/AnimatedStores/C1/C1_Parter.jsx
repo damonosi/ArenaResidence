@@ -14,7 +14,7 @@ class C1Parter extends React.Component {
         config={{ duration: 10 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 0.6 : 0,
+          opacity: flag ? 1 : 0,
         }}
       >
         {(props) => (
@@ -24,7 +24,7 @@ class C1Parter extends React.Component {
             onMouseEnter={this.handleEnter}
           >
             <animated.Line
-              points={[639, 920, 640, 853, 107, 859, 106, 922]}
+              points={[776, 813, 776, 754, 131, 757, 131, 813, 701, 813]}
               key={11}
               // bezier={true}
               // tension={0.1}
@@ -35,7 +35,7 @@ class C1Parter extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={300} y={890}>
+            <animated.Label id="tooltip" x={780} y={790}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -52,7 +52,7 @@ class C1Parter extends React.Component {
               />
               <animated.Text
                 color="red"
-                text="Apasati pentru plan parter"
+                text="Plan Parter"
                 fontSize={18}
                 padding={5}
                 fill="black"

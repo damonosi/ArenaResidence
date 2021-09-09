@@ -52,7 +52,7 @@ class C2Et1 extends React.Component {
               />
               <animated.Text
                 color="red"
-                text="Apasati pentru plan etaj 1"
+                text="Plan Etaj 1"
                 fontSize={18}
                 padding={5}
                 fill="black"

@@ -5,11 +5,12 @@ import { Html } from "react-konva-utils";
 import Modalul from "./Modal";
 import "./imageMap.scss";
 import useImage from "use-image";
-import MapImage from "../../images/building_map/bloc_map_mapping.png";
+import LaptopImage from "../../images/building_map/bloc_map_mapping.png";
+import MobileImage from "../../images/building_map/C1_map_mobile.png";
 import PlanParter from "../../images/apartamente/c1/etaj_0/PLAN PARTER C1- CATALOG- V2.png";
 import imageMapResize from "image-map-resizer";
-import C1Parter from "./AnimatedStores/C1/C1_Parter";
 
+import C1Parter from "./AnimatedStores/C1/C1_Parter";
 import C1Et1 from "./AnimatedStores/C1/C1_Et1";
 import C1Et2 from "./AnimatedStores/C1/C1_Et2";
 import C1Et3 from "./AnimatedStores/C1/C1_Et3";
@@ -18,8 +19,8 @@ import C1Et5 from "./AnimatedStores/C1/C1_Et5";
 import C1Et6 from "./AnimatedStores/C1/C1_Et6";
 import C1Et7 from "./AnimatedStores/C1/C1_Et7";
 import C1Et8 from "./AnimatedStores/C1/C1_Et8";
-import C2Parter from "./AnimatedStores/C2/C2_Parter";
 
+import C2Parter from "./AnimatedStores/C2/C2_Parter";
 import C2Et1 from "./AnimatedStores/C2/C2_Et1";
 import C2Et2 from "./AnimatedStores/C2/C2_Et2";
 import C2Et3 from "./AnimatedStores/C2/C2_Et3";
@@ -30,6 +31,7 @@ import C2Et7 from "./AnimatedStores/C2/C2_Et7";
 import C2Et8 from "./AnimatedStores/C2/C2_Et8";
 import { Ap1 } from "./Apartamente";
 import { useHistory } from "react-router-dom";
+import { Responsive } from "./../../responsiveComponent/Responsive";
 
 const NewImageMapPage = () => {
   const [dimensions, setDimensions] = useState({
@@ -68,9 +70,19 @@ const NewImageMapPage = () => {
   }, []);
 
   const BuildingImage = () => {
-    const [image] = useImage(MapImage, "Anonymous");
+    const [image] = useImage(LaptopImage, "Anonymous");
+    const [mobile_image] = useImage(MobileImage, "Anonymous");
 
-    return <Image image={image} />;
+    return (
+      <>
+        <Responsive displayIn={["Laptop"]}>
+          <Image image={image} />
+        </Responsive>
+        <Responsive displayIn={["Mobile"]}>
+          <Image image={mobile_image} />
+        </Responsive>
+      </>
+    );
   };
   const ApartamentImage = () => {
     const [image] = useImage(PlanParter, "Anonymous");

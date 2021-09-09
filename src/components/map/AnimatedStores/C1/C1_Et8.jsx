@@ -14,7 +14,7 @@ class C1Et8 extends React.Component {
         config={{ duration: 10 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 0.6 : 0,
+          opacity: flag ? 1 : 0,
         }}
       >
         {(props) => (
@@ -25,8 +25,8 @@ class C1Et8 extends React.Component {
           >
             <animated.Line
               points={[
-                642, 384, 641, 277, 122, 268, 121, 286, 112, 288, 113, 333, 76,
-                336, 76, 377,
+                779, 336, 779, 243, 145, 235, 147, 252, 135, 256, 135, 295, 90,
+                296, 90, 335,
               ]}
               key={11}
               // bezier={true}
@@ -38,7 +38,7 @@ class C1Et8 extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={240} y={330}>
+            <animated.Label id="tooltip" x={780} y={280}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -55,7 +55,7 @@ class C1Et8 extends React.Component {
               />
               <animated.Text
                 color="red"
-                text="Apasati pentru plan etaj 8"
+                text="Plan Etaj 8"
                 fontSize={18}
                 padding={5}
                 fill="black"

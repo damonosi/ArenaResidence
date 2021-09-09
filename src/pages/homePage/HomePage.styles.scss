@@ -1,5 +1,5 @@
 .colored {
-  background-color: #c75a5a;
+  background-color: #2a79b3;
   border-radius: 2rem;
   color: #f2dada;
   padding: 1.4rem;
@@ -7,8 +7,11 @@
   cursor: pointer;
   height: 100%;
   width: 5rem;
+  float: flex-end;
+  
   &:hover {
-    color: #c75a5a;
+    color: #2a79b3;
+    font-weight: bolder;
     background-color: rgba(199, 90, 90, 0);
   }
   @media only screen and (max-width: 600px) {
@@ -18,4 +21,15 @@
   .section{
   padding-top: 8rem;
 }
+}
+.aligning{
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1{
+    float: inline-start !important;
+    color: #2a79b3 !important;
+  }
 }

@@ -56,7 +56,7 @@ class C2Et8 extends React.Component {
               />
               <animated.Text
                 color="red"
-                text="Apasati pentru plan etaj 8"
+                text="Plan Etaj 8"
                 fontSize={18}
                 padding={5}
                 fill="black"

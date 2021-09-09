@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
 import MainPage from "./pages/MainPage.jsx";
-import ImagePage from "./pages/Imagepage/ImagePage.jsx";
+import ImagePage from "./pages/MapareBloc/ImagePage.jsx";
 import Header from "./components/header/Header.jsx";
 import ErrorBoundary from "./components/error-boudary/error-boudary.component";
 import "./App.css";
@@ -10,6 +10,9 @@ import AboutPage from "./pages/aboutPage/AboutPage.jsx";
 
 import ContactPage from "./pages/ContactPage/ContactPage";
 import ParteneriPage from "./pages/Parteneri/ParteneriPage";
+
+import ScaraC1 from "./pages/MapareBloc/C1";
+import ScaraC2 from "./pages/MapareBloc/C2";
 
 import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
@@ -46,6 +49,8 @@ function App() {
               <Route exact path="/home" component={MainPage} />
               <Route exact path="/bloc" component={ImagePage} />
               <Route path="/about" component={AboutPage} />
+              <Route exact path="/ScaraC1" component={ScaraC1} />
+              <Route exact path="/ScaraC2" component={ScaraC2} />
 
               <Route path="/contact" component={ContactPage} />
               <Route path="/parteneri" component={ParteneriPage} />

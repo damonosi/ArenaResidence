@@ -8,16 +8,14 @@ const HomePage = () => {
   return (
     <div>
       <div id="home" className="section no-page-title">
-        <div className="section-wrapper block content-1170 center-relative">
-          <div className="content-wrapper">
-            <h1 className="big-text text-left">
-              DESIGN <br />& SERIOZITATE
-            </h1>
-            <div className="button-holder text-left">
-              <Link className="colored" to="/bloc">
-                ALEGETI APARTAMENTUL
-              </Link>
-            </div>
+        <div className="aligning">
+          <h1 className="big-text text-left">
+            APARTAMENTE <br /> DE VISAT
+          </h1>
+          <div className="button-holder text-left">
+            <Link className="colored" to="/bloc">
+              ALEGETI SCARA
+            </Link>
           </div>
         </div>
       </div>

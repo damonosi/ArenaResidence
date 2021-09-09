@@ -10,7 +10,7 @@ class C1Et1 extends React.Component {
     const { flag } = this.state;
     return (
       <Spring
-        config={{ duration: 10 }}
+        config={{ duration: 1 }}
         from={{ opacity: 1 }}
         to={{
           opacity: flag ? 1 : 0,
@@ -23,7 +23,7 @@ class C1Et1 extends React.Component {
             onMouseEnter={this.handleEnter}
           >
             <animated.Line
-              points={[640, 853, 640, 786, 97, 790, 98, 859]}
+              points={[776, 754, 776, 686, 115, 688, 115, 759]}
               // bezier={true}
               // tension={0.1}
               lineJoin={"round"}
@@ -33,7 +33,7 @@ class C1Et1 extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={300} y={820}>
+            <animated.Label id="tooltip" x={780} y={730}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -50,7 +50,7 @@ class C1Et1 extends React.Component {
               />
               <animated.Text
                 color="red"
-                text="Apasati pentru plan etaj 1"
+                text="Plan Etaj 1"
                 fontSize={18}
                 padding={5}
                 fill="black"

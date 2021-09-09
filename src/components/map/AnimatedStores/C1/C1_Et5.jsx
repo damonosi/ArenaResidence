@@ -14,7 +14,7 @@ class C1Et5 extends React.Component {
         config={{ duration: 10 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 0.6 : 0,
+          opacity: flag ? 1 : 0,
         }}
       >
         {(props) => (
@@ -24,7 +24,7 @@ class C1Et5 extends React.Component {
             onMouseEnter={this.handleEnter}
           >
             <animated.Line
-              points={[641, 583, 641, 515, 100, 519, 99, 585]}
+              points={[778, 513, 778, 454, 118, 456, 118, 517]}
               key={11}
               // bezier={true}
               // tension={0.1}
@@ -35,7 +35,7 @@ class C1Et5 extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={300} y={550}>
+            <animated.Label id="tooltip" x={780} y={480}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -52,7 +52,7 @@ class C1Et5 extends React.Component {
               />
               <animated.Text
                 color="red"
-                text="Apasati pentru plan etaj 5"
+                text="Plan Etaj 5"
                 fontSize={18}
                 padding={5}
                 fill="black"

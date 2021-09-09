@@ -42,13 +42,20 @@
 
 .image-container {
   display: flex;
-  
 
-  height: 1250px;
   width: 100%;
-  margin-bottom:20rem;
-  
+}
 
+
+.pauza{
+  display:flex;
+  height:40px;
+  background-color: #282c34;
+  margin: 40px 260px 0px 260px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .icon2 {

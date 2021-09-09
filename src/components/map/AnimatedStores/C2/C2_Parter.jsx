@@ -52,7 +52,7 @@ class C2Parter extends React.Component {
               />
               <animated.Text
                 color="red"
-                text="Apasati pentru plan parter"
+                text="Plan Parter"
                 fontSize={18}
                 padding={5}
                 fill="black"
