@@ -20,11 +20,11 @@ const AlegeScara = () => {
   });
   let history = useHistory();
   const handleClick = () => {
-    history.push("/ScaraC1");
+    history.push("/c1");
     history.go(0);
   };
   const handleClick2 = () => {
-    history.push("/ScaraC2");
+    history.push("/c2");
     history.go(0);
   };
   const BuildingImage = () => {

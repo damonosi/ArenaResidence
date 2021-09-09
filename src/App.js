@@ -49,8 +49,8 @@ function App() {
               <Route exact path="/home" component={MainPage} />
               <Route exact path="/bloc" component={ImagePage} />
               <Route path="/about" component={AboutPage} />
-              <Route exact path="/ScaraC1" component={ScaraC1} />
-              <Route exact path="/ScaraC2" component={ScaraC2} />
+              <Route path="/c1" component={ScaraC1} />
+              <Route path="/c2" component={ScaraC2} />
 
               <Route path="/contact" component={ContactPage} />
               <Route path="/parteneri" component={ParteneriPage} />
