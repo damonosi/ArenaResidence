@@ -1,11 +1,13 @@
 import React from "react";
 
 import { Spring, animated } from "@react-spring/konva";
+import { Responsive } from "./../../../../responsiveComponent/Responsive";
 
 class C1Et5 extends React.Component {
   state = { flag: false };
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
   handleLeave = () => this.setState((state) => ({ flag: !state.flag }));
+  handleTouchStart = () => this.setState((state) => ({ flag: !state.flag }));
   render() {
     const { flag } = this.state;
     return (
@@ -22,42 +24,80 @@ class C1Et5 extends React.Component {
             {...props}
             onMouseLeave={this.handleLeave}
             onMouseEnter={this.handleEnter}
+            onTouchStart={this.handleTouchStart}
           >
-            <animated.Line
-              points={[778, 513, 778, 454, 118, 456, 118, 517]}
-              key={11}
-              // bezier={true}
-              // tension={0.1}
-              lineJoin={"round"}
-              fillAfterStrokeEnabled={true}
-              closed={true}
-              // stroke={"rgba(255, 186, 0, .7)"}
-              fill={"rgba(255, 186, 0, .7)"}
-            />
-
-            <animated.Label id="tooltip" x={780} y={480}>
-              <animated.Tag
-                fill={"#bbb"}
-                stroke={"#333"}
-                shadowColor={"black"}
-                shadowBlur={10}
-                shadowOffsetX={10}
-                shadowOffsetY={10}
-                shadowOpacity={0.5}
+            <Responsive displayIn={["Laptop"]}>
+              <animated.Line
+                points={[778, 513, 778, 454, 118, 456, 118, 517]}
+                key={11}
+                // bezier={true}
+                // tension={0.1}
                 lineJoin={"round"}
-                pointerDirection={"left"}
-                pointerWidth={10}
-                pointerHeight={10}
-                cornerRadius={5}
+                fillAfterStrokeEnabled={true}
+                closed={true}
+                // stroke={"rgba(255, 186, 0, .7)"}
+                fill={"rgba(255, 186, 0, .7)"}
               />
-              <animated.Text
-                color="red"
-                text="Plan Etaj 5"
-                fontSize={18}
-                padding={5}
-                fill="black"
+              <animated.Label id="tooltip" x={780} y={480}>
+                <animated.Tag
+                  fill={"#bbb"}
+                  stroke={"#333"}
+                  shadowColor={"black"}
+                  shadowBlur={10}
+                  shadowOffsetX={10}
+                  shadowOffsetY={10}
+                  shadowOpacity={0.5}
+                  lineJoin={"round"}
+                  pointerDirection={"left"}
+                  pointerWidth={10}
+                  pointerHeight={10}
+                  cornerRadius={5}
+                />
+                <animated.Text
+                  color="red"
+                  text="Plan Etaj 5"
+                  fontSize={18}
+                  padding={5}
+                  fill="black"
+                />
+              </animated.Label>
+            </Responsive>
+            <Responsive displayIn={["Mobile"]}>
+              <animated.Line
+                points={[311, 339, 311, 299, 49, 297, 47, 336]}
+                key={11}
+                // bezier={true}
+                // tension={0.1}
+                lineJoin={"round"}
+                fillAfterStrokeEnabled={true}
+                closed={true}
+                // stroke={"rgba(255, 186, 0, .7)"}
+                fill={"rgba(255, 186, 0, .7)"}
               />
-            </animated.Label>
+              <animated.Label id="tooltip" x={130} y={305}>
+                <animated.Tag
+                  fill={"#bbb"}
+                  stroke={"#333"}
+                  shadowColor={"black"}
+                  shadowBlur={10}
+                  shadowOffsetX={10}
+                  shadowOffsetY={10}
+                  shadowOpacity={0.5}
+                  lineJoin={"round"}
+                  pointerDirection={"bottom"}
+                  pointerWidth={10}
+                  pointerHeight={10}
+                  cornerRadius={5}
+                />
+                <animated.Text
+                  color="red"
+                  text="Plan Etaj 5"
+                  fontSize={18}
+                  padding={5}
+                  fill="black"
+                />
+              </animated.Label>
+            </Responsive>
           </animated.Group>
         )}
       </Spring>

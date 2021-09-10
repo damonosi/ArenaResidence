@@ -1,20 +1,21 @@
 import React from "react";
 
-import RoundImage1 from "../../images/decor/1.jpg";
+import RoundImage1 from "../../images/HomeBackground.jpg";
 import { Link } from "react-router-dom";
 import "./About.styles.scss";
-import Parallax, { Layer } from "react-parallax-scroll";
+
+import ParallaxImage from "./../../components/Parallax/ParralaxImage";
 
 const AboutPage = () => {
   return (
     <div className="about-container">
-      <Parallax>
-        <div className="half-right">
-          <Layer settings={{ speed: 0.2, type: ["translateY"] }}>
-            <img src={RoundImage1} alt="" />
-          </Layer>
-        </div>
-      </Parallax>
+      <ParallaxImage
+        y={[-35, 20]}
+        height={800}
+        width={1600}
+        src={RoundImage1}
+      />
+
       <div className="half-left">
         <p className="title-description-up">WHO WE ARE</p>
         <h2 className="entry-title medium-text">

@@ -4,7 +4,6 @@ import "./imageModal.scss";
 
 const ImageModal = ({ open, children, onClose }) => {
   if (!open) return null;
-
   return ReactDom.createPortal(
     <>
       <div className="overlay" />

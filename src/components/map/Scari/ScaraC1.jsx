@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import { Stage, Layer, Image, Group } from "react-konva";
 
@@ -25,6 +25,11 @@ const C1 = () => {
 
     width: window.innerWidth,
   });
+  useEffect(() => {
+    const stage = stageRef;
+    console.log(stage.current);
+  }, []);
+  const stageRef = useRef();
   let history = useHistory();
   const handleClick = () => {
     history.push("/ScaraC1");
@@ -53,6 +58,7 @@ const C1 = () => {
   return (
     <div className="map-container">
       <Stage
+        ref={stageRef}
         id="container"
         width={dimensions.width}
         height={850}

@@ -5,25 +5,23 @@ import ParteneriPage from "./Parteneri/ParteneriComponent";
 import AlteProiecte from "./alteProiecte/alteProiecte";
 import HomePage from "./homePage/HomePage.jsx";
 
-import Parallax from "react-parallax-scroll";
 import "./MainPage.styles.scss";
 
 const MainPage = () => {
   return (
     <div className="site-wrapper">
-      <Parallax>
-        <div id="content" className="site-content center-relative">
-          <HomePage />
+      <div id="content" className="site-content center-relative">
+        <HomePage />
 
-          <section className="absec">
-            <AboutPage />
-          </section>
+        <section className="absec">
+          <AboutPage />
+        </section>
 
-          <section className="alteProiecte-container">
-            <AlteProiecte />
-          </section>
-        </div>
-      </Parallax>
+        <section className="alteProiecte-container">
+          <AlteProiecte />
+        </section>
+      </div>
+
       <ParteneriPage />
     </div>
   );
