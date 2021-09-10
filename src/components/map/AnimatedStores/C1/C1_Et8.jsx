@@ -63,7 +63,7 @@ class C1Et8 extends React.Component {
                   padding={5}
                   fill="black"
                 />
-              </animated.Label>{" "}
+              </animated.Label>
             </Responsive>
             <Responsive displayIn={["Mobile"]}>
               <animated.Line
