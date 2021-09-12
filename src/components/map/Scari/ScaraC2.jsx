@@ -27,11 +27,11 @@ const C2 = () => {
   });
   let history = useHistory();
   const handleClick = () => {
-    history.push("/ScaraC1");
+    history.push("/apartamente/1");
     history.go(0);
   };
   const handleClick2 = () => {
-    history.push("/ScaraC2");
+    history.push("/apartamente/1");
     history.go(0);
   };
   const BuildingImage = () => {

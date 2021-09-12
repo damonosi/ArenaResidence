@@ -25,6 +25,7 @@ const C1 = () => {
 
     width: window.innerWidth,
   });
+
   useEffect(() => {
     const stage = stageRef;
     console.log(stage.current);
@@ -32,11 +33,11 @@ const C1 = () => {
   const stageRef = useRef();
   let history = useHistory();
   const handleClick = () => {
-    history.push("/ScaraC1");
+    history.push("/apartamente/1");
     history.go(0);
   };
   const handleClick2 = () => {
-    history.push("/ScaraC2");
+    history.push("/apartamente/1");
     history.go(0);
   };
   const BuildingImage = () => {
@@ -46,7 +47,7 @@ const C1 = () => {
     return (
       <>
         <Responsive displayIn={["Laptop"]}>
-          <Image image={image} />
+          <Image width={dimensions.width} image={image} />
         </Responsive>
         <Responsive displayIn={["Mobile"]}>
           <Image image={mobile_image} />
