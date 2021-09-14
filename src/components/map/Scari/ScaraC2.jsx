@@ -25,10 +25,7 @@ const C2 = () => {
     width: window.innerWidth,
   });
   let history = useHistory();
-  const handleClick = () => {
-    history.push("/apartamente/1");
-    history.go(0);
-  };
+
   const handleClick2 = () => {
     history.push("/apartamente/1");
     history.go(0);
