@@ -9,7 +9,6 @@ import useImage from "use-image";
 import LaptopImage from "../../../images/building_map/C1_map_laptop-.png";
 import MobileImage from "../../../images/building_map/C1_map_mobile.png";
 
-import C1Parter from "../AnimatedStores/C1/C1_Parter";
 import C1Et1 from "../AnimatedStores/C1/C1_Et1";
 import C1Et2 from "../AnimatedStores/C1/C1_Et2";
 import C1Et3 from "../AnimatedStores/C1/C1_Et3";
@@ -32,10 +31,7 @@ const C1 = () => {
   }, []);
   const stageRef = useRef();
   let history = useHistory();
-  const handleClick = () => {
-    history.push("/apartamente/1");
-    history.go(0);
-  };
+
   const handleClick2 = () => {
     history.push("/apartamente/1");
     history.go(0);
@@ -68,9 +64,7 @@ const C1 = () => {
       >
         <Layer>
           <BuildingImage id="build" />
-          <Group onClick={handleClick}>
-            <C1Parter />
-          </Group>
+
           <Group onClick={handleClick2}>
             <C1Et1 />
           </Group>

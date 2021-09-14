@@ -9,7 +9,6 @@ import useImage from "use-image";
 import LaptopImage from "../../../images/building_map/C2_map_laptop-.png";
 import MobileImage from "../../../images/building_map/C1_map_mobile.png";
 
-import C2Parter from "../AnimatedStores/C2/C2_Parter";
 import C2Et1 from "../AnimatedStores/C2/C2_Et1";
 import C2Et2 from "../AnimatedStores/C2/C2_Et2";
 import C2Et3 from "../AnimatedStores/C2/C2_Et3";
@@ -61,9 +60,7 @@ const C2 = () => {
       >
         <Layer>
           <BuildingImage id="build" />
-          <Group onClick={handleClick}>
-            <C2Parter />
-          </Group>
+
           <Group onClick={handleClick2}>
             <C2Et1 />
           </Group>
