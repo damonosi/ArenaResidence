@@ -804,7 +804,7 @@ a.button-dot:hover:before {
 
 #home {
   background-image: url(images/building_map/bloc_map.png);
-  padding:20px;
+  padding:10rem;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -819,6 +819,7 @@ a.button-dot:hover:before {
 }
 
 h1.big-text {
+  
   color: #fff;
   font-size: 80px;
   line-height: 120%;
@@ -1841,9 +1842,11 @@ body.blog {
 @media screen and (max-width: 1600px) {
   .content-1170,
   .content-960,
+  
   .content-570 {
     max-width: 95%;
   }
+  
 }
 
 @media screen and (max-width: 1366px) {
@@ -2169,8 +2172,14 @@ body.blog {
 
   .button-holder {
     text-align: center !important;
+    
   }
-
+@media only screen and (max-width: 600px) {
+    .button-holder{
+      margin-top:29rem;
+    }
+    #home {padding:20px}
+  }
   .service-holder {
     text-align: center;
     max-width: 300px;

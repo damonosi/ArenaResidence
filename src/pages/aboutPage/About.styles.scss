@@ -2,7 +2,9 @@
   display: flex;
   align-items: row;
   height: 100%;
-
+figure{
+  background-color:#e6decb;
+}
 }
 
 .half-right {
@@ -18,7 +20,7 @@
   }
 }
 .half-left {
-  background-color:rgba(130, 120, 102, 0.2);
+  background-color:#e6decb;
   width: 100% !important;
   float: none;
   margin-right: auto !important;
@@ -37,7 +39,7 @@
 
   .about-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     height: 100%;
   }

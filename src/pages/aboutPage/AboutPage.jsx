@@ -1,6 +1,6 @@
 import React from "react";
 
-import RoundImage1 from "../../images/HomeBackground.jpg";
+import RoundImage1 from "../../images/lider1.jpg";
 import { Link } from "react-router-dom";
 import "./About.styles.scss";
 
@@ -10,7 +10,7 @@ const AboutPage = () => {
   return (
     <div className="about-container">
       <ParallaxImage
-        y={[-35, 20]}
+        y={[-35, 15]}
         height={800}
         width={1600}
         src={RoundImage1}

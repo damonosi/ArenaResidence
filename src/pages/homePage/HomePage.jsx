@@ -14,7 +14,7 @@ const HomePage = () => {
           </h1>
           <div className="button-holder text-left">
             <Link className="colored" to="/scara">
-              ALEGETI SCARA
+              ALEGETI SCARA &rarr;
             </Link>
           </div>
         </div>

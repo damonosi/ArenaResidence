@@ -4,6 +4,7 @@ import AboutPage from "./aboutPage/AboutPage.jsx";
 import ParteneriPage from "./Parteneri/ParteneriComponent";
 import AlteProiecte from "./alteProiecte/alteProiecte";
 import HomePage from "./homePage/HomePage.jsx";
+import { CgArrowDown } from "react-icons/cg";
 
 import "./MainPage.styles.scss";
 
@@ -16,7 +17,10 @@ const MainPage = () => {
         <section className="absec">
           <AboutPage />
         </section>
-
+        <div className="sectionare">
+          <h1>Proiecte Finalizate </h1>
+          <CgArrowDown className="downy" />
+        </div>
         <section className="alteProiecte-container">
           <AlteProiecte />
         </section>
