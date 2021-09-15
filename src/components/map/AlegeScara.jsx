@@ -94,7 +94,7 @@ const AlegeScara = () => {
         ref={stageRef}
         id="container"
         width={dimensions.width}
-        height={850}
+        height={1050}
         label="mapare_bloc"
         // onMouseMove={handleMouseMove}
       >

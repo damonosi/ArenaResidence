@@ -1,21 +1,40 @@
 import React from "react";
 
 import "./ParteneriPage.scss";
-
+import animationData from "./business-team.json";
 import Barrier from "../../images/parteneri/Barrier_Bistrita2.png";
-import Porotherm from "../../images/parteneri/Porotherm2.svg";
+import Porotherm from "../../images/parteneri/Porotherm2.png";
 import Rehau from "../../images/parteneri/Rehau-Logo.jpg";
 import Scheider from "../../images/parteneri/schneider-electric-vector-logo.png";
+import Lottie from "react-lottie";
 
 const ParteneriPage = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    renderSettings: {
+      perserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <div className="container">
-      <h1 className="title-parteneri">PARTENERI</h1>
-      <p className="text-content">
-        Eat imagine you chiefly few end ferrars complete. Be visitor females am
-        ferrars inquiry. Latter law remark two lively thrown. Spot set they know
-        rest its.
-      </p>
+      <div className="up-container">
+        <div className="left-top-container">
+          <h1 className="text-content">PARTENERI</h1>
+          <p className="text-content">
+            Eat imagine you chiefly few end ferrars complete. Be visitor females
+            am ferrars inquiry. Latter law remark two lively thrown. Spot set
+            they know rest its.
+          </p>
+        </div>
+
+        <div className="right-contact">
+          <Lottie options={defaultOptions} height={400} width={400}></Lottie>
+        </div>
+      </div>
+
       <div className="big-box">
         <div className="box-1">
           <div className="style-boxing-1">
@@ -28,6 +47,9 @@ const ParteneriPage = () => {
               oferă soluții personalizate, simple și fiabile pentru spațiul pe
               care ti-l doresti.
             </p>
+            <div className="btn-1">
+              <a href="http://www.barrier.ro/">Afla mai multe &rarr;</a>
+            </div>
           </div>
         </div>
 
@@ -43,6 +65,9 @@ const ParteneriPage = () => {
               de vata minerala bazaltica, realizat in fabricile din Germania din
               material durabil.
             </p>
+            <div className="btn-1">
+              <a href="http://www.wienerberberger.ro/">Afla mai multe &rarr;</a>
+            </div>
           </div>
         </div>
       </div>
@@ -59,6 +84,9 @@ const ParteneriPage = () => {
               construcțiilor, auto și industrial, cu peste 20.000 de angajați în
               întreaga lume.
             </p>
+            <div className="btn-1">
+              <a href="http://www.rehau.ro/">Afla mai multe &rarr;</a>
+            </div>
           </div>
         </div>
         <div className="box-4">
@@ -72,6 +100,10 @@ const ParteneriPage = () => {
               necesare pentru a beneficia de energia si resursele noastre,
               respectand normele.
             </p>
+
+            <div className="btn-1">
+              <a href="http://www.se.com/">Afla mai multe &rarr;</a>
+            </div>
           </div>
         </div>
       </div>

@@ -19,17 +19,69 @@ import C1Et7 from "../AnimatedStores/C1/C1_Et7";
 import C1Et8 from "../AnimatedStores/C1/C1_Et8";
 
 const C1 = () => {
-  const [dimensions] = useState({
+  const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
 
     width: window.innerWidth,
   });
 
+  function debounce(fn, ms) {
+    let timer;
+
+    return (_) => {
+      clearTimeout(timer);
+
+      timer = setTimeout((_) => {
+        timer = null;
+
+        fn.apply(this, arguments);
+      }, ms);
+    };
+  }
+  const breakpoint = 700;
   useEffect(() => {
-    const stage = stageRef;
-    console.log(stage.current);
+    const debouncedHandleResize = debounce(function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+
+        width: window.innerWidth,
+      });
+    }, 1000);
+
+    window.addEventListener("resize", debouncedHandleResize);
+
+    return (_) => {
+      window.removeEventListener("resize", debouncedHandleResize);
+    };
   }, []);
+
   const stageRef = useRef();
+
+  const sceneWidth = 1500;
+  const sceneHeight = 840;
+
+  useEffect(() => {
+    function fitStageIntoParentContainer() {
+      var container = document.querySelector("#map-container");
+      const stage = stageRef.current;
+      // now we need to fit stage into parent container
+      var containerWidth = container.offsetWidth;
+
+      // but we also make the full scene visible
+      // so we need to scale all objects on canvas
+      var scale = containerWidth / sceneWidth;
+
+      stage.width(sceneWidth * scale);
+      stage.height(sceneHeight * scale);
+      stage.scale({ x: scale, y: scale });
+    }
+    if (window.innerWidth > breakpoint) {
+      fitStageIntoParentContainer();
+    } else {
+      return;
+    }
+    window.addEventListener("resize", fitStageIntoParentContainer);
+  }, [sceneHeight, sceneWidth]);
   let history = useHistory();
 
   const handleClick2 = () => {
@@ -43,7 +95,7 @@ const C1 = () => {
     return (
       <>
         <Responsive displayIn={["Laptop"]}>
-          <Image width={dimensions.width} image={image} />
+          <Image image={image} />
         </Responsive>
         <Responsive displayIn={["Mobile"]}>
           <Image image={mobile_image} />
@@ -53,12 +105,12 @@ const C1 = () => {
   };
 
   return (
-    <div className="map-container">
+    <div id="map-container" className="map-container">
       <Stage
         ref={stageRef}
         id="container"
         width={dimensions.width}
-        height={850}
+        height={1240}
         label="mapare_bloc"
         // onMouseMove={handleMouseMove}
       >
