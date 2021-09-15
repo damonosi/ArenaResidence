@@ -8,16 +8,15 @@ const HomePage = () => {
   return (
     <div>
       <div id="home" className="section no-page-title">
+        <h1 className="big-text text-left">
+          APARTAMENTE <br /> DE VISAT
+        </h1>
         <div className="aligning">
-          <h1 className="big-text text-left">
-            APARTAMENTE <br /> DE VISAT
-          </h1>
-          <div className="button-holder text-left">
-            <Link className="colored" to="/scara">
-              ALEGETI SCARA &rarr;
-            </Link>
-          </div>
+          <div className="bottom button-holder text-left"></div>
         </div>
+        <Link className="colored" to="/scara">
+          ALEGETI SCARA &rarr;
+        </Link>
       </div>
     </div>
   );

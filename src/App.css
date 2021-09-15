@@ -810,7 +810,10 @@ a.button-dot:hover:before {
   background-repeat: no-repeat;
   min-height: calc(100vh - 77px);
   display: flex;
+  position: relative;
   z-index: 50;
+  justify-content: center;
+  
 }
 
 #home .section-wrapper {
