@@ -1,7 +1,7 @@
 import React from "react";
 
 import RoundImage1 from "../../images/lider1.jpg";
-import { Link } from "react-router-dom";
+
 import "./About.styles.scss";
 
 import ParallaxImage from "./../../components/Parallax/ParralaxImage";
@@ -28,10 +28,6 @@ const AboutPage = () => {
           code and energy matter.
         </p>
         <br />
-
-        <Link to="/contact" className="colored">
-          Contactati-ne
-        </Link>
       </div>
     </div>
   );

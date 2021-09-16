@@ -216,7 +216,7 @@
 }
 
 .galerie {
-  width:400px !important;
+  width:350px !important;
   height:50px;
   margin-top:10px;
   position: relative;
@@ -243,10 +243,18 @@
 
 }
 
-
+.to-member{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
 
 
 @media only screen and (max-width: 1200px) {
+  #team{
+    margin-top:-4em;
+    padding:0px;
+  }
   .section-parallax {
     padding: 0px;
   }
@@ -256,13 +264,19 @@
   }
   .member {
     flex-direction: column;
-    margin-top:100px;
+    
   }
   .galerie{
+    margin:0;
     margin-top:0px;
     width:100vw;
     border-radius: 0%;
     
+  }
+  .section-parallax{
+    div{
+      margin:0px;
+    }
   }
   .member-info {
     padding: 3px !important;
@@ -295,18 +309,22 @@
     }
   }
   .member-left {
+    margin-bottom:-10em !important;
+    
     flex-direction: column !important;
     img {
       transform: none !important;
     }
   }
   .member-left2 {
+    
     flex-direction: column !important;
     img {
       transform: none !important;
     }
   }
   .member-right {
+    margin-top:0px;
     flex-direction: column-reverse !important;
     img {
       transform: none !important;
@@ -334,6 +352,7 @@
 
   }
   .to-member{
+    
     margin:0;
   }
   .galerie{
@@ -341,7 +360,7 @@
     margin-top:10px;
     left:0;
     right:0;
-   
+   border-radius:20px;
     width: 100% !important;
     justify-content: center;
   }
@@ -382,4 +401,22 @@
       font-size: 1rem;
     }
   }
+  .to-member{
+    padding:1em;
+    margin-left:-10px !important;
+    align-items:center;
+    display:flex;
+    
+    flex-direction: column;
+    position:relative;
+    
+  }
+  .member-social-holder{
+
+    
+    
+    display:flex;
+    
+  }
+ 
 }
