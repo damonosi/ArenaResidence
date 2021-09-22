@@ -228,7 +228,7 @@ const AlteProiecte = () => {
         <div className="member member-left">
           <ParallaxImage height={700} width={500} y={[-20, 20]} src={blocOne} />
           <div className="member-info">
-            <p className="member-postition">bloc</p>
+            <p className="member-postition">BLOC</p>
             <h5 className="member-name">Arena Residence Strada 1 mai 60</h5>
             <div className="member-content">
               <p>
@@ -246,10 +246,12 @@ const AlteProiecte = () => {
                 geam termopan. Glafuri granit interior si exterior.{" "}
               </p>
               <Parallax x={[-20, 10]}>
-                <button className="galerie" onClick={handleClick}>
-                  Spre Galeria Foto
-                  <HiOutlinePhotograph />
-                </button>
+                <div className="to-member">
+                  <button className="galerie" onClick={handleClick}>
+                    Spre Galeria Foto
+                    <HiOutlinePhotograph />
+                  </button>{" "}
+                </div>
               </Parallax>
             </div>
           </div>
@@ -257,7 +259,7 @@ const AlteProiecte = () => {
 
         <div className="member big-screen member-right">
           <div className="member-info2">
-            <p className="member-postition">Case</p>
+            <p className="member-postition">CASE</p>
             <h5 className="member-name">Cartierul de case Green Town</h5>
             <div className="member-content">
               <p>
@@ -302,7 +304,7 @@ const AlteProiecte = () => {
             src={blocTrei}
           />
           <div className="member-info3">
-            <p className="member-postition">bloc</p>
+            <p className="member-postition">Bloc</p>
             <h5 className="member-name">Gemenii din Stefan Cel Mare</h5>
             <div className="member-content">
               <p>

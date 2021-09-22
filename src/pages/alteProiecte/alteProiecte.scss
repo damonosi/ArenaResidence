@@ -284,7 +284,10 @@ display: inline-block;
 
 
 @media only screen and (max-width: 1200px) {
-
+ .member-content{
+   display: flex;
+   align-items: center !important;
+ }
   .section-parallax {
     padding: 0px;
   }
@@ -299,7 +302,7 @@ display: inline-block;
   .galerie{
     margin:0;
     margin-top:0px;
-    width:100vw;
+    
     border-radius: 0%;
     
   }
@@ -309,7 +312,7 @@ display: inline-block;
     }
   }
   .member-info {
-    padding: 3px !important;
+    padding: 0px !important;
 
     width: 100% !important;
     max-width: none;
