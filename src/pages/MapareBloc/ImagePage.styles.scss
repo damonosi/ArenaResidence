@@ -50,12 +50,15 @@
 .pauza{
   display:flex;
   height:40px;
-  background-color: #282c34;
-  margin: 40px 260px 0px 260px;
+  background-color: rgba(5, 146, 211, 0.8);
+  margin: 40px 440px 10px 440px;
   align-content: center;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  h1{
+    color:white
+  }
 }
 
 .icon2 {

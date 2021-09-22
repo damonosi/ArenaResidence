@@ -3,7 +3,7 @@ import "./alteProiecte.scss";
 
 import blocOne from "../../images/decor/p6.png";
 import blocTwo from "../../images/decor/green.png";
-import blocTrei from "../../images/decor/3.jpg";
+import blocTrei from "../../images/building_map/bloc_map.png";
 
 import green1 from "../../images/alte_proiecte/greenTown/017-1000x800.jpg";
 import green2 from "../../images/alte_proiecte/greenTown/018-1000x800.jpg";
@@ -246,35 +246,10 @@ const AlteProiecte = () => {
                 geam termopan. Glafuri granit interior si exterior.{" "}
               </p>
               <Parallax x={[-20, 10]}>
-                <div className="to-member">
-                  <div className="member-social-holder">
-                    <div className="social">
-                      <a href="https://www.facebook.com/arenaresidencebacau">
-                        <span className="fa fa-facebook"></span>
-                      </a>
-                    </div>
-                    <div className="social"></div>
-                    <div className="social">
-                      <a href="https://www.instagram.com/arena_residence_bacau/">
-                        <span className="fa fa-instagram"></span>
-                      </a>
-                    </div>
-                    <div className="social">
-                      <a href=" https://wa.me/0770258169">
-                        <span className="fa fa-whatsapp"></span>
-                      </a>
-                    </div>
-                    <div className="social">
-                      <a href="mailto:office.arenaresidence@gmail.com">
-                        <span className="fas fa-envelope"></span>
-                      </a>
-                    </div>
-                  </div>
-                  <button className="galerie" onClick={handleClick}>
-                    Spre Galeria Foto
-                    <HiOutlinePhotograph />
-                  </button>
-                </div>
+                <button className="galerie" onClick={handleClick}>
+                  Spre Galeria Foto
+                  <HiOutlinePhotograph />
+                </button>
               </Parallax>
             </div>
           </div>
@@ -309,29 +284,6 @@ const AlteProiecte = () => {
               </p>
               <Parallax x={[-30, 5]}>
                 <div className="to-member">
-                  <div className="member-social-holder">
-                    <div className="social">
-                      <a href="https://www.facebook.com/arenaresidencebacau">
-                        <span className="fa fa-facebook"></span>
-                      </a>
-                    </div>
-                    <div className="social"></div>
-                    <div className="social">
-                      <a href="https://www.instagram.com/arena_residence_bacau/">
-                        <span className="fa fa-instagram"></span>
-                      </a>
-                    </div>
-                    <div className="social">
-                      <a href=" https://wa.me/0770258169">
-                        <span className="fa fa-whatsapp"></span>
-                      </a>
-                    </div>
-                    <div className="social">
-                      <a href="mailto:office.arenaresidence@gmail.com">
-                        <span className="fas fa-envelope"></span>
-                      </a>
-                    </div>
-                  </div>
                   <button onClick={handleClick2} className="galerie">
                     Spre Galeria Foto <HiOutlinePhotograph />
                   </button>
@@ -345,7 +297,7 @@ const AlteProiecte = () => {
         <div className="member member-left2">
           <ParallaxImage
             height={700}
-            width={500}
+            width={700}
             y={[-20, 20]}
             src={blocTrei}
           />
@@ -369,39 +321,11 @@ const AlteProiecte = () => {
               <p>
                 Localizat intr-o zona de exceptie a municipiului bacau, la o
                 distanta aproximativa de 2,5 km de centrul orasului, in plan
-                secund de artera de maxima importanta - Str. Stefan cel Mare,
-                iar in partea opusa , la niimport Galerie from
-                './../../components/AlteProimport ParallaxImage from
-                './../../components/Parallax/ParralaxImage';
-                iecte/imageGallery'; ci 600m de Rezervatia Naturala a lacului
-                Bacau II.
+                secund de artera de maxima importanta - Str. Stefan cel Mare.
               </p>
 
               <Parallax x={[-30, 5]}>
                 <div className="to-member">
-                  <div className="member-social-holder">
-                    <div className="social">
-                      <a href="https://www.facebook.com/arenaresidencebacau">
-                        <span className="fa fa-facebook"></span>
-                      </a>
-                    </div>
-                    <div className="social"></div>
-                    <div className="social">
-                      <a href="https://www.instagram.com/arena_residence_bacau/">
-                        <span className="fa fa-instagram"></span>
-                      </a>
-                    </div>
-                    <div className="social">
-                      <a href=" https://wa.me/0770258169">
-                        <span className="fa fa-whatsapp"></span>
-                      </a>
-                    </div>
-                    <div className="social">
-                      <a href="mailto:office.arenaresidence@gmail.com">
-                        <span className="fas fa-envelope"></span>
-                      </a>
-                    </div>
-                  </div>
                   <button onClick={handleClick3} className="galerie">
                     Spre Galeria Foto <HiOutlinePhotograph />
                   </button>

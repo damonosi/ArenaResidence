@@ -1,16 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
 import "./HomePage.styles.scss";
 
 const HomePage = () => {
+  const [setNavbar] = useState(false);
+  const changeBackground = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 16) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  useEffect(() => {
+    changeBackground();
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground);
+  });
   return (
     <div>
       <div id="home" className="section no-page-title">
-        <h1 className="big-text text-left">
-          APARTAMENTE <br /> DE VISAT
-        </h1>
         <div className="aligning">
           <div className="bottom button-holder text-left"></div>
         </div>

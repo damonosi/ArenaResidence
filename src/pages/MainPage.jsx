@@ -18,7 +18,7 @@ const MainPage = () => {
         <section className="absec">
           <AboutPage />
         </section>
-        <Parallax x={[-30, 30]} y={[-120, 100]}>
+        <Parallax x={[-10, 10]}>
           <div className="sectionare">
             <h1>Proiecte Finalizate </h1>
             <CgArrowDown className="downy" />

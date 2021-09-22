@@ -1,16 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import companyLogo from "../../images/logoCladire.png";
 import { NavLink } from "react-router-dom";
 import "./Header.scss";
 
 const Header = () => {
   const [click, setClick] = useState(false);
+  const [navbar, setNavbar] = useState(false);
   const handleClick = () => {
     setClick(!click);
   };
-
+  const changeBackground = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 16) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  useEffect(() => {
+    changeBackground();
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground);
+  });
   return (
-    <nav className="navbar">
+    <nav className={navbar ? "navbar activete" : "navbar"}>
       <div className="nav-container">
         <NavLink exact to="/" className="nav-logo">
           <img src={companyLogo} alt="Arena Residence" />
