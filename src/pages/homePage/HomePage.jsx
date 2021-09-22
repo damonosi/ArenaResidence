@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./HomePage.styles.scss";
 
 const HomePage = () => {
+  // eslint-disable-next-line no-unused-vars
   const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
     console.log(window.scrollY);
