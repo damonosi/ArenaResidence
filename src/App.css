@@ -1876,11 +1876,7 @@ body.blog {
   }
 }
 
-@media screen and (max-width: 1270px) {
-  .member-info {
-    padding: 65px 80px;
-  }
-}
+
 
 @media screen and (max-width: 1220px) {
   blockquote {
@@ -2244,12 +2240,7 @@ body.blog {
     width: 100% !important;
   }
 
-  .member-info {
-    display: block;
-    margin: 0 auto !important;
-    width: 80%;
-    padding: 10%;
-  }
+ 
 
   
 

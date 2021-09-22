@@ -308,7 +308,7 @@ display: inline-block;
   }
   .section-parallax{
     div{
-      margin:0px;
+      
     }
   }
   .member-info {
@@ -317,7 +317,7 @@ display: inline-block;
     width: 100% !important;
     max-width: none;
      h5 {
-      padding-right: 3em !important;
+      padding-right: 0em !important;
       padding-left: 0.5em;
       max-width: fit-content !important;
     }
@@ -327,7 +327,7 @@ display: inline-block;
     width: 100% !important;
     max-width: none;
     h5 {
-      padding-right: 3em !important;
+      padding-right: 0em !important;
       padding-left: 0.5em;
       max-width: fit-content !important;
     }
@@ -337,22 +337,18 @@ display: inline-block;
     width: 100%;
     max-width: none;
     h5 {
-      padding-right: 3em !important;
+      padding-right: 0em !important;
       padding-left: 0.5em;
       max-width: fit-content !important;
     }
   }
   .member-left {
-   
-    
-    
     flex-direction: column !important;
     img {
       transform: none !important;
     }
   }
   .member-left2 {
-    
     flex-direction: column !important;
     img {
       transform: none !important;
@@ -451,7 +447,5 @@ display: inline-block;
   #team{
     margin:1rem;
   }
- .member-info{
-   margin:50px
- }
+
 }
