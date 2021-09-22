@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./HomePage.styles.scss";
 
 const HomePage = () => {
-  const [setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
     console.log(window.scrollY);
     if (window.scrollY >= 16) {
