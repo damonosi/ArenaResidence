@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Spring, animated } from "@react-spring/konva";
-import { Responsive } from "./../../../../responsiveComponent/Responsive";
 class C1Et4 extends React.Component {
   state = { flag: false };
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
@@ -25,79 +24,41 @@ class C1Et4 extends React.Component {
             onMouseEnter={this.handleEnter}
             onTouchStart={this.handleTouchStart}
           >
-            <Responsive displayIn={["Laptop"]}>
-              <animated.Line
-                points={[776, 571, 776, 513, 117, 516, 117, 571]}
-                key={11}
-                // bezier={true}
-                // tension={0.1}
-                lineJoin={"round"}
-                fillAfterStrokeEnabled={true}
-                closed={true}
-                // stroke={"rgba(255, 186, 0, .7)"}
-                fill={"rgba(255, 186, 0, .7)"}
-              />
+            <animated.Line
+              points={[776, 571, 776, 513, 117, 516, 117, 571]}
+              key={11}
+              // bezier={true}
+              // tension={0.1}
+              lineJoin={"round"}
+              fillAfterStrokeEnabled={true}
+              closed={true}
+              // stroke={"rgba(255, 186, 0, .7)"}
+              fill={"rgba(255, 186, 0, .7)"}
+            />
 
-              <animated.Label id="tooltip" x={780} y={540}>
-                <animated.Tag
-                  fill={"#bbb"}
-                  stroke={"#333"}
-                  shadowColor={"black"}
-                  shadowBlur={10}
-                  shadowOffsetX={10}
-                  shadowOffsetY={10}
-                  shadowOpacity={0.5}
-                  lineJoin={"round"}
-                  pointerDirection={"left"}
-                  pointerWidth={10}
-                  pointerHeight={10}
-                  cornerRadius={5}
-                />
-                <animated.Text
-                  color="red"
-                  text="Plan Etaj 4"
-                  fontSize={18}
-                  padding={5}
-                  fill="black"
-                />
-              </animated.Label>
-            </Responsive>
-            <Responsive displayIn={["Mobile"]}>
-              <animated.Line
-                points={[311, 376, 312, 337, 47, 336, 47, 372]}
-                key={11}
-                // bezier={true}
-                // tension={0.1}
+            <animated.Label id="tooltip" x={780} y={540}>
+              <animated.Tag
+                fill={"#bbb"}
+                stroke={"#333"}
+                shadowColor={"black"}
+                shadowBlur={10}
+                shadowOffsetX={10}
+                shadowOffsetY={10}
+                shadowOpacity={0.5}
                 lineJoin={"round"}
-                fillAfterStrokeEnabled={true}
-                closed={true}
-                // stroke={"rgba(255, 186, 0, .7)"}
-                fill={"rgba(255, 186, 0, .7)"}
+                pointerDirection={"left"}
+                pointerWidth={10}
+                pointerHeight={10}
+                cornerRadius={5}
               />
-              <animated.Label id="tooltip" x={130} y={342}>
-                <animated.Tag
-                  fill={"#bbb"}
-                  stroke={"#333"}
-                  shadowColor={"black"}
-                  shadowBlur={10}
-                  shadowOffsetX={10}
-                  shadowOffsetY={10}
-                  shadowOpacity={0.5}
-                  lineJoin={"round"}
-                  pointerDirection={"bottom"}
-                  pointerWidth={10}
-                  pointerHeight={10}
-                  cornerRadius={5}
-                />
-                <animated.Text
-                  color="red"
-                  text="Plan Etaj 4"
-                  fontSize={18}
-                  padding={5}
-                  fill="black"
-                />
-              </animated.Label>
-            </Responsive>
+              <animated.Text
+                color="red"
+                text="Plan Etaj 4"
+                fontSize={18}
+                padding={5}
+                fill="black"
+              />
+            </animated.Label>
           </animated.Group>
         )}
       </Spring>

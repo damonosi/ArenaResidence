@@ -8,14 +8,16 @@ const ImageModal = ({ open, children, onClose }) => {
     <>
       <div className="overlay" />
       <div className="stil">
-        {children}
-        <div className="butonus">
-          <div className="outer">
-            <div className="inner">
-              <label onClick={onClose}>Back</label>
+        <div className="but">
+          <div className="butonus">
+            <div className="outer">
+              <div onClick={onClose} className="inner">
+                <label>Back</label>
+              </div>
             </div>
           </div>
         </div>
+        <div className="child">{children}</div>
       </div>
     </>,
     document.getElementById("galerie")

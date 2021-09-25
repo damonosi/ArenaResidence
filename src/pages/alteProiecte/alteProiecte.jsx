@@ -11,24 +11,10 @@ import ImageModal from "../../components/AlteProiecte/imageModal";
 import { HiOutlinePhotograph } from "react-icons/hi";
 import ParallaxImage from "../../components/Parallax/ParralaxImage";
 
-import Carousel from "react-gallery-carousel";
-import "react-gallery-carousel/dist/index.css";
+import ImageGallery from "react-image-gallery";
+
 const AlteProiecte = () => {
-  const images2 = [
-    {
-      src: "https://picsum.photos/id/1018/1000/600/",
-      thumbnail: "https://picsum.photos/id/1018/250/150/",
-    },
-    {
-      src: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-    },
-    {
-      src: "https://picsum.photos/id/1019/1000/600/",
-      thumbnail: "https://picsum.photos/id/1019/250/150/",
-    },
-  ];
-  const images3 = [
+  const images = [
     {
       original: "https://picsum.photos/id/1018/1000/600/",
       thumbnail: "https://picsum.photos/id/1018/250/150/",
@@ -187,17 +173,17 @@ const AlteProiecte = () => {
 
       <ImageModal open={isOpen} onClose={() => setIsOpen(false)}>
         <div className="gal-cont">
-          <h1>Galerie Strada 1 mai 60</h1> <Carousel images={images2} />
+          <h1>Galerie Strada 1 mai 60</h1> <ImageGallery items={images} />
         </div>
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
-          <Carousel images={images2} /> <h1>Cartierul de case Green Town</h1>
+          <ImageGallery items={images} /> <h1>Cartierul de case Green Town</h1>
         </div>
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
         <div className="gal-cont">
-          <h1>Gemenii din Stefan Cel Mare</h1> <Carousel images={images3} />
+          <h1>Gemenii din Stefan Cel Mare</h1> <ImageGallery items={images} />
         </div>
       </ImageModal>
     </>

@@ -3,11 +3,9 @@ import React, { useState, useEffect, useRef } from "react";
 import { Stage, Layer, Image, Group } from "react-konva";
 
 import { useHistory } from "react-router-dom";
-import { Responsive } from "../../../responsiveComponent/Responsive";
 
 import useImage from "use-image";
 import LaptopImage from "../../../images/building_map/C1_map_laptop-.png";
-import MobileImage from "../../../images/building_map/C1_map_mobile.png";
 
 import C1Et1 from "../AnimatedStores/C1/C1_Et1";
 import C1Et2 from "../AnimatedStores/C1/C1_Et2";
@@ -38,7 +36,7 @@ const C1 = () => {
       }, ms);
     };
   }
-  const breakpoint = 700;
+
   useEffect(() => {
     const debouncedHandleResize = debounce(function handleResize() {
       setDimensions({
@@ -57,8 +55,8 @@ const C1 = () => {
 
   const stageRef = useRef();
 
-  const sceneWidth = 1500;
-  const sceneHeight = 840;
+  var sceneWidth = 1500;
+  var sceneHeight = 850;
 
   useEffect(() => {
     function fitStageIntoParentContainer() {
@@ -75,39 +73,90 @@ const C1 = () => {
       stage.height(sceneHeight * scale);
       stage.scale({ x: scale, y: scale });
     }
-    if (window.innerWidth > breakpoint) {
-      fitStageIntoParentContainer();
-    } else {
-      return;
-    }
+
+    fitStageIntoParentContainer();
+
     window.addEventListener("resize", fitStageIntoParentContainer);
   }, [sceneHeight, sceneWidth]);
   let history = useHistory();
 
   const handleClick2 = () => {
-    history.push("/etaje");
+    history.push("/etaje/1");
     history.go(0);
   };
 
   const handleTouch = () => {
-    history.push("/etaje");
+    history.push("/etaje/1");
+    history.go(0);
+  };
+  const handleClick = () => {
+    history.push("/etaje/2");
+    history.go(0);
+  };
+
+  const handleTouch2 = () => {
+    history.push("/etaje/2");
+    history.go(0);
+  };
+  const handleClick3 = () => {
+    history.push("/etaje/3");
+    history.go(0);
+  };
+
+  const handleTouch3 = () => {
+    history.push("/etaje/3");
+    history.go(0);
+  };
+  const handleClick4 = () => {
+    history.push("/etaje/4");
+    history.go(0);
+  };
+
+  const handleTouch4 = () => {
+    history.push("/etaje/4");
+    history.go(0);
+  };
+  const handleClick5 = () => {
+    history.push("/etaje/5");
+    history.go(0);
+  };
+
+  const handleTouch5 = () => {
+    history.push("/etaje/5");
+    history.go(0);
+  };
+  const handleClick6 = () => {
+    history.push("/etaje/6");
+    history.go(0);
+  };
+
+  const handleTouch6 = () => {
+    history.push("/etaje/6");
+    history.go(0);
+  };
+  const handleClick7 = () => {
+    history.push("/etaje/7");
+    history.go(0);
+  };
+
+  const handleTouch7 = () => {
+    history.push("/etaje/7");
+    history.go(0);
+  };
+  const handleClick8 = () => {
+    history.push("/etaje/8");
+    history.go(0);
+  };
+
+  const handleTouch8 = () => {
+    history.push("/etaje/8");
     history.go(0);
   };
 
   const BuildingImage = () => {
     const [image] = useImage(LaptopImage, "Anonymous");
-    const [mobile_image] = useImage(MobileImage, "Anonymous");
 
-    return (
-      <>
-        <Responsive displayIn={["Laptop"]}>
-          <Image image={image} />
-        </Responsive>
-        <Responsive displayIn={["Mobile"]}>
-          <Image image={mobile_image} />
-        </Responsive>
-      </>
-    );
+    return <Image image={image} />;
   };
 
   return (
@@ -116,7 +165,7 @@ const C1 = () => {
         ref={stageRef}
         id="container"
         width={dimensions.width}
-        height={1240}
+        height={dimensions.height}
         label="mapare_bloc"
         // onMouseMove={handleMouseMove}
       >
@@ -126,25 +175,25 @@ const C1 = () => {
           <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et1 />
           </Group>
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch2} onClick={handleClick}>
             <C1Et2 />
           </Group>
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch3} onClick={handleClick3}>
             <C1Et3 />
           </Group>
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch4} onClick={handleClick4}>
             <C1Et4 />
           </Group>
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch5} onClick={handleClick5}>
             <C1Et5 />
           </Group>
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch6} onClick={handleClick6}>
             <C1Et6 />
           </Group>
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch7} onClick={handleClick7}>
             <C1Et7 />
           </Group>
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch8} onClick={handleClick8}>
             <C1Et8 />
           </Group>
         </Layer>

@@ -88,7 +88,7 @@ const AlegeScara = () => {
     history.go(0);
   };
   const handleTouch2 = () => {
-    history.push("/scara/c12");
+    history.push("/scara/c2");
     history.go(0);
   };
 
@@ -106,7 +106,6 @@ const AlegeScara = () => {
         width={dimensions.width}
         height={1050}
         label="mapare_bloc"
-        // onMouseMove={handleMouseMove}
       >
         <Layer>
           <BuildingImage id="build" />

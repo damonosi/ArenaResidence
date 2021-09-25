@@ -57,7 +57,7 @@ function App() {
             <Route path="/alte" component={AlteProiecte} />
 
             <Route path="/apartamente/:id" component={Apartament} />
-            <Route path="/etaje" component={Etaje} />
+            <Route path="/etaje/:et" component={Etaje} />
           </ErrorBoundary>
         </Suspense>
       </Switch>

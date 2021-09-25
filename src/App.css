@@ -668,7 +668,7 @@ a.button-dot:hover:before {
 
 .text-slider-header-quotes {
   margin-bottom: 60px;
-  background-image: url(images/quotes_image.png);
+  
   background-repeat: no-repeat;
   width: 87px;
   height: 74px;
@@ -717,7 +717,7 @@ a.button-dot:hover:before {
 }
 
 .text-slider-wrapper .owl-theme .owl-prev {
-  background-image: url("images/nav_left.png") !important;
+ 
   background-color: transparent !important;
   font-size: 0;
   width: 30px;
@@ -735,7 +735,7 @@ a.button-dot:hover:before {
 }
 
 .text-slider-wrapper .owl-theme .owl-next {
-  background-image: url("images/nav_right.png") !important;
+ 
   background-color: transparent !important;
   font-size: 0;
   width: 30px;
@@ -806,7 +806,7 @@ a.button-dot:hover:before {
 ====================================== */
 
 #home {
-  background-image: url(images/building_map/bloc_map.png);
+  background-image: url(/src/images/building_map/bloc_map.png);
   padding:10rem;
   background-position: center center;
   background-size: cover;
@@ -837,7 +837,7 @@ h1.big-text {
 ====================================== */
 
 #services {
-  background-image: url(images/on_black_left.png);
+
    background-color:  #e6decbde;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -879,7 +879,7 @@ h1.big-text {
 ====================================== */
 
 #about {
-  background-image: url(images/on_white_right.png);
+
   background-color: #ffffff;
   background-position: right center;
   background-repeat: no-repeat;
@@ -889,54 +889,6 @@ h1.big-text {
 /* ===================================
     6. Clients Section CSS
 ====================================== */
-
-#clients {
-  background-image: url(images/decor/1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* ===================================
-    7. News Section CSS
-====================================== */
-
-#news {
-  background-image: url(images/on_white_left.png);
-  background-color: #ffffff;
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.blog-holder-scode {
-  margin-top: 0;
-  width: 1370px;
-  transform: translateX(-100px);
-  text-align: center;
-}
-
-.blog-holder-scode article:nth-of-type(3n) {
-  margin-right: 0;
-}
-
-.blog-item-holder-scode {
-  margin: 30px 0;
-  width: 27%;
-  display: inline-block;
-  margin-right: 8%;
-  vertical-align: text-top;
-  text-align: left;
-}
-
-.blog-item-holder-scode .excerpt {
-  margin-top: 20px;
-}
-
-.blog-item-holder-scode h4 {
-  padding: 0;
-  margin: 35px 0;
-}
 
 .blog-item-holder-scode h4 a {
   color: #000 !important;
@@ -1117,7 +1069,7 @@ h1.big-text {
 }
 
 .close-icon {
-  background-image: url(images/close-left-arrow.png);
+
   background-repeat: no-repeat;
   width: 70px;
   height: 70px;
@@ -1150,7 +1102,7 @@ h1.big-text {
 ====================================== */
 
 #pricing {
-  background-image: url(images/on_white_right.png);
+
   background-color: #ffffff;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -1313,7 +1265,7 @@ h1.big-text {
 ====================================== */
 
 #millstones {
-  background-image: url(images/on_black_left.png);
+
   background-color: #000000;
   background-position: left bottom;
   background-repeat: no-repeat;
