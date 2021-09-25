@@ -28,8 +28,9 @@ const MainPage = () => {
           <AlteProiecte />
         </section>
       </div>
-
-      <ParteneriPage />
+      <section className="parteneri-container">
+        <ParteneriPage />
+      </section>
     </div>
   );
 };

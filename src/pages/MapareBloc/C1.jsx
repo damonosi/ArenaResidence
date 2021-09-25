@@ -10,9 +10,7 @@ const ScaraC1 = () => {
       <div className="image-container">
         <C1 />
       </div>
-      <div className="pauza">
-        <h1>Partenerii Nostri</h1>
-      </div>
+
       <div className="banner-container">
         <ParteneriPage />
       </div>

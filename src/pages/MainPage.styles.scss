@@ -5,7 +5,17 @@
   z-index:1;
   
 }
-
+.space{
+  display:flex;
+  
+  margin-bottom:3rem;
+}
+.parteneri-container{
+  display: flex;
+  position:relative;
+  padding:10px;
+  z-index:1;
+}
 .absec {
   display: flex;
   height: 100%;

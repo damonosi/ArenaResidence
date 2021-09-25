@@ -14,7 +14,7 @@ class C2Et3 extends React.Component {
         config={{ duration: 10 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 1 : 0,
+          opacity: flag ? 1 : 0.5,
         }}
       >
         {(props) => (
@@ -53,7 +53,7 @@ class C2Et3 extends React.Component {
               <animated.Text
                 color="red"
                 text="Plan Etaj 3"
-                fontSize={18}
+                fontSize={58}
                 padding={5}
                 fill="black"
               />

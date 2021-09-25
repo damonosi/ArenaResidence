@@ -6,29 +6,22 @@ import Porotherm from "../../images/parteneri/Porotherm2.svg";
 import Rehau from "../../images/parteneri/Rehau.svg";
 import "./Parteneri.scss";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 const ParteneriComponent = () => {
   return (
     <div id="services" className="services-section backy">
+      <div className="sectionare ">
+        <div className="space">
+          <h1>Partenerii Nostrii</h1>
+        </div>
+      </div>
       <div className="content-wrapper">
-        <Carousel
-          showThumbs={false}
-          showIndicators={false}
-          showStatus={false}
-          showArrows={false}
-          interval={1000}
-          autoPlay
-          centerMode
-          infiniteLoop
-          swipeable={true}
-          emulateTouch={true}
-        >
-          <img src={BarrierLogo} alt="1" />
-          <img src={Schneider} alt="2" />
-          <img src={Porotherm} alt="3" />
-          <img src={Rehau} alt="4" />
-        </Carousel>
+        <img src={BarrierLogo} alt="1" />
+
+        <img src={Schneider} alt="2" />
+
+        <img src={Porotherm} alt="3" />
+
+        <img src={Rehau} alt="4" />
       </div>
     </div>
   );

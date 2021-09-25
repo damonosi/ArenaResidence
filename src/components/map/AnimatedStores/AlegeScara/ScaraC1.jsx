@@ -14,7 +14,7 @@ class ScaraC1 extends React.Component {
         config={{ duration: 1 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 0.9 : 0.1,
+          opacity: flag ? 0.9 : 0.5,
         }}
       >
         {(props) => (
@@ -56,7 +56,7 @@ class ScaraC1 extends React.Component {
               <animated.Text
                 color="red"
                 text="Scara C1"
-                fontSize={18}
+                fontSize={58}
                 padding={5}
                 fill="black"
               />
