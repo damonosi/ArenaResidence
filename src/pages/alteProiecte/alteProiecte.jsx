@@ -5,189 +5,26 @@ import blocOne from "../../images/decor/p6.png";
 import blocTwo from "../../images/decor/green.png";
 import blocTrei from "../../images/building_map/bloc_map.png";
 
-import green1 from "../../images/alte_proiecte/greenTown/017-1000x800.jpg";
-import green2 from "../../images/alte_proiecte/greenTown/018-1000x800.jpg";
-import green3 from "../../images/alte_proiecte/greenTown/021-1000x800.jpg";
-import green4 from "../../images/alte_proiecte/greenTown/022-1000x800.jpg";
-import green5 from "../../images/alte_proiecte/greenTown/026-1000x800.jpg";
-import green6 from "../../images/alte_proiecte/greenTown/030-1000x800.jpg";
-import green7 from "../../images/alte_proiecte/greenTown/033-1000x800.jpg";
-import green8 from "../../images/alte_proiecte/greenTown/0431-1000x800.jpg";
-import green9 from "../../images/alte_proiecte/greenTown/047-1000x800.jpg";
-import green10 from "../../images/alte_proiecte/greenTown/048-1000x800.jpg";
-import green11 from "../../images/alte_proiecte/greenTown/051-1000x800.jpg";
-import green12 from "../../images/alte_proiecte/greenTown/065-1000x800.jpg";
-import green13 from "../../images/alte_proiecte/greenTown/067-1000x800.jpg";
-import green14 from "../../images/alte_proiecte/greenTown/073-1000x800.jpg";
-import green15 from "../../images/alte_proiecte/greenTown/074-533x800.jpg";
-import green16 from "../../images/alte_proiecte/greenTown/078-1000x800.jpg";
-import green17 from "../../images/alte_proiecte/greenTown/079-1000x800.jpg";
-import green18 from "../../images/alte_proiecte/greenTown/081-1000x800.jpg";
-import green19 from "../../images/alte_proiecte/greenTown/082-1000x800.jpg";
-import green20 from "../../images/alte_proiecte/greenTown/083-1000x800.jpg";
-import green21 from "../../images/alte_proiecte/greenTown/084-1000x800.jpg";
-import green22 from "../../images/alte_proiecte/greenTown/086-1000x800.jpg";
-import green23 from "../../images/alte_proiecte/greenTown/087-533x800.jpg";
-import green24 from "../../images/alte_proiecte/greenTown/093-533x800.jpg";
-import green25 from "../../images/alte_proiecte/greenTown/097-1-1000x800.jpg";
-import green26 from "../../images/alte_proiecte/greenTown/098-1-1000x800.jpg";
-import green27 from "../../images/alte_proiecte/greenTown/099-1-1000x800.jpg";
-import green28 from "../../images/alte_proiecte/greenTown/100-1-1000x800.jpg";
-import green29 from "../../images/alte_proiecte/greenTown/102-1000x800.jpg";
-import green30 from "../../images/alte_proiecte/greenTown/103-1000x800.jpg";
-import green31 from "../../images/alte_proiecte/greenTown/106-1-1000x800.jpg";
-import green32 from "../../images/alte_proiecte/greenTown/107-1-1000x800.jpg";
-
 import { Parallax } from "react-scroll-parallax";
 import ImageModal from "../../components/AlteProiecte/imageModal";
-
-import Galerie from "../../components/AlteProiecte/imageGallery";
 
 import { HiOutlinePhotograph } from "react-icons/hi";
 import ParallaxImage from "../../components/Parallax/ParralaxImage";
 
+import Carousel from "react-gallery-carousel";
+import "react-gallery-carousel/dist/index.css";
 const AlteProiecte = () => {
-  const images = [
-    {
-      original: green1,
-      thumbnail: green1,
-    },
-    {
-      original: green2,
-      thumbnail: green2,
-    },
-    {
-      original: green3,
-      thumbnail: green3,
-    },
-    {
-      original: green4,
-      thumbnail: green4,
-    },
-    {
-      original: green5,
-      thumbnail: green5,
-    },
-    {
-      original: green6,
-      thumbnail: green6,
-    },
-    {
-      original: green7,
-      thumbnail: green7,
-    },
-    {
-      original: green8,
-      thumbnail: green8,
-    },
-    {
-      original: green9,
-      thumbnail: green9,
-    },
-    {
-      original: green10,
-      thumbnail: green10,
-    },
-    {
-      original: green11,
-      thumbnail: green11,
-    },
-    {
-      original: green12,
-      thumbnail: green12,
-    },
-    {
-      original: green13,
-      thumbnail: green13,
-    },
-    {
-      original: green14,
-      thumbnail: green14,
-    },
-    {
-      original: green15,
-      thumbnail: green15,
-    },
-    {
-      original: green16,
-      thumbnail: green16,
-    },
-    {
-      original: green17,
-      thumbnail: green17,
-    },
-    {
-      original: green18,
-      thumbnail: green18,
-    },
-    {
-      original: green19,
-      thumbnail: green19,
-    },
-    {
-      original: green20,
-      thumbnail: green20,
-    },
-    {
-      original: green21,
-      thumbnail: green21,
-    },
-    {
-      original: green22,
-      thumbnail: green22,
-    },
-    {
-      original: green23,
-      thumbnail: green23,
-    },
-    {
-      original: green24,
-      thumbnail: green24,
-    },
-    {
-      original: green25,
-      thumbnail: green25,
-    },
-    {
-      original: green26,
-      thumbnail: green26,
-    },
-    {
-      original: green27,
-      thumbnail: green27,
-    },
-    {
-      original: green28,
-      thumbnail: green28,
-    },
-    {
-      original: green29,
-      thumbnail: green29,
-    },
-    {
-      original: green30,
-      thumbnail: green30,
-    },
-    {
-      original: green31,
-      thumbnail: green31,
-    },
-    {
-      original: green32,
-      thumbnail: green32,
-    },
-  ];
   const images2 = [
     {
-      original: "https://picsum.photos/id/1018/1000/600/",
+      src: "https://picsum.photos/id/1018/1000/600/",
       thumbnail: "https://picsum.photos/id/1018/250/150/",
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
+      src: "https://picsum.photos/id/1015/1000/600/",
       thumbnail: "https://picsum.photos/id/1015/250/150/",
     },
     {
-      original: "https://picsum.photos/id/1019/1000/600/",
+      src: "https://picsum.photos/id/1019/1000/600/",
       thumbnail: "https://picsum.photos/id/1019/250/150/",
     },
   ];
@@ -350,17 +187,17 @@ const AlteProiecte = () => {
 
       <ImageModal open={isOpen} onClose={() => setIsOpen(false)}>
         <div className="gal-cont">
-          <h1>Galerie Strada 1 mai 60</h1> <Galerie items={images} />
+          <h1>Galerie Strada 1 mai 60</h1> <Carousel images={images2} />
         </div>
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
-          <Galerie items={images2} /> <h1>Cartierul de case Green Town</h1>
+          <Carousel images={images2} /> <h1>Cartierul de case Green Town</h1>
         </div>
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
         <div className="gal-cont">
-          <h1>Gemenii din Stefan Cel Mare</h1> <Galerie items={images3} />
+          <h1>Gemenii din Stefan Cel Mare</h1> <Carousel images={images3} />
         </div>
       </ImageModal>
     </>
