@@ -3,7 +3,12 @@
   position:relative;
   padding:10px;
   z-index:1;
+  margin-top:5rem;
   
+}
+.spatiu{
+  display:flex;
+  margin-top:5rem;
 }
 .space{
   display:flex;
@@ -48,6 +53,7 @@
     display:inline-block;
     z-index:98;
     height:130px;
+    
 
     &::after{
 content: "";

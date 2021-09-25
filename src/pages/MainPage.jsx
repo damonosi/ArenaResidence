@@ -24,8 +24,9 @@ const MainPage = () => {
               <h1>Proiecte Finalizate </h1>
             </Parallax>
           </div>
-
-          <AlteProiecte />
+          <div className="spatiu">
+            <AlteProiecte />
+          </div>
         </section>
       </div>
       <section className="parteneri-container">
