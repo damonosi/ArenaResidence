@@ -85,9 +85,15 @@ const C1 = () => {
   let history = useHistory();
 
   const handleClick2 = () => {
-    history.push("/apartamente/1");
+    history.push("/etaje");
     history.go(0);
   };
+
+  const handleTouch = () => {
+    history.push("/etaje");
+    history.go(0);
+  };
+
   const BuildingImage = () => {
     const [image] = useImage(LaptopImage, "Anonymous");
     const [mobile_image] = useImage(MobileImage, "Anonymous");
@@ -117,28 +123,28 @@ const C1 = () => {
         <Layer>
           <BuildingImage id="build" />
 
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et1 />
           </Group>
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et2 />
           </Group>
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et3 />
           </Group>
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et4 />
           </Group>
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et5 />
           </Group>
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et6 />
           </Group>
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et7 />
           </Group>
-          <Group onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et8 />
           </Group>
         </Layer>

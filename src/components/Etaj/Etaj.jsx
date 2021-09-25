@@ -1,18 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
-import { Stage, Layer, Image, Group } from "react-konva";
-
-import { useHistory } from "react-router-dom";
-
+import { Stage, Layer, Image } from "react-konva";
+import LaptopImage from "../../images/plan_etaje/c1/plan_parter.png";
 import useImage from "use-image";
-import LaptopImage from "../../images/building_map/bloc_map_mapping.png";
+import "./Etaj.scss";
 
-import ScaraC1 from "./AnimatedStores/AlegeScara/ScaraC1";
-import ScaraC2 from "./AnimatedStores/AlegeScara/ScaraC2";
-
-import "./imageMap.scss";
-
-const AlegeScara = () => {
+const Etaj = () => {
   const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
 
@@ -50,7 +43,7 @@ const AlegeScara = () => {
   }, []);
 
   const stageRef = useRef();
-  var sceneWidth = 1500;
+  var sceneWidth = 1600;
   var sceneHeight = 850;
 
   useEffect(() => {
@@ -72,54 +65,43 @@ const AlegeScara = () => {
     window.addEventListener("resize", fitStageIntoParentContainer);
   }, [sceneHeight, sceneWidth]);
 
-  let history = useHistory();
-
-  const handleClick = () => {
-    history.push("/scara/c1");
-    history.go(0);
-  };
-  const handleClick2 = () => {
-    history.push("/scara/c2");
-    history.go(0);
-  };
-
-  const handleTouch = () => {
-    history.push("/scara/c1");
-    history.go(0);
-  };
-  const handleTouch2 = () => {
-    history.push("/scara/c12");
-    history.go(0);
-  };
-
   const BuildingImage = () => {
     const [image] = useImage(LaptopImage, "Anonymous");
 
     return <Image image={image} />;
   };
-
   return (
-    <div id="map-container" className="map-container">
-      <Stage
-        ref={stageRef}
-        id="container"
-        width={dimensions.width}
-        height={1050}
-        label="mapare_bloc"
-        // onMouseMove={handleMouseMove}
-      >
-        <Layer>
-          <BuildingImage id="build" />
-          <Group onTouchStart={handleTouch} onClick={handleClick}>
-            <ScaraC1 />
-          </Group>
-          <Group onTouchStart={handleTouch2} onClick={handleClick2}>
-            <ScaraC2 />
-          </Group>
-        </Layer>
-      </Stage>
+    <div className="scene-center">
+      <h1>Etaj 1 Scara C1</h1>
+      <hr />
+      <div className="dual">
+        <div className="informatii">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eius
+            sint voluptatum. Accusantium nesciunt quasi labore. Harum tempore
+            praesentium, a sed voluptatem nisi reiciendis, vero quidem hic fugit
+            neque eligendi.
+          </p>
+        </div>
+        <hr />
+        <div id="map-container" className="map-container2">
+          <Stage
+            ref={stageRef}
+            id="container"
+            width={dimensions.width}
+            height={dimensions.height}
+            label="mapare_bloc"
+            // onMouseMove={handleMouseMove}
+          >
+            <Layer>
+              <BuildingImage id="build" />
+            </Layer>
+          </Stage>
+        </div>
+      </div>
+      <hr />
     </div>
   );
 };
 
-export default AlegeScara;
+export default Etaj;

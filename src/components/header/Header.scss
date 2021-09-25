@@ -1,12 +1,8 @@
 .navbar {
-  transition: opacity 1.3s ease-in-out;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
 
-}
-.activete{ 
-  background-color:rgba(5, 146, 211, 0.8);
+
+
+  background-color:transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,15 +11,17 @@
   position: fixed;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 0.1rem 1.5rem;
+  padding: 1.3rem 1.5rem;
   top: 0;
   right: 0;
   left: 0;
   z-index: 2000;
-  opacity: 1;
-  overflow: visible;
+}
+.activete{ 
+   background-color:rgba(5, 146, 211, 0.8);
+ transition:400ms linear;
+ 
   
-  height: auto;
 }
 .nav-container {
   display: flex;
@@ -66,7 +64,7 @@
 
 
 .nav-links {
-  color: #fff;
+  color: rgba(14, 14, 14, 0.809);
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -123,6 +121,8 @@
 
   .nav-menu.active {
     background-color:#32a1d0ec;
+    margin-top:4.6rem;
+    max-height:100rem;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;

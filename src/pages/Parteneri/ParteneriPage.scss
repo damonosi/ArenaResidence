@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap');
-* {
-	margin: 0;
-	border: 0;
-	box-sizing: content-box;
-	font-family: 'Montserrat', sans-serif;
-}
+
 .container {
 	display: flex;
 	align-items: center;
@@ -15,6 +10,7 @@
 	padding-top: 4rem;
 	padding-bottom: 6rem;
 	margin-bottom: 20rem;
+	margin-top:5em;
 }
 .up-container{
 	display: flex;

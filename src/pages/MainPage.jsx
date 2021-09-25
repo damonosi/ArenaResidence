@@ -4,7 +4,6 @@ import AboutPage from "./aboutPage/AboutPage.jsx";
 import ParteneriPage from "./Parteneri/ParteneriComponent";
 import AlteProiecte from "./alteProiecte/alteProiecte";
 import HomePage from "./homePage/HomePage.jsx";
-import { CgArrowDown } from "react-icons/cg";
 
 import "./MainPage.styles.scss";
 import { Parallax } from "react-scroll-parallax";
@@ -18,13 +17,14 @@ const MainPage = () => {
         <section className="absec">
           <AboutPage />
         </section>
-        <Parallax x={[-10, 10]}>
-          <div className="sectionare">
-            <h1>Proiecte Finalizate </h1>
-            <CgArrowDown className="downy" />
-          </div>
-        </Parallax>
+
         <section className="alteProiecte-container">
+          <div className="sectionare">
+            <Parallax x={[-5, 5]}>
+              <h1>Proiecte Finalizate </h1>
+            </Parallax>
+          </div>
+
           <AlteProiecte />
         </section>
       </div>

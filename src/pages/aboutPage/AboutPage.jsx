@@ -5,6 +5,7 @@ import RoundImage1 from "../../images/lider1.jpg";
 import "./About.styles.scss";
 
 import ParallaxImage from "./../../components/Parallax/ParralaxImage";
+import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
@@ -27,6 +28,9 @@ const AboutPage = () => {
           we spring drake equation perga inconspicuous motespatch clean designed
           code and energy matter.
         </p>
+        <Link className="colored" to="/scara">
+          ALEGETI SCARA &rarr;
+        </Link>
         <br />
       </div>
     </div>

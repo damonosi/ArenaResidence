@@ -226,7 +226,12 @@ const AlteProiecte = () => {
     <>
       <div id="team" className="section-parallax">
         <div className="member member-left">
-          <ParallaxImage height={700} width={500} y={[-20, 20]} src={blocOne} />
+          <ParallaxImage
+            height={700}
+            width={1000}
+            y={[-10, 10]}
+            src={blocOne}
+          />
           <div className="member-info">
             <p className="member-postition">BLOC</p>
             <h5 className="member-name">Arena Residence Strada 1 mai 60</h5>
@@ -245,7 +250,7 @@ const AlteProiecte = () => {
                 -Tamplaria exterioara este din PVC tristrat (culoare wengue) cu
                 geam termopan. Glafuri granit interior si exterior.{" "}
               </p>
-              <Parallax x={[-20, 10]}>
+              <Parallax x={[-5, 5]}>
                 <div className="to-member">
                   <button className="galerie" onClick={handleClick}>
                     Spre Galeria Foto
@@ -257,7 +262,7 @@ const AlteProiecte = () => {
           </div>
         </div>
 
-        <div className="member big-screen member-right">
+        <div className="member member-right">
           <div className="member-info2">
             <p className="member-postition">CASE</p>
             <h5 className="member-name">Cartierul de case Green Town</h5>
@@ -284,7 +289,7 @@ const AlteProiecte = () => {
                   Proiect finalizat in noiembrie 2014{" "}
                 </span>
               </p>
-              <Parallax x={[-30, 5]}>
+              <Parallax x={[-5, 5]}>
                 <div className="to-member">
                   <button onClick={handleClick2} className="galerie">
                     Spre Galeria Foto <HiOutlinePhotograph />
@@ -293,14 +298,19 @@ const AlteProiecte = () => {
               </Parallax>
             </div>
           </div>
-          <ParallaxImage height={700} width={500} y={[-20, 20]} src={blocTwo} />
+          <ParallaxImage
+            height={700}
+            width={1000}
+            y={[-10, 10]}
+            src={blocTwo}
+          />
         </div>
 
         <div className="member member-left2">
           <ParallaxImage
             height={700}
-            width={700}
-            y={[-20, 20]}
+            width={1000}
+            y={[-10, 10]}
             src={blocTrei}
           />
           <div className="member-info3">
@@ -326,7 +336,7 @@ const AlteProiecte = () => {
                 secund de artera de maxima importanta - Str. Stefan cel Mare.
               </p>
 
-              <Parallax x={[-30, 5]}>
+              <Parallax x={[-5, 5]}>
                 <div className="to-member">
                   <button onClick={handleClick3} className="galerie">
                     Spre Galeria Foto <HiOutlinePhotograph />

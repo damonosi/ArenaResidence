@@ -16,10 +16,11 @@ import ScaraC2 from "./pages/MapareBloc/C2";
 
 import AlteProiecte from "./pages/alteProiecte/alteProiecte";
 
-import { AnimatePresence } from "framer-motion";
 import Apartament from "./components/apartamente/Apartament";
 
 import ReactPixel from "react-facebook-pixel";
+import ScrollToTop from "./hooks/ScrollToTop.js";
+import Etaje from "./pages/Etaje/Etaje";
 const advancedMatching = { em: "dam195@yahoo.com" };
 const options = {
   autoConfig: true,
@@ -40,26 +41,27 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <AnimatePresence exitBeforeEnter>
-        <Switch location={location} key={location.key}>
-          <Suspense>
-            <ErrorBoundary>
-              <Route exact path="/" component={MainPage} />
-              <Route exact path="/home" component={MainPage} />
-              <Route exact path="/scara" component={ImagePage} />
-              <Route path="/about" component={AboutPage} />
-              <Route path="/scara/c1" component={ScaraC1} />
-              <Route path="/scara/c2" component={ScaraC2} />
+      <ScrollToTop />
+      <Switch location={location} key={location.key}>
+        <Suspense>
+          <ErrorBoundary>
+            <Route exact path="/" component={MainPage} />
+            <Route exact path="/home" component={MainPage} />
+            <Route exact path="/scara" component={ImagePage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/scara/c1" component={ScaraC1} />
+            <Route path="/scara/c2" component={ScaraC2} />
 
-              <Route path="/contact" component={ContactPage} />
-              <Route path="/parteneri" component={ParteneriPage} />
-              <Route path="/alte" component={AlteProiecte} />
+            <Route path="/contact" component={ContactPage} />
+            <Route path="/parteneri" component={ParteneriPage} />
+            <Route path="/alte" component={AlteProiecte} />
 
-              <Route path="/apartamente/:id" component={Apartament} />
-            </ErrorBoundary>
-          </Suspense>
-        </Switch>
-      </AnimatePresence>
+            <Route path="/apartamente/:id" component={Apartament} />
+            <Route path="/etaje" component={Etaje} />
+          </ErrorBoundary>
+        </Suspense>
+      </Switch>
+
       <Footer />
     </div>
   );
