@@ -28,9 +28,11 @@ const AboutPage = () => {
           we spring drake equation perga inconspicuous motespatch clean designed
           code and energy matter.
         </p>
+
         <Link className="colored" to="/scara">
           ALEGETI SCARA &rarr;
         </Link>
+
         <br />
       </div>
     </div>

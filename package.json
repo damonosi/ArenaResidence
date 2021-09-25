@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "3d-react-carousal": "^4.0.2",
     "@babel/plugin-proposal-decorators": "^7.15.4",
     "@react-spring/konva": "^9.2.4",
     "@testing-library/jest-dom": "^5.11.4",
@@ -20,6 +21,7 @@
     "react-konva-utils": "^0.1.5",
     "react-lottie": "^1.2.3",
     "react-responsive": "^9.0.0-beta.3",
+    "react-responsive-carousel": "^3.2.21",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-scroll-parallax": "^2.4.0",
