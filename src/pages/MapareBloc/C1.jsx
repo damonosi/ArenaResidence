@@ -11,8 +11,10 @@ const ScaraC1 = () => {
         <C1 />
       </div>
 
-      <div className="banner-container">
-        <ParteneriPage />
+      <div className="more-container ">
+        <div className="banner-container ">
+          <ParteneriPage />
+        </div>
       </div>
     </div>
   );

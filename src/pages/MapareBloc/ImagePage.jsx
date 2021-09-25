@@ -11,9 +11,10 @@ const ImagePage = () => {
       <div className="image-container">
         <AlegeScara />
       </div>
-
-      <div className="banner-container">
-        <ParteneriPage />
+      <div className="more-container">
+        <div className="banner-container">
+          <ParteneriPage />
+        </div>
       </div>
     </div>
   );

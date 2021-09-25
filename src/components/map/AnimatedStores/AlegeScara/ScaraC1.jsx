@@ -56,7 +56,7 @@ class ScaraC1 extends React.Component {
               <animated.Text
                 color="red"
                 text="Scara C1"
-                fontSize={58}
+                fontSize={48}
                 padding={5}
                 fill="black"
               />

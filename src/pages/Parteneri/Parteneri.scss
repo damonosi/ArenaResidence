@@ -8,6 +8,7 @@
   justify-content: center;
   margin-bottom: 100px;
   margin-top:8rem;
+  padding:5em;
   
 }
 .title{
@@ -32,12 +33,24 @@ h1{
   display: grid;
   grid-auto-flow: column;
   padding:5px;
+  border:5px solid black;
+  border-style: ridge;
+  box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.5); 
+  grid-gap: 3px;
+  padding:2em;
+  justify-items: center;
+  box-shadow: red;
   
   img{
-    width:20rem;
+    width:14rem;
     height:12rem;
-    margin:2rem;
+
   }
+}
+.sectionare{
+  box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.5); 
+ 
+
 }
 @media only screen and (max-width: 1500px) {
   .services-section {

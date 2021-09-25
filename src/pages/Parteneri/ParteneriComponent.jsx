@@ -17,6 +17,7 @@ const ParteneriComponent = () => {
           </h1>
         </Parallax>
       </div>
+
       <div className="content-wrapper">
         <img src={BarrierLogo} alt="1" />
 
