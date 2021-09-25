@@ -53,7 +53,7 @@ class C2Et5 extends React.Component {
               <animated.Text
                 color="red"
                 text="Plan Etaj 5"
-                fontSize={58}
+                fontSize={44}
                 padding={5}
                 fill="black"
               />

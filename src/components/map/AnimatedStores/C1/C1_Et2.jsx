@@ -37,7 +37,7 @@ class C1Et2 extends React.Component {
               fill={"rgba(255, 186, 0, .7)"}
             />
 
-            <animated.Label id="tooltip" x={780} y={660}>
+            <animated.Label id="tooltip" x={1010} y={660}>
               <animated.Tag
                 fill={"#bbb"}
                 stroke={"#333"}
@@ -55,7 +55,7 @@ class C1Et2 extends React.Component {
               <animated.Text
                 color="red"
                 text="Plan Etaj 2"
-                fontSize={58}
+                fontSize={44}
                 padding={5}
                 fill="black"
               />

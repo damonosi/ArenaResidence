@@ -31,7 +31,7 @@ class C2Et3 extends React.Component {
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              // stroke={"rgba(255, 186, 0, .7)"}
+              stroke={"rgba(255, 186, 0, .9)"}
               fill={"rgba(255, 186, 0, .7)"}
             />
 
@@ -53,7 +53,7 @@ class C2Et3 extends React.Component {
               <animated.Text
                 color="red"
                 text="Plan Etaj 3"
-                fontSize={58}
+                fontSize={44}
                 padding={5}
                 fill="black"
               />

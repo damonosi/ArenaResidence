@@ -54,7 +54,7 @@ class C1Et3 extends React.Component {
               <animated.Text
                 color="red"
                 text="Plan Etaj 3"
-                fontSize={58}
+                fontSize={44}
                 padding={5}
                 fill="black"
               />
