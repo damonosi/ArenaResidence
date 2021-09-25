@@ -15,7 +15,7 @@ class C1Et8 extends React.Component {
         config={{ duration: 10 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 1 : 0.5,
+          opacity: flag ? 1 : 0.7,
         }}
       >
         {(props) => (
