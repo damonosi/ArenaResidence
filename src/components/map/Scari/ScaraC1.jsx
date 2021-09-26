@@ -81,75 +81,75 @@ const C1 = () => {
   let history = useHistory();
 
   const handleClick2 = () => {
-    history.push("/etaje/1");
+    history.push("/etaje/C1/1");
     history.go(0);
   };
 
   const handleTouch = () => {
-    history.push("/etaje/1");
+    history.push("/etaje/C1/1");
     history.go(0);
   };
   const handleClick = () => {
-    history.push("/etaje/2");
+    history.push("/etaje/C1/2");
     history.go(0);
   };
 
   const handleTouch2 = () => {
-    history.push("/etaje/2");
+    history.push("/etaje/C1/2");
     history.go(0);
   };
   const handleClick3 = () => {
-    history.push("/etaje/3");
+    history.push("/etaje/C1/3");
     history.go(0);
   };
 
   const handleTouch3 = () => {
-    history.push("/etaje/3");
+    history.push("/etaje/C1/3");
     history.go(0);
   };
   const handleClick4 = () => {
-    history.push("/etaje/4");
+    history.push("/etaje/C1/4");
     history.go(0);
   };
 
   const handleTouch4 = () => {
-    history.push("/etaje/4");
+    history.push("/etaje/C1/4");
     history.go(0);
   };
   const handleClick5 = () => {
-    history.push("/etaje/5");
+    history.push("/etaje/C1/5");
     history.go(0);
   };
 
   const handleTouch5 = () => {
-    history.push("/etaje/5");
+    history.push("/etaje/C1/5");
     history.go(0);
   };
   const handleClick6 = () => {
-    history.push("/etaje/6");
+    history.push("/etaje/C1/6");
     history.go(0);
   };
 
   const handleTouch6 = () => {
-    history.push("/etaje/6");
+    history.push("/etaje/C1/6");
     history.go(0);
   };
   const handleClick7 = () => {
-    history.push("/etaje/7");
+    history.push("/etaje/C1/7");
     history.go(0);
   };
 
   const handleTouch7 = () => {
-    history.push("/etaje/7");
+    history.push("/etaje/C1/7");
     history.go(0);
   };
   const handleClick8 = () => {
-    history.push("/etaje/8");
+    history.push("/etaje/C1/8");
     history.go(0);
   };
 
   const handleTouch8 = () => {
-    history.push("/etaje/8");
+    history.push("/etaje/C1/8");
     history.go(0);
   };
 

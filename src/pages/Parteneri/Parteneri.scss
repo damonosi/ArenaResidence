@@ -39,12 +39,12 @@ h1{
   grid-gap: 3px;
   padding:2em;
   justify-items: center;
-  box-shadow: red;
+  
   
   img{
     width:14rem;
     height:12rem;
-
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.5);
   }
 }
 .sectionare{

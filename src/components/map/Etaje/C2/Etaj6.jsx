@@ -5,18 +5,15 @@ import { Stage, Layer, Image, Group } from "react-konva";
 import { useHistory } from "react-router-dom";
 
 import useImage from "use-image";
-import LaptopImage from "../../../images/building_map/C2_map_laptop-.png";
-
-import C2Et1 from "../AnimatedStores/C2/C2_Et1";
-import C2Et2 from "../AnimatedStores/C2/C2_Et2";
-import C2Et3 from "../AnimatedStores/C2/C2_Et3";
-import C2Et4 from "../AnimatedStores/C2/C2_Et4";
-import C2Et5 from "../AnimatedStores/C2/C2_Et5";
-import C2Et6 from "../AnimatedStores/C2/C2_Et6";
-import C2Et7 from "../AnimatedStores/C2/C2_Et7";
-import C2Et8 from "../AnimatedStores/C2/C2_Et8";
-
-const C2 = () => {
+import LaptopImage from "../../../../images/plan_etaje/c2/plan_6.jpg";
+import Ap1 from "../../Apartamente/C2/Et1/Ap1";
+import Ap2 from "../../Apartamente/C2/Et1/Ap2";
+import Ap3 from "../../Apartamente/C2/Et1/Ap3";
+import Ap4 from "../../Apartamente/C2/Et1/Ap4";
+import Ap5 from "../../Apartamente/C2/Et1/Ap5";
+import Ap6 from "../../Apartamente/C2/Et1/Ap6";
+import "./Ejaje.scss";
+const C2Etaj6 = () => {
   const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
 
@@ -55,8 +52,8 @@ const C2 = () => {
 
   const stageRef = useRef();
 
-  var sceneWidth = 1500;
-  var sceneHeight = 850;
+  var sceneWidth = 5100;
+  var sceneHeight = 3820;
 
   useEffect(() => {
     function fitStageIntoParentContainer() {
@@ -79,76 +76,59 @@ const C2 = () => {
     window.addEventListener("resize", fitStageIntoParentContainer);
   }, [sceneHeight, sceneWidth]);
   let history = useHistory();
+
   const handleClick2 = () => {
-    history.push("/etaje/9");
+    history.push("/apartamente/77");
     history.go(0);
   };
 
   const handleTouch = () => {
-    history.push("/etaje/9");
+    history.push("/apartamente/77");
     history.go(0);
   };
   const handleClick = () => {
-    history.push("/etaje/10");
+    history.push("/apartamente/78");
     history.go(0);
   };
 
   const handleTouch2 = () => {
-    history.push("/etaje/10");
+    history.push("/apartamente/78");
     history.go(0);
   };
   const handleClick3 = () => {
-    history.push("/etaje/11");
+    history.push("/apartamente/79");
     history.go(0);
   };
 
   const handleTouch3 = () => {
-    history.push("/etaje/11");
+    history.push("/apartamente/79");
     history.go(0);
   };
   const handleClick4 = () => {
-    history.push("/etaje/12");
+    history.push("/apartamente/80");
     history.go(0);
   };
 
   const handleTouch4 = () => {
-    history.push("/etaje/12");
+    history.push("/apartamente/80");
     history.go(0);
   };
   const handleClick5 = () => {
-    history.push("/etaje/13");
+    history.push("/apartamente/81");
     history.go(0);
   };
 
   const handleTouch5 = () => {
-    history.push("/etaje/13");
+    history.push("/apartamente/81");
     history.go(0);
   };
   const handleClick6 = () => {
-    history.push("/etaje/14");
+    history.push("/apartamente/82");
     history.go(0);
   };
 
   const handleTouch6 = () => {
-    history.push("/etaje/14");
-    history.go(0);
-  };
-  const handleClick7 = () => {
-    history.push("/etaje/15");
-    history.go(0);
-  };
-
-  const handleTouch7 = () => {
-    history.push("/etaje/15");
-    history.go(0);
-  };
-  const handleClick8 = () => {
-    history.push("/etaje/16");
-    history.go(0);
-  };
-
-  const handleTouch8 = () => {
-    history.push("/etaje/16");
+    history.push("/apartamente/82");
     history.go(0);
   };
 
@@ -161,8 +141,8 @@ const C2 = () => {
   return (
     <div id="map-container" className="map-container">
       <Stage
-        id="container"
         ref={stageRef}
+        id="container"
         width={dimensions.width}
         height={dimensions.height}
         label="mapare_bloc"
@@ -172,28 +152,22 @@ const C2 = () => {
           <BuildingImage id="build" />
 
           <Group onTouchStart={handleTouch} onClick={handleClick2}>
-            <C2Et1 />
+            <Ap1 />
           </Group>
           <Group onTouchStart={handleTouch2} onClick={handleClick}>
-            <C2Et2 />
+            <Ap2 />
           </Group>
           <Group onTouchStart={handleTouch3} onClick={handleClick3}>
-            <C2Et3 />
+            <Ap3 />
           </Group>
           <Group onTouchStart={handleTouch4} onClick={handleClick4}>
-            <C2Et4 />
+            <Ap4 />
           </Group>
           <Group onTouchStart={handleTouch5} onClick={handleClick5}>
-            <C2Et5 />
+            <Ap5 />
           </Group>
           <Group onTouchStart={handleTouch6} onClick={handleClick6}>
-            <C2Et6 />
-          </Group>
-          <Group onTouchStart={handleTouch7} onClick={handleClick7}>
-            <C2Et7 />
-          </Group>
-          <Group onTouchStart={handleTouch8} onClick={handleClick8}>
-            <C2Et8 />
+            <Ap6 />
           </Group>
         </Layer>
       </Stage>
@@ -201,4 +175,4 @@ const C2 = () => {
   );
 };
 
-export default C2;
+export default C2Etaj6;
