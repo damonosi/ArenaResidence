@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 #container {
  
   h1 {
@@ -24,6 +25,11 @@
   
 
 }
+.distanci{
+  display:flex;
+  margin-top:2em;
+  
+}
 .canvas-container{
   display:flex;
   margin:5px;
@@ -35,7 +41,38 @@
 	height: 100%;
 	text-align: center;
   justify-content: center;
+  padding:5px;
+  a { color: rgba(0, 0, 0, 0.755); text-decoration: none; }
+ 
 }
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.h-container{
+ h1{
+   font-family: 'Bebas Neue', cursive;
+   font-size:1.2rem;
+  }
+}
+
 .an-holder{
   display:flex;
   flex-direction: row;

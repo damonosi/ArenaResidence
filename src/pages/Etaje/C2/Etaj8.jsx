@@ -9,6 +9,10 @@ const C2_Etaj8 = () => {
         <div className="etaj">
           <div className="distance"></div>
 
+          <div class="arrow bounce">
+            <h1>SELECTATI APARTAMENTUL DORIT</h1>
+            <a class="fa fa-arrow-down fa-2x" href="#"></a>
+          </div>
           <div className="flerat">
             <div className="info-etaj">
               <div className="canvas-container">

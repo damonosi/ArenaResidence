@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @media only screen and (max-width: 1200px) {
   * :not(.slider-single-content, .slider-content, .nav-icon, .stil, .butoni) {
     -o-transform: none !important;
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   font-size: 18px;
   line-height: 35px;
   font-weight: 400;

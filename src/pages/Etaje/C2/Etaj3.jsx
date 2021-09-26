@@ -11,7 +11,10 @@ const C2_Etaj3 = () => {
             <div className="info-etaj">
               <div className="distance"></div>
 
-              <div className="distance"></div>
+              <div class="arrow bounce">
+                <h1>SELECTATI APARTAMENTUL DORIT</h1>
+                <a class="fa fa-arrow-down fa-2x" href="#"></a>
+              </div>
               <div className="canvas-container">
                 <C2Etaj3 />
               </div>
