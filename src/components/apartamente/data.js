@@ -2,7 +2,7 @@ export const Data_c1 = [
   {
     title: "Apartament 4",
     etaj: "etajul 1",
-    src: "/images/C1/etaj_1/AP 4.jpg",
+    src: "/images/C1/etaj_1/AP 4-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -13,7 +13,7 @@ export const Data_c1 = [
   {
     title: "Apartament 5",
     etaj: "et_1",
-    src: "/images/C1/etaj_1/AP 5.jpg",
+    src: "/images/C1/etaj_1/AP 5-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -24,7 +24,7 @@ export const Data_c1 = [
   {
     title: "Apartament 6",
     etaj: "et_1",
-    src: "/images/C1/etaj_1/AP 6.jpg",
+    src: "/images/C1/etaj_1/AP 6-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -35,7 +35,7 @@ export const Data_c1 = [
   {
     title: "Apartament 7",
     etaj: "et_1",
-    src: "/images/C1/etaj_1/AP 7.jpg",
+    src: "/images/C1/etaj_1/AP 7-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -46,7 +46,7 @@ export const Data_c1 = [
   {
     title: "Apartament 8",
     etaj: "et_1",
-    src: "/images/C1/etaj_1/AP 8.jpg",
+    src: "/images/C1/etaj_1/AP 8-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -57,7 +57,7 @@ export const Data_c1 = [
   {
     title: "Apartament 9",
     etaj: "et_1",
-    src: "/images/C1/etaj_1/AP 9.jpg",
+    src: "/images/C1/etaj_1/AP 9-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -68,7 +68,7 @@ export const Data_c1 = [
   {
     title: "Apartament 10",
     etaj: "et_2",
-    src: "/images/C1/etaj_2/AP 10.jpg",
+    src: "/images/C1/etaj_2/AP 10-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -79,7 +79,7 @@ export const Data_c1 = [
   {
     title: "Apartament 11",
     etaj: "et_2",
-    src: "/images/C1/etaj_2/AP 11.jpg",
+    src: "/images/C1/etaj_2/AP 11-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -90,7 +90,7 @@ export const Data_c1 = [
   {
     title: "Apartament 12",
     etaj: "et_2",
-    src: "/images/C1/etaj_2/AP 12.jpg",
+    src: "/images/C1/etaj_2/AP 12-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -101,7 +101,7 @@ export const Data_c1 = [
   {
     title: "Apartament 13",
     etaj: "et_2",
-    src: "/images/C1/etaj_2/AP 13.jpg",
+    src: "/images/C1/etaj_2/AP 13-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -112,7 +112,7 @@ export const Data_c1 = [
   {
     title: "Apartament 14",
     etaj: "et_2",
-    src: "/images/C1/etaj_2/AP 14.jpg",
+    src: "/images/C1/etaj_2/AP 14-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -123,7 +123,7 @@ export const Data_c1 = [
   {
     title: "Apartament 15",
     etaj: "et_2",
-    src: "/images/C1/etaj_2/AP 15.jpg",
+    src: "/images/C1/etaj_2/AP 15-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -134,7 +134,7 @@ export const Data_c1 = [
   {
     title: "Apartament 16",
     etaj: "et_3",
-    src: "/images/C1/etaj_3/AP 16.jpg",
+    src: "/images/C1/etaj_3/AP 16-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -145,7 +145,7 @@ export const Data_c1 = [
   {
     title: "Apartament 17",
     etaj: "et_3",
-    src: "/images/C1/etaj_3/AP 17.jpg",
+    src: "/images/C1/etaj_3/AP 17-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -156,7 +156,7 @@ export const Data_c1 = [
   {
     title: "Apartament 18",
     etaj: "et_3",
-    src: "/images/C1/etaj_3/AP 18.jpg",
+    src: "/images/C1/etaj_3/AP 18-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -167,7 +167,7 @@ export const Data_c1 = [
   {
     title: "Apartament 19",
     etaj: "et_3",
-    src: "/images/C1/etaj_3/AP 19.jpg",
+    src: "/images/C1/etaj_3/AP 19-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -178,7 +178,7 @@ export const Data_c1 = [
   {
     title: "Apartament 20",
     etaj: "et_3",
-    src: "/images/C1/etaj_3/AP 20.jpg",
+    src: "/images/C1/etaj_3/AP 20-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -189,7 +189,7 @@ export const Data_c1 = [
   {
     title: "Apartament 21",
     etaj: "et_3",
-    src: "/images/C1/etaj_3/AP 21.jpg",
+    src: "/images/C1/etaj_3/AP 21-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -200,7 +200,7 @@ export const Data_c1 = [
   {
     title: "Apartament 22",
     etaj: "et_4",
-    src: "/images/C1/etaj_4/AP 22.jpg",
+    src: "/images/C1/etaj_4/AP 22-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -211,7 +211,7 @@ export const Data_c1 = [
   {
     title: "Apartament 23",
     etaj: "et_4",
-    src: "/images/C1/etaj_4/AP 23.jpg",
+    src: "/images/C1/etaj_4/AP 23-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -222,7 +222,7 @@ export const Data_c1 = [
   {
     title: "Apartament 24",
     etaj: "et_4",
-    src: "/images/C1/etaj_4/AP 24.jpg",
+    src: "/images/C1/etaj_4/AP 24-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -233,7 +233,7 @@ export const Data_c1 = [
   {
     title: "Apartament 25",
     etaj: "et_4",
-    src: "/images/C1/etaj_4/AP 25.jpg",
+    src: "/images/C1/etaj_4/AP 25-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -244,7 +244,7 @@ export const Data_c1 = [
   {
     title: "Apartament 26",
     etaj: "et_4",
-    src: "/images/C1/etaj_4/AP 26.jpg",
+    src: "/images/C1/etaj_4/AP 26-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -255,7 +255,7 @@ export const Data_c1 = [
   {
     title: "Apartament 27",
     etaj: "et_4",
-    src: "/images/C1/etaj_4/AP 27.jpg",
+    src: "/images/C1/etaj_4/AP 27-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -266,7 +266,7 @@ export const Data_c1 = [
   {
     title: "Apartament 28",
     etaj: "et_5",
-    src: "/images/C1/etaj_5/AP 28.jpg",
+    src: "/images/C1/etaj_5/AP 28-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -277,7 +277,7 @@ export const Data_c1 = [
   {
     title: "Apartament 29",
     etaj: "et_5",
-    src: "/images/C1/etaj_5/AP 29.jpg",
+    src: "/images/C1/etaj_5/AP 29-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -288,7 +288,7 @@ export const Data_c1 = [
   {
     title: "Apartament 30",
     etaj: "et_5",
-    src: "/images/C1/etaj_5/AP 30.jpg",
+    src: "/images/C1/etaj_5/AP 30-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -299,7 +299,7 @@ export const Data_c1 = [
   {
     title: "Apartament 31",
     etaj: "et_5",
-    src: "/images/C1/etaj_5/AP 31.jpg",
+    src: "/images/C1/etaj_5/AP 31-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -310,7 +310,7 @@ export const Data_c1 = [
   {
     title: "Apartament 32",
     etaj: "et_5",
-    src: "/images/C1/etaj_5/AP 32.jpg",
+    src: "/images/C1/etaj_5/AP 32-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -321,7 +321,7 @@ export const Data_c1 = [
   {
     title: "Apartament 33",
     etaj: "et_5",
-    src: "/images/C1/etaj_5/AP 33.jpg",
+    src: "/images/C1/etaj_5/AP 33-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -332,7 +332,7 @@ export const Data_c1 = [
   {
     title: "Apartament 34",
     etaj: "et_6",
-    src: "/images/C1/etaj_6/AP 34.jpg",
+    src: "/images/C1/etaj_6/AP 34-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -343,7 +343,7 @@ export const Data_c1 = [
   {
     title: "Apartament 35",
     etaj: "et_6",
-    src: "/images/C1/etaj_6/AP 35.jpg",
+    src: "/images/C1/etaj_6/AP 35-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -354,7 +354,7 @@ export const Data_c1 = [
   {
     title: "Apartament 36",
     etaj: "et_6",
-    src: "/images/C1/etaj_6/AP 36.jpg",
+    src: "/images/C1/etaj_6/AP 36-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -365,7 +365,7 @@ export const Data_c1 = [
   {
     title: "Apartament 37",
     etaj: "et_6",
-    src: "/images/C1/etaj_6/AP 37.jpg",
+    src: "/images/C1/etaj_6/AP 37-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -376,7 +376,7 @@ export const Data_c1 = [
   {
     title: "Apartament 38",
     etaj: "et_6",
-    src: "/images/C1/etaj_6/AP 38.jpg",
+    src: "/images/C1/etaj_6/AP 38-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -387,7 +387,7 @@ export const Data_c1 = [
   {
     title: "Apartament 39",
     etaj: "et_6",
-    src: "/images/C1/etaj_6/AP 39.jpg",
+    src: "/images/C1/etaj_6/AP 39-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -398,7 +398,7 @@ export const Data_c1 = [
   {
     title: "Apartament 40",
     etaj: "et_7",
-    src: "/images/C1/etaj_7/AP 40.jpg",
+    src: "/images/C1/etaj_7/AP 40-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -409,7 +409,7 @@ export const Data_c1 = [
   {
     title: "Apartament 41",
     etaj: "et_7",
-    src: "/images/C1/etaj_7/AP 41.jpg",
+    src: "/images/C1/etaj_7/AP 41-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -420,7 +420,7 @@ export const Data_c1 = [
   {
     title: "Apartament 42",
     etaj: "et_7",
-    src: "/images/C1/etaj_7/AP 42.jpg",
+    src: "/images/C1/etaj_7/AP 42-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -431,7 +431,7 @@ export const Data_c1 = [
   {
     title: "Apartament 43",
     etaj: "et_7",
-    src: "/images/C1/etaj_7/AP 43.jpg",
+    src: "/images/C1/etaj_7/AP 43-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 1",
@@ -442,7 +442,7 @@ export const Data_c1 = [
   {
     title: "Apartament 44",
     etaj: "et_7",
-    src: "/images/C1/etaj_7/AP 44.jpg",
+    src: "/images/C1/etaj_7/AP 44-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -453,7 +453,7 @@ export const Data_c1 = [
   {
     title: "Apartament 45",
     etaj: "et_7",
-    src: "/images/C1/etaj_7/AP 45.jpg",
+    src: "/images/C1/etaj_7/AP 45-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -464,7 +464,7 @@ export const Data_c1 = [
   {
     title: "Apartament 46",
     etaj: "et_8",
-    src: "/images/C1/etaj_8/AP 46.jpg",
+    src: "/images/C1/etaj_8/AP 46-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -475,7 +475,7 @@ export const Data_c1 = [
   {
     title: "Apartament 47",
     etaj: "et_8",
-    src: "/images/C1/etaj_8/AP 47.jpg",
+    src: "/images/C1/etaj_8/AP 47-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -487,7 +487,7 @@ export const Data_c1 = [
     title: "Apartament 48",
     etaj: "et_8",
 
-    src: "/images/C1/etaj_8/AP 48.jpg",
+    src: "/images/C1/etaj_8/AP 48-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -498,7 +498,7 @@ export const Data_c1 = [
   {
     title: "Apartament 49",
     etaj: "et_8",
-    src: "/images/C1/etaj_8/AP 49.jpg",
+    src: "/images/C1/etaj_8/AP 49-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 1",
@@ -507,10 +507,12 @@ export const Data_c1 = [
     id: 46,
   },
 
+
+  
   {
     title: "Apartament 4",
     etaj: "etajul 1",
-    src: "/images/C2/etaj_1/AP 4.jpg",
+    src: "/images/C2/etaj_1/AP 4-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -521,7 +523,7 @@ export const Data_c1 = [
   {
     title: "Apartament 5",
     etaj: "et_1",
-    src: "/images/C2/etaj_1/AP 5.jpg",
+    src: "/images/C2/etaj_1/AP 5-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -532,7 +534,7 @@ export const Data_c1 = [
   {
     title: "Apartament 6",
     etaj: "et_1",
-    src: "/images/C2/etaj_1/AP 6.jpg",
+    src: "/images/C2/etaj_1/AP 6-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -543,7 +545,7 @@ export const Data_c1 = [
   {
     title: "Apartament 7",
     etaj: "et_1",
-    src: "/images/C2/etaj_1/AP 7.jpg",
+    src: "/images/C2/etaj_1/AP 7-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -554,7 +556,7 @@ export const Data_c1 = [
   {
     title: "Apartament 8",
     etaj: "et_1",
-    src: "/images/C2/etaj_1/AP 8.jpg",
+    src: "/images/C2/etaj_1/AP 8-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -565,7 +567,7 @@ export const Data_c1 = [
   {
     title: "Apartament 9",
     etaj: "et_1",
-    src: "/images/C2/etaj_1/AP 9.jpg",
+    src: "/images/C2/etaj_1/AP 9-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -576,7 +578,7 @@ export const Data_c1 = [
   {
     title: "Apartament 10",
     etaj: "et_2",
-    src: "/images/C2/etaj_2/AP 10.jpg",
+    src: "/images/C2/etaj_2/AP 10-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -587,7 +589,7 @@ export const Data_c1 = [
   {
     title: "Apartament 11",
     etaj: "et_2",
-    src: "/images/C2/etaj_2/AP 11.jpg",
+    src: "/images/C2/etaj_2/AP 11-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -597,7 +599,7 @@ export const Data_c1 = [
   },
   {
     title: "Apartament 12",
-    src: "/images/C2/etaj_2/AP 12.jpg",
+    src: "/images/C2/etaj_2/AP 12-min.jpg",
     etaj: "et_2",
     liber: "true",
     camere: "2",
@@ -609,7 +611,7 @@ export const Data_c1 = [
   {
     title: "Apartament 13",
     etaj: "et_2",
-    src: "/images/C2/etaj_2/AP 13.jpg",
+    src: "/images/C2/etaj_2/AP 13-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -620,7 +622,7 @@ export const Data_c1 = [
   {
     title: "Apartament 14",
     etaj: "et_2",
-    src: "/images/C2/etaj_2/AP 14.jpg",
+    src: "/images/C2/etaj_2/AP 14-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -631,7 +633,7 @@ export const Data_c1 = [
   {
     title: "Apartament 15",
     etaj: "et_2",
-    src: "/images/C2/etaj_2/AP 15.jpg",
+    src: "/images/C2/etaj_2/AP 15-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -642,7 +644,7 @@ export const Data_c1 = [
   {
     title: "Apartament 16",
     etaj: "et_3",
-    src: "/images/C2/etaj_3/AP 16.jpg",
+    src: "/images/C2/etaj_3/AP 16-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -653,7 +655,7 @@ export const Data_c1 = [
   {
     title: "Apartament 17",
     etaj: "et_3",
-    src: "/images/C2/etaj_3/AP 17.jpg",
+    src: "/images/C2/etaj_3/AP 17-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -664,7 +666,7 @@ export const Data_c1 = [
   {
     title: "Apartament 18",
     etaj: "et_3",
-    src: "/images/C2/etaj_3/AP 18.jpg",
+    src: "/images/C2/etaj_3/AP 18-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -675,7 +677,7 @@ export const Data_c1 = [
   {
     title: "Apartament 19",
     etaj: "et_3",
-    src: "/images/C2/etaj_3/AP 19.jpg",
+    src: "/images/C2/etaj_3/AP 19-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -686,7 +688,7 @@ export const Data_c1 = [
   {
     title: "Apartament 20",
     etaj: "et_3",
-    src: "/images/C2/etaj_3/AP 20.jpg",
+    src: "/images/C2/etaj_3/AP 20-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -697,7 +699,7 @@ export const Data_c1 = [
   {
     title: "Apartament 21",
     etaj: "et_3",
-    src: "/images/C2/etaj_3/AP 21.jpg",
+    src: "/images/C2/etaj_3/AP 21-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -708,7 +710,7 @@ export const Data_c1 = [
   {
     title: "Apartament 22",
     etaj: "et_4",
-    src: "/images/C2/etaj_4/AP 22.jpg",
+    src: "/images/C2/etaj_4/AP 22-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -719,7 +721,7 @@ export const Data_c1 = [
   {
     title: "Apartament 23",
     etaj: "et_4",
-    src: "/images/C2/etaj_4/AP 23.jpg",
+    src: "/images/C2/etaj_4/AP 23-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -730,7 +732,7 @@ export const Data_c1 = [
   {
     title: "Apartament 24",
     etaj: "et_4",
-    src: "/images/C2/etaj_4/AP 24.jpg",
+    src: "/images/C2/etaj_4/AP 24-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -741,7 +743,7 @@ export const Data_c1 = [
   {
     title: "Apartament 25",
     etaj: "et_4",
-    src: "/images/C2/etaj_4/AP 25.jpg",
+    src: "/images/C2/etaj_4/AP 25-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -752,7 +754,7 @@ export const Data_c1 = [
   {
     title: "Apartament 26",
     etaj: "et_4",
-    src: "/images/C2/etaj_4/AP 26.jpg",
+    src: "/images/C2/etaj_4/AP 26-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -763,7 +765,7 @@ export const Data_c1 = [
   {
     title: "Apartament 27",
     etaj: "et_4",
-    src: "/images/C2/etaj_4/AP 27.jpg",
+    src: "/images/C2/etaj_4/AP 27-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -774,7 +776,7 @@ export const Data_c1 = [
   {
     title: "Apartament 28",
     etaj: "et_5",
-    src: "/images/C2/etaj_5/AP 28.jpg",
+    src: "/images/C2/etaj_5/AP 28-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -785,7 +787,7 @@ export const Data_c1 = [
   {
     title: "Apartament 29",
     etaj: "et_5",
-    src: "/images/C2/etaj_5/AP 29.jpg",
+    src: "/images/C2/etaj_5/AP 29-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -796,7 +798,7 @@ export const Data_c1 = [
   {
     title: "Apartament 30",
     etaj: "et_5",
-    src: "/images/C2/etaj_5/AP 30.jpg",
+    src: "/images/C2/etaj_5/AP 30-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -807,7 +809,7 @@ export const Data_c1 = [
   {
     title: "Apartament 31",
     etaj: "et_5",
-    src: "/images/C2/etaj_5/AP 31.jpg",
+    src: "/images/C2/etaj_5/AP 31-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -818,7 +820,7 @@ export const Data_c1 = [
   {
     title: "Apartament 32",
     etaj: "et_5",
-    src: "/images/C2/etaj_5/AP 32.jpg",
+    src: "/images/C2/etaj_5/AP 32-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -829,7 +831,7 @@ export const Data_c1 = [
   {
     title: "Apartament 33",
     etaj: "et_5",
-    src: "/images/C2/etaj_5/AP 33.jpg",
+    src: "/images/C2/etaj_5/AP 33-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -840,7 +842,7 @@ export const Data_c1 = [
   {
     title: "Apartament 34",
     etaj: "et_6",
-    src: "/images/C2/etaj_6/AP 34.jpg",
+    src: "/images/C2/etaj_6/AP 34-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -851,7 +853,7 @@ export const Data_c1 = [
   {
     title: "Apartament 35",
     etaj: "et_6",
-    src: "/images/C2/etaj_6/AP 35.jpg",
+    src: "/images/C2/etaj_6/AP 35-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -862,7 +864,7 @@ export const Data_c1 = [
   {
     title: "Apartament 36",
     etaj: "et_6",
-    src: "/images/C2/etaj_6/AP 36.jpg",
+    src: "/images/C2/etaj_6/AP 36-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -873,7 +875,7 @@ export const Data_c1 = [
   {
     title: "Apartament 37",
     etaj: "et_6",
-    src: "/images/C2/etaj_6/AP 37.jpg",
+    src: "/images/C2/etaj_6/AP 37-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -884,7 +886,7 @@ export const Data_c1 = [
   {
     title: "Apartament 38",
     etaj: "et_6",
-    src: "/images/C2/etaj_6/AP 38.jpg",
+    src: "/images/C2/etaj_6/AP 38-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -895,7 +897,7 @@ export const Data_c1 = [
   {
     title: "Apartament 39",
     etaj: "et_6",
-    src: "/images/C2/etaj_6/AP 39.jpg",
+    src: "/images/C2/etaj_6/AP 39-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -906,7 +908,7 @@ export const Data_c1 = [
   {
     title: "Apartament 40",
     etaj: "et_7",
-    src: "/images/C2/etaj_7/AP 40.jpg",
+    src: "/images/C2/etaj_7/AP 40-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -917,7 +919,7 @@ export const Data_c1 = [
   {
     title: "Apartament 41",
     etaj: "et_7",
-    src: "/images/C2/etaj_7/AP 41.jpg",
+    src: "/images/C2/etaj_7/AP 41-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -928,7 +930,7 @@ export const Data_c1 = [
   {
     title: "Apartament 42",
     etaj: "et_7",
-    src: "/images/C2/etaj_7/AP 42.jpg",
+    src: "/images/C2/etaj_7/AP 42-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -939,7 +941,7 @@ export const Data_c1 = [
   {
     title: "Apartament 43",
     etaj: "et_7",
-    src: "/images/C2/etaj_7/AP 43.jpg",
+    src: "/images/C2/etaj_7/AP 43-min.jpg",
     liber: "true",
     camere: "2",
     scara: "C 2",
@@ -950,7 +952,7 @@ export const Data_c1 = [
   {
     title: "Apartament 44",
     etaj: "et_7",
-    src: "/images/C2/etaj_7/AP 44.jpg",
+    src: "/images/C2/etaj_7/AP 44-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -961,7 +963,7 @@ export const Data_c1 = [
   {
     title: "Apartament 45",
     etaj: "et_7",
-    src: "/images/C2/etaj_7/AP 45.jpg",
+    src: "/images/C2/etaj_7/AP 45-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -972,7 +974,7 @@ export const Data_c1 = [
   {
     title: "Apartament 46",
     etaj: "et_8",
-    src: "/images/C2/etaj_8/AP 46.jpg",
+    src: "/images/C2/etaj_8/AP 46-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -983,7 +985,7 @@ export const Data_c1 = [
   {
     title: "Apartament 47",
     etaj: "et_8",
-    src: "/images/C2/etaj_8/AP 47.jpg",
+    src: "/images/C2/etaj_8/AP 47-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -994,7 +996,7 @@ export const Data_c1 = [
   {
     title: "Apartament 48",
     etaj: "et_8",
-    src: "/images/C2/etaj_8/AP 48.jpg",
+    src: "/images/C2/etaj_8/AP 48-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
@@ -1005,7 +1007,7 @@ export const Data_c1 = [
   {
     title: "Apartament 49",
     etaj: "et_8",
-    src: "/images/C2/etaj_8/AP 49.jpg",
+    src: "/images/C2/etaj_8/AP 49-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",

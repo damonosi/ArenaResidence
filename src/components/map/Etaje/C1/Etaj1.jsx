@@ -53,7 +53,7 @@ const C1Etaj1 = () => {
 
   const stageRef = useRef();
 
-  var sceneWidth = 2127;
+  var sceneWidth = 2167;
   var sceneHeight = 5820;
 
   useEffect(() => {

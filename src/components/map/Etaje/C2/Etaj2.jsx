@@ -53,8 +53,8 @@ const C2Etaj2 = () => {
 
   const stageRef = useRef();
 
-  var sceneWidth = 5100;
-  var sceneHeight = 3820;
+  var sceneWidth = 2127;
+  var sceneHeight = 5820;
 
   useEffect(() => {
     function fitStageIntoParentContainer() {
