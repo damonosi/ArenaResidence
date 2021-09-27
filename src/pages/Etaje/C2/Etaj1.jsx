@@ -12,7 +12,9 @@ const C2_Etaj1 = () => {
               <div className="distance"></div>
               <div class="arrow bounce">
                 <h1>SELECTATI APARTAMENTUL DORIT</h1>
-                <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                <a class="fa fa-arrow-down fa-2x" href="#map-container">
+                  {" "}
+                </a>
               </div>
               <div className="canvas-container">
                 <C2Etaj1 />
