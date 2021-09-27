@@ -10,14 +10,18 @@ const C1_Etaj3 = () => {
           <div className="flerat">
             <div className="info-etaj">
               <div className="distance"></div>
-              <h1>SELECTATI APARTAMENTUL DORIT</h1>
+              <div className="texter">
+                <h1>SELECTATI APARTAMENTUL DORIT</h1>
+              </div>
               <div class="arrow bounce">
-                <a class="fa fa-arrow-down fa-2x" href="#map-container">
+                <a class="fa fa-arrow-down fa-2x" href>
                   {" "}
                 </a>
               </div>
-              <div className="canvas-container">
-                <C1Etaj3 />
+              <div className="padder">
+                <div className="canvas-container">
+                  <C1Etaj3 />
+                </div>
               </div>
 
               <div className="distance"></div>

@@ -52,8 +52,8 @@ const C1Etaj8 = () => {
 
   const stageRef = useRef();
 
-  var sceneWidth = 2127;
-  var sceneHeight = 5820;
+  var sceneWidth = 2400;
+  var sceneHeight = 3820;
 
   useEffect(() => {
     function fitStageIntoParentContainer() {

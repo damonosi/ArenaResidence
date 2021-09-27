@@ -10,9 +10,11 @@ const C1_Etaj1 = () => {
           <div className="flerat">
             <div className="info-etaj">
               <div className="distance mic-mic"></div>
-              <h1>SELECTATI APARTAMENTUL DORIT</h1>
+              <div className="texter">
+                <h1>SELECTATI APARTAMENTUL DORIT</h1>
+              </div>
               <div class="arrow bounce">
-                <a class="fa fa-arrow-down fa-2x" href="#map-container">
+                <a class="fa fa-arrow-down fa-2x" href>
                   {" "}
                 </a>
               </div>
@@ -22,9 +24,6 @@ const C1_Etaj1 = () => {
                 </div>
               </div>
               <div className="distance no-mic"></div>
-              <h8></h8>
-
-              <p></p>
             </div>
           </div>
         </div>

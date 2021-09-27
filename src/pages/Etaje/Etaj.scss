@@ -10,7 +10,10 @@
   display:flex;
   height:auto;
   width:100%;
-  padding:1rem;
+  padding:7rem;
+}
+.texter{
+  text-align: center;
 }
 .parent {
   width: 100%;
@@ -23,7 +26,7 @@
 }
 .canvas-container{
   display:flex;
-  margin:5px;
+ 
 }
 .etaj {
 	display: flex;
@@ -38,6 +41,7 @@
 }
 .arrow {
   text-align: center;
+  
   
 }
 .bounce {
@@ -182,8 +186,7 @@ p{
 		color: rgb(80, 79, 79);
 		text-transform: uppercase;
 		border-bottom: 1px dotted rgb(80, 79, 79);
-		margin-left: 5rem;
-		margin-right: 5rem;
+		
 		margin-bottom: 2rem;
 		color: #313131;
 	}
@@ -191,10 +194,7 @@ p{
 		font-size: 2rem;
 		color: rgb(80, 79, 79);
 	}
-	h8 {
-		font-size: 1.3rem;
-		color: rgb(126, 123, 123);
-	}
+
 	p {
 		font-size: 1.3rem;
 		color: rgb(80, 79, 79);
@@ -220,6 +220,6 @@ p{
   }
 .padder{
   
-  padding:0.2rem;
+  padding:1.7rem;
 }
 }

@@ -9,16 +9,20 @@ const C2_Etaj8 = () => {
         <div className="etaj">
           <div className="distance"></div>
 
-          <h1>SELECTATI APARTAMENTUL DORIT</h1>
+          <div className="texter">
+            <h1>SELECTATI APARTAMENTUL DORIT</h1>
+          </div>
           <div class="arrow bounce">
-            <a class="fa fa-arrow-down fa-2x" href="#map-container">
+            <a class="fa fa-arrow-down fa-2x" href>
               {" "}
             </a>
           </div>
           <div className="flerat">
             <div className="info-etaj">
-              <div className="canvas-container">
-                <C1Etaj8 />
+              <div className="padder">
+                <div className="canvas-container">
+                  <C1Etaj8 />
+                </div>
               </div>
 
               <div className="distance"></div>
