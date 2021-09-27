@@ -16,9 +16,10 @@ const C1_Etaj1 = () => {
                   {" "}
                 </a>
               </div>
-
-              <div className="canvas-container">
-                <C1Etaj1 />
+              <div className="padder">
+                <div className="canvas-container">
+                  <C1Etaj1 />
+                </div>
               </div>
               <div className="distance no-mic"></div>
               <h8></h8>

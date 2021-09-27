@@ -6,7 +6,12 @@
   text-align: center;
 }
 }
-
+.padder{
+  display:flex;
+  height:auto;
+  width:100%;
+  padding:3rem;
+}
 .parent {
   width: 100%;
 }
@@ -213,5 +218,8 @@ p{
   .no-mic{
     display:none;
   }
-
+.padder{
+  
+  padding:0.2rem;
+}
 }
