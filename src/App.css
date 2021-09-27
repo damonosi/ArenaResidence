@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap');
 @media only screen and (max-width: 1200px) {
-  * :not(.slider-single-content, .slider-content, .nav-icon, .stil, .butoni) {
+  * :not(.slider-single-content, .slider-content, .nav-icon,  .butoni,) {
     -o-transform: none !important;
     -moz-transform: none !important;
     -ms-transform: none !important;
