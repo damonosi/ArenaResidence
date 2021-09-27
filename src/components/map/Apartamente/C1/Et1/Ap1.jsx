@@ -23,31 +23,21 @@ class C1Ap1 extends React.Component {
             {...props}
             onMouseLeave={this.handleLeave}
             onMouseEnter={this.handleEnter}
-            onTouchStart={this.handleTouchStart}
+            onTouchEnd={this.handleTouchStart}
           >
             <animated.Line
               points={[
-                1532, 1693, 1777, 1693, 1777, 1452, 2184, 1461, 2188, 708, 862,
-                712, 866, 1119, 673, 1146, 669, 1465, 1510, 1479,
+                1271, 11, 1283, 870, 1054, 870, 1054, 1113, 1267, 1113, 1267,
+                1531, 2026, 1528, 2042, 177, 1583, 179, 1581, 54, 1537, 55,
+                1539, 10,
               ]}
               // bezier={true}
               // tension={0.1}
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              stroke={"rgba(255, 186, 0, .9)"}
-              fill={"rgba(255, 186, 0, .7)"}
-            />
-
-            <animated.Line
-              points={[2696, 155, 2696, 488, 3406, 488, 3401, 159]}
-              // bezier={true}
-              // tension={0.1}
-              lineJoin={"round"}
-              fillAfterStrokeEnabled={true}
-              closed={true}
-              stroke={"rgba(255, 186, 0, .9)"}
-              fill={"rgba(255, 186, 0, .7)"}
+              stroke={"rgba(179, 186, 212, 1)"}
+              fill={"rgba(179, 186, 212, 0.7)"}
             />
           </animated.Group>
         )}

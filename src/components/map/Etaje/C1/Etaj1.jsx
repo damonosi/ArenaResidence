@@ -5,7 +5,7 @@ import { Stage, Layer, Image, Group } from "react-konva";
 import { useHistory } from "react-router-dom";
 
 import useImage from "use-image";
-import LaptopImage from "../../../../images/plan_etaje/c1/plan_1.jpg";
+import LaptopImage from "../../../../images/plan_etaje/c1/plan_1.png";
 
 import Ap1 from "../../Apartamente/C1/Et1/Ap1";
 import Ap2 from "../../Apartamente/C1/Et1/Ap2";
@@ -53,8 +53,8 @@ const C1Etaj1 = () => {
 
   const stageRef = useRef();
 
-  var sceneWidth = 5050;
-  var sceneHeight = 3820;
+  var sceneWidth = 2117;
+  var sceneHeight = 5820;
 
   useEffect(() => {
     function fitStageIntoParentContainer() {
@@ -152,7 +152,7 @@ const C1Etaj1 = () => {
         <Layer>
           <BuildingImage id="build" />
 
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onDblTap={handleTouch} onClick={handleClick2}>
             <Ap1 />
           </Group>
           <Group onTouchStart={handleTouch2} onClick={handleClick}>
