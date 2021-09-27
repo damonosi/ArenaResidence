@@ -10,8 +10,8 @@ const C1_Etaj8 = () => {
           <div className="flerat">
             <div className="info-etaj">
               <div className="distance"></div>
+              <h1>SELECTATI APARTAMENTUL DORIT</h1>
               <div class="arrow bounce">
-                <h1>SELECTATI APARTAMENTUL DORIT</h1>
                 <a class="fa fa-arrow-down fa-2x" href="#map-container">
                   {" "}
                 </a>

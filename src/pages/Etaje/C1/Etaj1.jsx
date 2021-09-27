@@ -7,20 +7,20 @@ const C1_Etaj1 = () => {
     <div className="contain-etaj">
       <div className="etaje">
         <div className="etaj">
-          <div className="distance"></div>
-          <div class="arrow bounce">
-            <h1>SELECTATI APARTAMENTUL DORIT</h1>
-            <a class="fa fa-arrow-down fa-2x" href="#map-container">
-              {" "}
-            </a>
-          </div>
-
           <div className="flerat">
             <div className="info-etaj">
+              <div className="distance mic-mic"></div>
+              <h1>SELECTATI APARTAMENTUL DORIT</h1>
+              <div class="arrow bounce">
+                <a class="fa fa-arrow-down fa-2x" href="#map-container">
+                  {" "}
+                </a>
+              </div>
+
               <div className="canvas-container">
                 <C1Etaj1 />
               </div>
-              <div className="distance"></div>
+              <div className="distance no-mic"></div>
               <h8></h8>
 
               <p></p>

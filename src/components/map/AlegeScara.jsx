@@ -50,7 +50,7 @@ const AlegeScara = () => {
   }, []);
 
   const stageRef = useRef();
-  var sceneWidth = 1500;
+  var sceneWidth = 1590;
   var sceneHeight = 850;
 
   useEffect(() => {
@@ -100,6 +100,13 @@ const AlegeScara = () => {
 
   return (
     <div id="map-container" className="map-container">
+      <div className="distance "></div>
+      <h1>SELECTATI SCARA DORITA</h1>
+      <div class="arrow bounce">
+        <a class="fa fa-arrow-down fa-2x" href="#map-container">
+          {" "}
+        </a>
+      </div>
       <Stage
         ref={stageRef}
         id="container"

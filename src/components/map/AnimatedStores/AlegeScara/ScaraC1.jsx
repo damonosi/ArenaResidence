@@ -34,14 +34,14 @@ class ScaraC1 extends React.Component {
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              // stroke={"rgba(255, 186, 0, .7)"}
+              stroke={"rgba(255, 186, 0, 1)"}
               fill={"rgba(255, 186, 0, .7)"}
             />
 
             <animated.Label id="tooltip" x={400} y={120}>
               <animated.Tag
-                fill={"#bbb"}
-                stroke={"#333"}
+                fill={"rgba(255, 186, 0, .7)"}
+                stroke={"rgba(255, 186, 0, 1)"}
                 shadowColor={"black"}
                 shadowBlur={10}
                 shadowOffsetX={10}

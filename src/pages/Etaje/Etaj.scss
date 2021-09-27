@@ -10,21 +10,7 @@
 .parent {
   width: 100%;
 }
-.map-container2{
-  display:flex;
-  
-  flex-direction: row;
-  position:relative;
-  justify-content: center;
-  align-items: center;
-  
-  
-  width:60%;
-  height:auto;
-  margin: 0 auto !important;
-  
 
-}
 .distanci{
   display:flex;
   margin-top:2em;
@@ -47,7 +33,7 @@
 }
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -222,7 +208,10 @@ p{
     padding:1.5em;
     margin-top:5em;
   }
-  .map-container2{width:100%}
+  .map-container{width:100%}
   .informatii{width:100%}
-  
+  .no-mic{
+    display:none;
+  }
+
 }

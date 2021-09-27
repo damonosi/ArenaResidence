@@ -35,14 +35,14 @@ class ScaraC2 extends React.Component {
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              // stroke={"rgba(255, 186, 0, .7)"}
-              fill={"rgba(255, 186, 0, .7)"}
+              stroke={"rgba(42, 121, 179,1)"}
+              fill={"rgba(42, 121, 179,0.7)"}
             />
 
             <animated.Label id="tooltip" x={1050} y={120}>
               <animated.Tag
-                fill={"#bbb"}
-                stroke={"#333"}
+                fill={"rgba(42, 121, 179,0.7)"}
+                stroke={"rgba(42, 121, 179,1)"}
                 shadowColor={"black"}
                 shadowBlur={10}
                 shadowOffsetX={10}
@@ -55,11 +55,11 @@ class ScaraC2 extends React.Component {
                 cornerRadius={5}
               />
               <animated.Text
-                color="red"
+                color={"rgba(42, 121, 179,1)"}
                 text="Scara C2"
                 fontSize={48}
                 padding={5}
-                fill="black"
+                fill="rgba(255, 186, 0, .7)"
               />
             </animated.Label>
           </animated.Group>

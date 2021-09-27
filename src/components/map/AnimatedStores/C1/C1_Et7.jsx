@@ -38,7 +38,7 @@ class C1Et7 extends React.Component {
             />
             <animated.Label id="tooltip" x={780} y={360}>
               <animated.Tag
-                fill={"#bbb"}
+                fill={"rgba(255, 186, 0, .7)"}
                 stroke={"#333"}
                 shadowColor={"black"}
                 shadowBlur={10}
@@ -56,7 +56,7 @@ class C1Et7 extends React.Component {
                 text="Plan Etaj 7"
                 fontSize={44}
                 padding={5}
-                fill="black"
+                fill="rgba(46, 0, 219,1)"
               />
             </animated.Label>
           </animated.Group>

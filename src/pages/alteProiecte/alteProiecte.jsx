@@ -48,6 +48,11 @@ const AlteProiecte = () => {
   return (
     <>
       <div id="team" className="section-parallax">
+        <div className="sectionare">
+          <Parallax x={[-5, 5]}>
+            <h1>Proiecte Finalizate </h1>
+          </Parallax>
+        </div>
         <div className="member member-left">
           <ParallaxImage
             height={700}

@@ -31,13 +31,13 @@ class C1Et1 extends React.Component {
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              stroke={"rgba(255, 186, 0, .9)"}
+              stroke={"rgba(255, 186, 0, 1)"}
               fill={"rgba(255, 186, 0, .7)"}
             />
 
             <animated.Label id="tooltip" x={780} y={730}>
               <animated.Tag
-                fill={"#bbb"}
+                fill={"rgba(255, 186, 0, .7)"}
                 stroke={"#333"}
                 shadowColor={"black"}
                 shadowBlur={10}
@@ -55,7 +55,7 @@ class C1Et1 extends React.Component {
                 text="Plan Etaj 1"
                 fontSize={44}
                 padding={5}
-                fill="black"
+                fill="rgba(46, 0, 219,1)"
               />
             </animated.Label>
           </animated.Group>
