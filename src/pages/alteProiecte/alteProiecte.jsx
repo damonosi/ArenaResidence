@@ -10,22 +10,88 @@ import ImageModal from "../../components/AlteProiecte/imageModal";
 
 import { HiOutlinePhotograph } from "react-icons/hi";
 import ParallaxImage from "../../components/Parallax/ParralaxImage";
-
-import ImageGallery from "react-image-gallery";
+import Carousel from "react-gallery-carousel";
+import "react-gallery-carousel/dist/index.css";
 
 const AlteProiecte = () => {
-  const images = [
-    {
-      original: "https://picsum.photos/id/1018/1000/600/",
-      thumbnail: "https://picsum.photos/id/1018/250/150/",
+  const images1 = [
+     {
+      src: "/images/1-mai 60/1.jpg",
+      thumbnail: "/images/1-mai 60/1.jpg",
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
+      src: "/images/1-mai 60/2.jpg",
+      thumbnail: "/images/1-mai 60/2.jpg",
+    },
+     {
+      src: "/images/1-mai 60/3.jpg",
+      thumbnail: "/images/1-mai 60/3.jpg",
+    },
+     {
+      src: "/images/1-mai 60/4.jpg",
+      thumbnail: "/images/1-mai 60/4.jpg",
+    },
+     {
+      src: "/images/1-mai 60/5.jpg",
+      thumbnail: "/images/1-mai 60/5.jpg",
+    },
+  ];
+
+  const images2 = [
+    {
+      src: "/images/GreenTown/1.jpg",
+      thumbnail:"/images/GreenTown/1.jpg",
     },
     {
-      original: "https://picsum.photos/id/1019/1000/600/",
-      thumbnail: "https://picsum.photos/id/1019/250/150/",
+      src: "/images/GreenTown/2.jpg",
+      thumbnail:"/images/GreenTown/2.jpg",
+    },
+    {
+      src: "/images/GreenTown/4.jpg",
+      thumbnail:"/images/GreenTown/4.jpg",
+    },
+    {
+      src: "/images/GreenTown/5.jpg",
+      thumbnail:"/images/GreenTown/5.jpg",
+    },
+    {
+      src: "/images/GreenTown/6.jpg",
+      thumbnail:"/images/GreenTown/6.jpg",
+    },
+    {
+      src: "/images/GreenTown/7.jpg",
+      thumbnail:"/images/GreenTown/7.jpg",
+    },
+    {
+      src: "/images/GreenTown/8.jpg",
+      thumbnail:"/images/GreenTown/8.jpg",
+    },
+    {
+      src: "/images/GreenTown/9.jpg",
+      thumbnail:"/images/GreenTown/9.jpg",
+    },
+   
+  ];
+  const images3 = [ 
+    {
+      src: "/images/Gemenii Stefan cel mare/1.jpg",
+      thumbnail:"/images/Gemenii Stefan cel mare/1.jpg",
+    },
+    {
+      src: "/images/Gemenii Stefan cel mare/2.jpg",
+      thumbnail:"/images/Gemenii Stefan cel mare/2.jpg",
+    },
+    {
+      src: "/images/Gemenii Stefan cel mare/3.jpg",
+      thumbnail:"/images/Gemenii Stefan cel mare/3.jpg",
+    },
+    {
+      src: "/images/Gemenii Stefan cel mare/5.jpg",
+      thumbnail:"/images/Gemenii Stefan cel mare/5.jpg",
+    },
+    {
+      src: "/images/Gemenii Stefan cel mare/13.jpg",
+      thumbnail:"/images/Gemenii Stefan cel mare/13.jpg",
     },
   ];
 
@@ -48,11 +114,6 @@ const AlteProiecte = () => {
   return (
     <>
       <div id="team" className="section-parallax">
-        <div className="sectionare">
-          <Parallax x={[-5, 5]}>
-            <h1>Proiecte Finalizate </h1>
-          </Parallax>
-        </div>
         <div className="member member-left">
           <ParallaxImage
             height={700}
@@ -178,17 +239,17 @@ const AlteProiecte = () => {
 
       <ImageModal open={isOpen} onClose={() => setIsOpen(false)}>
         <div className="gal-cont">
-          <h1>Galerie Strada 1 mai 60</h1> <ImageGallery items={images} />
+          <h1>Galerie Strada 1 mai 60</h1> <Carousel images={images1} />
         </div>
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
-          <ImageGallery items={images} /> <h1>Cartierul de case Green Town</h1>
+          <Carousel images={images2} /> <h1>Cartierul de case Green Town</h1>
         </div>
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
         <div className="gal-cont">
-          <h1>Gemenii din Stefan Cel Mare</h1> <ImageGallery items={images} />
+          <h1>Gemenii din Stefan Cel Mare</h1> <Carousel images={images3} />
         </div>
       </ImageModal>
     </>
