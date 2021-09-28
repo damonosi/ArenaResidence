@@ -43,6 +43,9 @@ figure{
     flex-direction: column-reverse;
     align-items: center;
     height: 100%;
+    a{
+      display: none;
+    }
   }
   .half-right {
     img {

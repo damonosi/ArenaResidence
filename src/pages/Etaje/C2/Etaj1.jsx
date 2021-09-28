@@ -21,7 +21,9 @@ const C2_Etaj1 = () => {
             <div className="info-etaj">
               <div className="distance"></div>
               <div className="texter">
-                <h1>SELECTATI APARTAMENTUL DORIT</h1>
+                <h1>
+                  SELECTATI <br /> APARTAMENTUL <br /> DORIT
+                </h1>
               </div>
               <div class="arrow bounce">
                 <a class="fa fa-arrow-down fa-2x" href>

@@ -6,16 +6,22 @@ import "./About.styles.scss";
 
 import ParallaxImage from "./../../components/Parallax/ParralaxImage";
 import { Link } from "react-router-dom";
-
+import { Responsive } from "../../responsiveComponent/Responsive";
 const AboutPage = () => {
   return (
-    <div className="about-container">
-      <ParallaxImage
-        y={[-35, 15]}
-        height={800}
-        width={1600}
-        src={RoundImage1}
-      />
+    <div className="about-container ">
+      <Responsive displayIn={["Laptop"]}>
+        <ParallaxImage
+          y={[-35, 15]}
+          height={800}
+          width={1600}
+          src={RoundImage1}
+        />
+      </Responsive>
+
+      <Responsive displayIn={["Mobile"]}>
+        <img height={700} width={1000} y={[-10, 10]} src={RoundImage1} />
+      </Responsive>
 
       <div className="half-left">
         <p className="title-description-up">WHO WE ARE</p>

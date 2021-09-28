@@ -12,7 +12,7 @@ import { HiOutlinePhotograph } from "react-icons/hi";
 import ParallaxImage from "../../components/Parallax/ParralaxImage";
 import Carousel from "react-gallery-carousel";
 import "react-gallery-carousel/dist/index.css";
-
+import { Responsive } from "./../../responsiveComponent/Responsive";
 const AlteProiecte = () => {
   const images1 = [
     {
@@ -114,12 +114,18 @@ const AlteProiecte = () => {
     <>
       <div id="team" className="section-parallax">
         <div className="member member-left">
-          <ParallaxImage
-            height={700}
-            width={1000}
-            y={[-10, 10]}
-            src={blocOne}
-          />
+          <Responsive displayIn={["Laptop"]}>
+            <ParallaxImage
+              height={700}
+              width={1000}
+              y={[-10, 10]}
+              src={blocOne}
+            />
+          </Responsive>
+
+          <Responsive displayIn={["Mobile"]}>
+            <img height={700} width={1000} y={[-10, 10]} src={blocOne} />
+          </Responsive>
           <div className="member-info">
             <p className="member-postition">BLOC</p>
             <h5 className="member-name">Arena Residence Strada 1 mai 60</h5>
@@ -238,17 +244,45 @@ const AlteProiecte = () => {
 
       <ImageModal open={isOpen} onClose={() => setIsOpen(false)}>
         <div className="gal-cont">
-          <h1>Galerie Strada 1 mai 60</h1> <Carousel images={images1} />
+          <h1>Galerie Strada 1 mai 60</h1>{" "}
+          <Carousel
+            hasTransition={true}
+            autoPlayInterval={4000}
+            isAutoPlaying={true}
+            canAutoPlay={true}
+            isLoop={true}
+            images={images1}
+            hasIndexBoard={false}
+            hasMediaButton={false}
+          />
         </div>
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
-          <Carousel images={images2} /> <h1>Cartierul de case Green Town</h1>
+          <Carousel
+            hasIndexBoard={false}
+            hasMediaButton={false}
+            hasTransition={true}
+            autoPlayInterval={4000}
+            isAutoPlaying={true}
+            canAutoPlay={true}
+            images={images2}
+          />{" "}
+          <h1>Cartierul de case Green Town</h1>
         </div>
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
         <div className="gal-cont">
-          <h1>Gemenii din Stefan Cel Mare</h1> <Carousel images={images3} />
+          <h1>Gemenii din Stefan Cel Mare</h1>{" "}
+          <Carousel
+            hasIndexBoard={false}
+            hasMediaButton={false}
+            hasTransition={true}
+            autoPlayInterval={4000}
+            isAutoPlaying={true}
+            canAutoPlay={true}
+            images={images3}
+          />
         </div>
       </ImageModal>
     </>
