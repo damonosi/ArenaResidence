@@ -6,7 +6,6 @@ import Header from "./components/header/Header.jsx";
 import ErrorBoundary from "./components/error-boudary/error-boudary.component";
 import "./App.css";
 import Footer from "./pages/footer/footerPage.jsx";
-import AboutPage from "./pages/aboutPage/AboutPage.jsx";
 
 import ContactPage from "./pages/ContactPage/ContactPage";
 import ParteneriPage from "./pages/Parteneri/ParteneriPage";
@@ -65,7 +64,7 @@ function App() {
             <Route exact path="/" component={MainPage} />
             <Route exact path="/home" component={MainPage} />
             <Route exact path="/scara" component={ImagePage} />
-            <Route path="/about" component={AboutPage} />
+
             <Route path="/scara/c1" component={ScaraC1} />
             <Route path="/scara/c2" component={ScaraC2} />
 

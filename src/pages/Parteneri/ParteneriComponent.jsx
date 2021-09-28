@@ -10,15 +10,14 @@ import { Parallax } from "react-scroll-parallax";
 const ParteneriComponent = () => {
   return (
     <div id="services" className="services-section backy">
-      <div className="sectionare">
-        <Parallax x={[-5, 5]}>
-          <h1>
-            Partenerii <br /> Nostrii
-          </h1>
-        </Parallax>
-      </div>
-
       <div className="content-wrapper">
+        <div className="sectionare">
+          <Parallax x={[-5, 5]}>
+            <h1>
+              Partenerii <br /> Nostrii
+            </h1>
+          </Parallax>
+        </div>
         <img src={BarrierLogo} alt="1" />
 
         <img src={Schneider} alt="2" />

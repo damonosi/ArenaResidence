@@ -28,6 +28,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <p>Copyright Arena Residence &copy; 2021</p>
     </footer>
   );
 };

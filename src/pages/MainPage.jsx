@@ -6,6 +6,7 @@ import AlteProiecte from "./alteProiecte/alteProiecte";
 import HomePage from "./homePage/HomePage.jsx";
 
 import "./MainPage.styles.scss";
+import { Parallax } from "react-scroll-parallax";
 
 const MainPage = () => {
   return (
@@ -18,6 +19,13 @@ const MainPage = () => {
         </section>
 
         <section className="alteProiecte-container">
+          <div className="sectionare2 ">
+            <Parallax x={[-5, 5]}>
+              <h1>
+                Proiecte <br /> Finalizate
+              </h1>
+            </Parallax>
+          </div>
           <div className="spatiu">
             <AlteProiecte />
           </div>

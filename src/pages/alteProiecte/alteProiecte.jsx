@@ -15,7 +15,7 @@ import "react-gallery-carousel/dist/index.css";
 
 const AlteProiecte = () => {
   const images1 = [
-     {
+    {
       src: "/images/1-mai 60/1.jpg",
       thumbnail: "/images/1-mai 60/1.jpg",
     },
@@ -23,15 +23,15 @@ const AlteProiecte = () => {
       src: "/images/1-mai 60/2.jpg",
       thumbnail: "/images/1-mai 60/2.jpg",
     },
-     {
+    {
       src: "/images/1-mai 60/3.jpg",
       thumbnail: "/images/1-mai 60/3.jpg",
     },
-     {
+    {
       src: "/images/1-mai 60/4.jpg",
       thumbnail: "/images/1-mai 60/4.jpg",
     },
-     {
+    {
       src: "/images/1-mai 60/5.jpg",
       thumbnail: "/images/1-mai 60/5.jpg",
     },
@@ -40,58 +40,57 @@ const AlteProiecte = () => {
   const images2 = [
     {
       src: "/images/GreenTown/1.jpg",
-      thumbnail:"/images/GreenTown/1.jpg",
+      thumbnail: "/images/GreenTown/1.jpg",
     },
     {
       src: "/images/GreenTown/2.jpg",
-      thumbnail:"/images/GreenTown/2.jpg",
+      thumbnail: "/images/GreenTown/2.jpg",
     },
     {
       src: "/images/GreenTown/4.jpg",
-      thumbnail:"/images/GreenTown/4.jpg",
+      thumbnail: "/images/GreenTown/4.jpg",
     },
     {
       src: "/images/GreenTown/5.jpg",
-      thumbnail:"/images/GreenTown/5.jpg",
+      thumbnail: "/images/GreenTown/5.jpg",
     },
     {
       src: "/images/GreenTown/6.jpg",
-      thumbnail:"/images/GreenTown/6.jpg",
+      thumbnail: "/images/GreenTown/6.jpg",
     },
     {
       src: "/images/GreenTown/7.jpg",
-      thumbnail:"/images/GreenTown/7.jpg",
+      thumbnail: "/images/GreenTown/7.jpg",
     },
     {
       src: "/images/GreenTown/8.jpg",
-      thumbnail:"/images/GreenTown/8.jpg",
+      thumbnail: "/images/GreenTown/8.jpg",
     },
     {
       src: "/images/GreenTown/9.jpg",
-      thumbnail:"/images/GreenTown/9.jpg",
+      thumbnail: "/images/GreenTown/9.jpg",
     },
-   
   ];
-  const images3 = [ 
+  const images3 = [
     {
       src: "/images/Gemenii Stefan cel mare/1.jpg",
-      thumbnail:"/images/Gemenii Stefan cel mare/1.jpg",
+      thumbnail: "/images/Gemenii Stefan cel mare/1.jpg",
     },
     {
       src: "/images/Gemenii Stefan cel mare/2.jpg",
-      thumbnail:"/images/Gemenii Stefan cel mare/2.jpg",
+      thumbnail: "/images/Gemenii Stefan cel mare/2.jpg",
     },
     {
       src: "/images/Gemenii Stefan cel mare/3.jpg",
-      thumbnail:"/images/Gemenii Stefan cel mare/3.jpg",
+      thumbnail: "/images/Gemenii Stefan cel mare/3.jpg",
     },
     {
       src: "/images/Gemenii Stefan cel mare/5.jpg",
-      thumbnail:"/images/Gemenii Stefan cel mare/5.jpg",
+      thumbnail: "/images/Gemenii Stefan cel mare/5.jpg",
     },
     {
       src: "/images/Gemenii Stefan cel mare/13.jpg",
-      thumbnail:"/images/Gemenii Stefan cel mare/13.jpg",
+      thumbnail: "/images/Gemenii Stefan cel mare/13.jpg",
     },
   ];
 

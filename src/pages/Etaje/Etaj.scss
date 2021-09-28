@@ -2,7 +2,7 @@
 #container {
  
   h1 {
-  color: brown;
+
   text-align: center;
 }
 }
@@ -10,10 +10,13 @@
   display:flex;
   height:auto;
   width:100%;
-  padding:7rem;
+  padding:10rem;
 }
 .texter{
   text-align: center;
+  h1{
+    font-size:1.7rem
+  }
 }
 .parent {
   width: 100%;
@@ -182,7 +185,7 @@ p{
 	padding-left: 2rem;
 	padding-right: 2rem;
 	h1 {
-		font-size: 2rem;
+		font-size: 1.7rem;
 		color: rgb(80, 79, 79);
 		text-transform: uppercase;
 		border-bottom: 1px dotted rgb(80, 79, 79);
@@ -220,6 +223,6 @@ p{
   }
 .padder{
   
-  padding:1.7rem;
+  padding:2.3rem;
 }
 }

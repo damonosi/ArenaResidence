@@ -807,7 +807,7 @@ a.button-dot:hover:before {
 ====================================== */
 
 #home {
-  background-image: url(/src/images/building_map/bloc_map.png);
+  background-image: url(/src/images/building_map/bloc_map_mapping.png);
   padding:10rem;
   background-position: center center;
   background-size: cover;

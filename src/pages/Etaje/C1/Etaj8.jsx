@@ -1,8 +1,17 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import { useAlert } from "react-alert";
 import C1Etaj8 from "../../../components/map/Etaje/C1/Etaj8";
+import ParteneriPage from "./../../Parteneri/ParteneriComponent";
 import "../Etaj.scss";
 const C1_Etaj8 = () => {
+  const alert = useAlert();
+  useEffect(() => {
+    if (window.innerWidth < 700) {
+      alert.show("APASATI de doua ori pentru a selecta apartamentul dorit");
+    } else {
+      alert.show("Selectati apartamentul dorit");
+    }
+  });
   return (
     <div className="contain-etaj">
       <div className="etaje">
@@ -27,6 +36,11 @@ const C1_Etaj8 = () => {
               <div className="distance"></div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="more-container ">
+        <div className="banner-container ">
+          <ParteneriPage />
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import { Stage, Layer, Image, Group } from "react-konva";
 import { useHistory } from "react-router-dom";
 
 import useImage from "use-image";
-import LaptopImage from "../../../images/building_map/C2_map_laptop-.png";
+import LaptopImage from "../../../images/building_map/bloc_map_mapping.png";
 
 import C2Et1 from "../AnimatedStores/C2/C2_Et1";
 import C2Et2 from "../AnimatedStores/C2/C2_Et2";
@@ -160,8 +160,9 @@ const C2 = () => {
 
   return (
     <div id="map-container" className="map-container">
-      <div className="distance "></div>
-      <h1>SELECTATI ETAJUL DORIT</h1>
+      <h1>
+        SELECTATI <br /> ETAJUL DORIT <br /> <br /> Scara C2
+      </h1>
       <div class="arrow bounce">
         <a class="fa fa-arrow-down fa-2x" href="#map-container">
           {" "}

@@ -161,8 +161,10 @@ const C1 = () => {
 
   return (
     <div id="map-container" className="map-container">
-      <div className="distance "></div>
-      <h1>SELECTATI ETAJUL DORIT</h1>
+      <h1>
+        SELECTATI <br /> ETAJUL DORIT <br /> <br /> Scara C1
+      </h1>
+
       <div class="arrow bounce">
         <a class="fa fa-arrow-down fa-2x" href="#map-container">
           {" "}

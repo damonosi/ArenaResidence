@@ -52,17 +52,6 @@ const Header = () => {
               Apartamente
             </NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink
-              exact
-              className="nav-links"
-              activeClassName="active"
-              onClick={handleClick}
-              to="/about"
-            >
-              About
-            </NavLink>
-          </li>
 
           <li className="nav-item">
             <NavLink
