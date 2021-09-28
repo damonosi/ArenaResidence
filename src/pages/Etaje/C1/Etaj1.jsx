@@ -9,12 +9,8 @@ import ParteneriPage from "./../../Parteneri/ParteneriComponent";
 const C1_Etaj1 = () => {
   const alert = useAlert();
   useEffect(() => {
-    if (window.innerWidth < 700) {
-      alert.show("APASATI de doua ori pentru a selecta apartamentul dorit");
-    } else {
-      alert.show("Selectati apartamentul dorit");
-    }
-  });
+    alert.show("Selectati apartamentul dorit");
+  }, [alert]);
   return (
     <div className="contain-etaj">
       <div className="etaje">
@@ -25,7 +21,9 @@ const C1_Etaj1 = () => {
 
               <div className="texter">
                 <h1>
-                  SELECTATI <br /> APARTAMENTUL <br /> DORIT
+                  SELECTATI <br /> APARTAMENTUL <br /> DORIT <br /> Etaj 1{" "}
+                  <br />
+                  Scara C1
                 </h1>
               </div>
               <div class="arrow bounce">

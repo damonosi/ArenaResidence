@@ -152,10 +152,10 @@ const AlteProiecte = () => {
               </p>
               <Parallax x={[-5, 5]}>
                 <div className="to-member">
-                  <button className="galerie" onClick={handleClick}>
+                  <a href className="colored" onClick={handleClick}>
                     Spre Galeria Foto
                     <HiOutlinePhotograph />
-                  </button>{" "}
+                  </a>{" "}
                 </div>
               </Parallax>
             </div>
@@ -191,9 +191,9 @@ const AlteProiecte = () => {
               </p>
               <Parallax x={[-5, 5]}>
                 <div className="to-member">
-                  <button onClick={handleClick2} className="galerie">
+                  <a href onClick={handleClick2} className="colored">
                     Spre Galeria Foto <HiOutlinePhotograph />
-                  </button>
+                  </a>
                 </div>
               </Parallax>
             </div>
@@ -238,9 +238,9 @@ const AlteProiecte = () => {
 
               <Parallax x={[-5, 5]}>
                 <div className="to-member">
-                  <button onClick={handleClick3} className="galerie">
+                  <a href onClick={handleClick3} className="colored">
                     Spre Galeria Foto <HiOutlinePhotograph />
-                  </button>
+                  </a>
                 </div>
               </Parallax>
             </div>
