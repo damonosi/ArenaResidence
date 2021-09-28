@@ -250,7 +250,6 @@ const AlteProiecte = () => {
 
       <ImageModal open={isOpen} onClose={() => setIsOpen(false)}>
         <div className="gal-cont">
-          <h1>Galerie Strada 1 mai 60</h1>{" "}
           <Carousel
             hasTransition={true}
             autoPlayInterval={4000}
@@ -267,7 +266,6 @@ const AlteProiecte = () => {
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
-          <h1>Cartierul de case Green Town</h1>
           <Carousel
             hasIndexBoard={false}
             hasMediaButton={false}
@@ -283,7 +281,6 @@ const AlteProiecte = () => {
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
         <div className="gal-cont">
-          <h1>Gemenii din Stefan Cel Mare</h1>{" "}
           <Carousel
             hasIndexBoard={false}
             hasMediaButton={false}
