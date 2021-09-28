@@ -20,7 +20,13 @@ const AboutPage = () => {
       </Responsive>
 
       <Responsive displayIn={["Mobile"]}>
-        <img height={700} width={1000} y={[-10, 10]} src={RoundImage1} />
+        <img
+          height={700}
+          width={1000}
+          y={[-10, 10]}
+          alt="About"
+          src={RoundImage1}
+        />
       </Responsive>
 
       <div className="half-left">

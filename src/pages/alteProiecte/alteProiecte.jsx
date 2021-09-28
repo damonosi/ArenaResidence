@@ -124,7 +124,13 @@ const AlteProiecte = () => {
           </Responsive>
 
           <Responsive displayIn={["Mobile"]}>
-            <img height={700} width={1000} y={[-10, 10]} src={blocOne} />
+            <img
+              height={700}
+              alt="parteneri"
+              width={1000}
+              y={[-10, 10]}
+              src={blocOne}
+            />
           </Responsive>
           <div className="member-info">
             <p className="member-postition">BLOC</p>
