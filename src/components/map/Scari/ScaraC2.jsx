@@ -161,7 +161,7 @@ const C2 = () => {
   return (
     <div id="map-container" className="map-container">
       <h1>
-        SELECTATI <br /> ETAJUL DORIT <br /> <br /> Scara C2
+        SELECTATI <br /> ETAJUL <br /> DORIT <br /> <br /> Scara C2
       </h1>
       <div class="arrow bounce">
         <a class="fa fa-arrow-down fa-2x" href="#map-container">

@@ -162,7 +162,7 @@ const C1 = () => {
   return (
     <div id="map-container" className="map-container">
       <h1>
-        SELECTATI <br /> ETAJUL DORIT <br /> <br /> Scara C1
+        SELECTATI <br /> ETAJUL <br /> DORIT <br /> <br /> Scara C1
       </h1>
 
       <div class="arrow bounce">
