@@ -151,22 +151,22 @@ const C1Etaj3 = () => {
         <Layer>
           <BuildingImage id="build" />
 
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onDblTap={handleTouch} onClick={handleClick2}>
             <Ap1 />
           </Group>
-          <Group onTouchStart={handleTouch2} onClick={handleClick}>
+          <Group onDblTap={handleTouch2} onClick={handleClick}>
             <Ap2 />
           </Group>
-          <Group onTouchStart={handleTouch3} onClick={handleClick3}>
+          <Group onDblTap={handleTouch3} onClick={handleClick3}>
             <Ap3 />
           </Group>
-          <Group onTouchStart={handleTouch4} onClick={handleClick4}>
+          <Group onDblTap={handleTouch4} onClick={handleClick4}>
             <Ap4 />
           </Group>
-          <Group onTouchStart={handleTouch5} onClick={handleClick5}>
+          <Group onDblTap={handleTouch5} onClick={handleClick5}>
             <Ap5 />
           </Group>
-          <Group onTouchStart={handleTouch6} onClick={handleClick6}>
+          <Group onDblTap={handleTouch6} onClick={handleClick6}>
             <Ap6 />
           </Group>
         </Layer>

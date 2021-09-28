@@ -26,8 +26,8 @@ class C1Ap3 extends React.Component {
           >
             <animated.Line
               points={[
-                3213, 1481, 3217, 1687, 4387, 1678, 4387, 859, 3625, 864, 3625,
-                715, 3358, 715, 3353, 1472,
+                1268, 1188, 1057, 1192, 1060, 13, 1884, 16, 1888, 404, 2057,
+                413, 2048, 1036, 1270, 1036,
               ]}
               // bezier={true}
               // tension={0.1}
@@ -37,30 +37,6 @@ class C1Ap3 extends React.Component {
               stroke={"rgba(255, 186, 0, .9)"}
               fill={"rgba(255, 186, 0, .7)"}
             />
-
-            <animated.Label id="tooltip" x={780} y={730}>
-              <animated.Tag
-                fill={"#bbb"}
-                stroke={"#333"}
-                shadowColor={"black"}
-                shadowBlur={10}
-                shadowOffsetX={10}
-                shadowOffsetY={10}
-                shadowOpacity={0.5}
-                lineJoin={"round"}
-                pointerDirection={"left"}
-                pointerWidth={10}
-                pointerHeight={10}
-                cornerRadius={5}
-              />
-              <animated.Text
-                color="red"
-                text="Plan Etaj 1"
-                fontSize={44}
-                padding={5}
-                fill="black"
-              />
-            </animated.Label>
           </animated.Group>
         )}
       </Spring>

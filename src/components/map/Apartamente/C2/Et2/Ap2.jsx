@@ -25,7 +25,7 @@ class C1Ap2 extends React.Component {
             onTouchStart={this.handleTouchStart}
           >
             <animated.Line
-              points={[2219, 1455, 3353, 1459, 3349, 715, 2215, 710]}
+              points={[1272, 2194, 2046, 2195, 2048, 1037, 1270, 1039]}
               // bezier={true}
               // tension={0.1}
               lineJoin={"round"}
@@ -34,30 +34,6 @@ class C1Ap2 extends React.Component {
               stroke={"rgba(255, 186, 0, .9)"}
               fill={"rgba(255, 186, 0, .7)"}
             />
-
-            <animated.Label id="tooltip" x={780} y={730}>
-              <animated.Tag
-                fill={"#bbb"}
-                stroke={"#333"}
-                shadowColor={"black"}
-                shadowBlur={10}
-                shadowOffsetX={10}
-                shadowOffsetY={10}
-                shadowOpacity={0.5}
-                lineJoin={"round"}
-                pointerDirection={"left"}
-                pointerWidth={10}
-                pointerHeight={10}
-                cornerRadius={5}
-              />
-              <animated.Text
-                color="red"
-                text="Plan Etaj 1"
-                fontSize={44}
-                padding={5}
-                fill="black"
-              />
-            </animated.Label>
           </animated.Group>
         )}
       </Spring>

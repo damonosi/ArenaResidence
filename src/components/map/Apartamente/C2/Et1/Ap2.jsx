@@ -25,25 +25,14 @@ class C1Ap2 extends React.Component {
             onTouchStart={this.handleTouchStart}
           >
             <animated.Line
-              points={[1724, 1463, 2845, 1458, 2854, 705, 1729, 692]}
+              points={[1272, 2194, 2046, 2195, 2048, 1037, 1270, 1039]}
               // bezier={true}
               // tension={0.1}
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              stroke={"rgba(255, 186, 0, .9)"}
-              fill={"rgba(255, 186, 0, .7)"}
-            />
-
-            <animated.Line
-              points={[2696, 499, 3397, 495, 3397, 158, 2701, 153]}
-              // bezier={true}
-              // tension={0.1}
-              lineJoin={"round"}
-              fillAfterStrokeEnabled={true}
-              closed={true}
-              stroke={"rgba(255, 186, 0, .9)"}
-              fill={"rgba(255, 186, 0, .7)"}
+              stroke={"rgba(205, 205, 171, 1)"}
+              fill={"rgba(205, 205, 171, .7)"}
             />
           </animated.Group>
         )}

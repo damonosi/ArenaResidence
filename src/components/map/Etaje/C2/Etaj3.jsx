@@ -5,7 +5,7 @@ import { Stage, Layer, Image, Group } from "react-konva";
 import { useHistory } from "react-router-dom";
 
 import useImage from "use-image";
-import LaptopImage from "../../../../images/plan_etaje/c2/plan_3.jpg";
+import LaptopImage from "../../../../images/plan_etaje/c2/plan_3.png";
 
 import Ap1 from "../../Apartamente/C2/Et1/Ap1";
 import Ap2 from "../../Apartamente/C2/Et1/Ap2";
@@ -152,22 +152,22 @@ const C2Etaj3 = () => {
         <Layer>
           <BuildingImage id="build" />
 
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onDblTap={handleTouch} onClick={handleClick2}>
             <Ap1 />
           </Group>
-          <Group onTouchStart={handleTouch2} onClick={handleClick}>
+          <Group onDblTap={handleTouch2} onClick={handleClick}>
             <Ap2 />
           </Group>
           <Group onTouchStart={handleTouch3} onClick={handleClick3}>
             <Ap3 />
           </Group>
-          <Group onTouchStart={handleTouch4} onClick={handleClick4}>
+          <Group onDblTap={handleTouch4} onClick={handleClick4}>
             <Ap4 />
           </Group>
-          <Group onTouchStart={handleTouch5} onClick={handleClick5}>
+          <Group onDblTap={handleTouch5} onClick={handleClick5}>
             <Ap5 />
           </Group>
-          <Group onTouchStart={handleTouch6} onClick={handleClick6}>
+          <Group onDblTap={handleTouch6} onClick={handleClick6}>
             <Ap6 />
           </Group>
         </Layer>

@@ -26,27 +26,16 @@ class C1Ap4 extends React.Component {
           >
             <animated.Line
               points={[
-                1864, 1700, 687, 1696, 678, 2528, 1063, 2523, 1076, 2712, 1729,
-                2694, 1707, 1906, 1864, 1910,
+                1048, 1199, 1048, 11, 209, 2, 211, 396, 35, 398, 42, 1052, 840,
+                1050, 836, 1203,
               ]}
               // bezier={true}
               // tension={0.1}
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              stroke={"rgba(255, 186, 0, .9)"}
-              fill={"rgba(255, 186, 0, .7)"}
-            />
-
-            <animated.Line
-              points={[1702, 2952, 1702, 3293, 2407, 3285, 2407, 2943]}
-              // bezier={true}
-              // tension={0.1}
-              lineJoin={"round"}
-              fillAfterStrokeEnabled={true}
-              closed={true}
-              stroke={"rgba(255, 186, 0, .9)"}
-              fill={"rgba(255, 186, 0, .7)"}
+              stroke={"rgba(234, 208, 173, 1)"}
+              fill={"rgba(234, 208, 173, .7)"}
             />
           </animated.Group>
         )}

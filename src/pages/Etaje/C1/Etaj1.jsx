@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import C1Etaj1 from "../../../components/map/Etaje/C1/Etaj1";
+import { useAlert } from "react-alert";
 import "../Etaj.scss";
+
 const C1_Etaj1 = () => {
+  const alert = useAlert();
+  useEffect(() => {
+    alert.show("APASATI de doua ori pentru a selecta apartamentul dorit");
+  });
   return (
     <div className="contain-etaj">
       <div className="etaje">
@@ -10,6 +16,7 @@ const C1_Etaj1 = () => {
           <div className="flerat">
             <div className="info-etaj">
               <div className="distance mic-mic"></div>
+
               <div className="texter">
                 <h1>SELECTATI APARTAMENTUL DORIT</h1>
               </div>

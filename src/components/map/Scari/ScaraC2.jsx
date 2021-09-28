@@ -80,75 +80,75 @@ const C2 = () => {
   }, [sceneHeight, sceneWidth]);
   let history = useHistory();
   const handleClick2 = () => {
-    history.push("/etaje/9");
+    history.push("/etaje/C2/1");
     history.go(0);
   };
 
   const handleTouch = () => {
-    history.push("/etaje/9");
+    history.push("/etaje/C2/1");
     history.go(0);
   };
   const handleClick = () => {
-    history.push("/etaje/10");
+    history.push("/etaje/C2/2");
     history.go(0);
   };
 
   const handleTouch2 = () => {
-    history.push("/etaje/10");
+    history.push("/etaje/C2/2");
     history.go(0);
   };
   const handleClick3 = () => {
-    history.push("/etaje/11");
+    history.push("/etaje/C2/3");
     history.go(0);
   };
 
   const handleTouch3 = () => {
-    history.push("/etaje/11");
+    history.push("/etaje/C2/3");
     history.go(0);
   };
   const handleClick4 = () => {
-    history.push("/etaje/12");
+    history.push("/etaje/C2/4");
     history.go(0);
   };
 
   const handleTouch4 = () => {
-    history.push("/etaje/12");
+    history.push("/etaje/C2/4");
     history.go(0);
   };
   const handleClick5 = () => {
-    history.push("/etaje/13");
+    history.push("/etaje/C2/5");
     history.go(0);
   };
 
   const handleTouch5 = () => {
-    history.push("/etaje/13");
+    history.push("/etaje/C2/5");
     history.go(0);
   };
   const handleClick6 = () => {
-    history.push("/etaje/14");
+    history.push("/etaje/C2/6");
     history.go(0);
   };
 
   const handleTouch6 = () => {
-    history.push("/etaje/14");
+    history.push("/etaje/C2/6");
     history.go(0);
   };
   const handleClick7 = () => {
-    history.push("/etaje/15");
+    history.push("/etaje/C2/7");
     history.go(0);
   };
 
   const handleTouch7 = () => {
-    history.push("/etaje/15");
+    history.push("/etaje/C2/7");
     history.go(0);
   };
   const handleClick8 = () => {
-    history.push("/etaje/16");
+    history.push("/etaje/C2/8");
     history.go(0);
   };
 
   const handleTouch8 = () => {
-    history.push("/etaje/16");
+    history.push("/etaje/C2/8");
     history.go(0);
   };
 
