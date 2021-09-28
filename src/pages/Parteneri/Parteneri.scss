@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
-  margin-top:8rem;
+  
   padding:5em;
   
 }
@@ -55,6 +55,14 @@ h1{
  
 
 }
+
+
+.carousel-container{
+  display:flex;
+  height:auto;width: 100%;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 1500px) {
   .services-section {
   background-color: white;

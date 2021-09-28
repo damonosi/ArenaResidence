@@ -1,0 +1,23 @@
+.container-parteneri{
+    display: grid;
+    flex-direction: row;
+    grid-auto-flow: column;
+    padding:2em;
+   background-color: #e6deca;
+   align-items: center;
+   justify-content: center;
+    img{
+        margin:1em;
+        width:20rem;
+        height: auto;
+       
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .container-parteneri{  
+      
+    grid-auto-flow: row;
+    padding:2em;}
+}
