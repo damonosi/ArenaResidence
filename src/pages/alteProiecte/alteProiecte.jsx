@@ -265,6 +265,7 @@ const AlteProiecte = () => {
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
+          <h1>Cartierul de case Green Town</h1>
           <Carousel
             hasIndexBoard={false}
             hasMediaButton={false}
@@ -274,7 +275,6 @@ const AlteProiecte = () => {
             canAutoPlay={true}
             images={images2}
           />{" "}
-          <h1>Cartierul de case Green Town</h1>
         </div>
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>

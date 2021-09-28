@@ -24,13 +24,12 @@ span{
   letter-spacing: 0.05rem;
 }
 }
-.smaller{
-  width:80% !important ;
-}
+
  .gal-cont{
       text-align: center;
+      
     h1{
-      font-size: 1.7rem;
+      font-size: 1.5rem;
     }
   }
 .bold {
@@ -434,7 +433,7 @@ display: inline-block;
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .section-parallax > div {
   margin:20px 10px;
 }
@@ -449,8 +448,10 @@ display: inline-block;
   }
   .gal-cont{
       text-align: center;
+   
+    
     h1{
-      font-size: 1rem;
+      font-size: 1.6rem;
     }
   }
   .to-member{
@@ -458,7 +459,6 @@ display: inline-block;
     margin-left:-10px !important;
     align-items:center;
     display:flex;
-    
     flex-direction: column;
     position:relative;
     
@@ -469,5 +469,34 @@ display: inline-block;
   }
 
  
+
+}
+
+@media only screen and (max-width: 425px) {
+  .section-parallax > div {
+  margin:20px 10px;
+}
+  #team{
+    align-items:center;
+    justify-content: center;
+    
+    img{
+      max-height:20em;
+      margin:0px
+    }
+  }
+  .gal-cont{
+    height: 100%;
+     
+      
+    h1{
+      height: 3rem;
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 1.4rem;
+    }
+  }
+  
+  
 
 }

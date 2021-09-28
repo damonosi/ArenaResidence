@@ -10,12 +10,17 @@ const Modalul = ({ open, children, onClose }) => {
       <div className="overlay" />
       <div className="stil">
         {children}
-        <div className="butoni">
-          <div className="outer">
-            <div className="inner">
-              <label onClick={onClose}>Back</label>
+        <div class="wrapper">
+          <a href class="close-button">
+            <div class="in">
+              <div class="close-button-block"></div>
+              <div class="close-button-block"></div>
             </div>
-          </div>
+            <div class="out">
+              <div class="close-button-block"></div>
+              <div class="close-button-block"></div>
+            </div>
+          </a>
         </div>
       </div>
     </>,
