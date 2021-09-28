@@ -260,6 +260,8 @@ const AlteProiecte = () => {
             images={images1}
             hasIndexBoard={false}
             hasMediaButton={false}
+            shouldLazyLoad={true}
+            hasSizeButton={true}
           />
         </div>
       </ImageModal>
@@ -273,7 +275,9 @@ const AlteProiecte = () => {
             autoPlayInterval={4000}
             isAutoPlaying={true}
             canAutoPlay={true}
+            shouldLazyLoad={true}
             images={images2}
+            hasSizeButton={true}
           />{" "}
         </div>
       </ImageModal>
@@ -286,7 +290,9 @@ const AlteProiecte = () => {
             hasTransition={true}
             autoPlayInterval={4000}
             isAutoPlaying={true}
+            shouldLazyLoad={true}
             canAutoPlay={true}
+            hasSizeButton={true}
             images={images3}
           />
         </div>

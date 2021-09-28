@@ -58,7 +58,7 @@ class ScaraC1 extends React.Component {
                 text="Scara C1"
                 fontSize={48}
                 padding={5}
-                fill="black"
+                fill="rgba(230, 222, 203, 1)"
               />
             </animated.Label>
           </animated.Group>
