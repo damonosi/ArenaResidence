@@ -5,98 +5,61 @@ import blocOne from "../../images/decor/p6.png";
 import blocTwo from "../../images/decor/green.png";
 import blocTrei from "../../images/building_map/bloc_map.png";
 
+import Lightbox from "react-image-lightbox";
+
 import { Parallax } from "react-scroll-parallax";
-import ImageModal from "../../components/AlteProiecte/imageModal";
 
 import { HiOutlinePhotograph } from "react-icons/hi";
 import ParallaxImage from "../../components/Parallax/ParralaxImage";
-import Carousel from "react-gallery-carousel";
-import "react-gallery-carousel/dist/index.css";
+import "react-image-lightbox/style.css";
+
 import { Responsive } from "./../../responsiveComponent/Responsive";
 const AlteProiecte = () => {
   const images1 = [
-    {
-      src: "/images/1-mai 60/1.jpg",
-      thumbnail: "/images/1-mai 60/1.jpg",
-    },
-    {
-      src: "/images/1-mai 60/2.jpg",
-      thumbnail: "/images/1-mai 60/2.jpg",
-    },
-    {
-      src: "/images/1-mai 60/3.jpg",
-      thumbnail: "/images/1-mai 60/3.jpg",
-    },
-    {
-      src: "/images/1-mai 60/4.jpg",
-      thumbnail: "/images/1-mai 60/4.jpg",
-    },
-    {
-      src: "/images/1-mai 60/5.jpg",
-      thumbnail: "/images/1-mai 60/5.jpg",
-    },
+    "/images/1-mai 60/1.jpg",
+
+    "/images/1-mai 60/2.jpg",
+
+    "/images/1-mai 60/3.jpg",
+
+    "/images/1-mai 60/4.jpg",
+
+    "/images/1-mai 60/5.jpg",
   ];
 
   const images2 = [
-    {
-      src: "/images/GreenTown/1.jpg",
-      thumbnail: "/images/GreenTown/1.jpg",
-    },
-    {
-      src: "/images/GreenTown/2.jpg",
-      thumbnail: "/images/GreenTown/2.jpg",
-    },
-    {
-      src: "/images/GreenTown/4.jpg",
-      thumbnail: "/images/GreenTown/4.jpg",
-    },
-    {
-      src: "/images/GreenTown/5.jpg",
-      thumbnail: "/images/GreenTown/5.jpg",
-    },
-    {
-      src: "/images/GreenTown/6.jpg",
-      thumbnail: "/images/GreenTown/6.jpg",
-    },
-    {
-      src: "/images/GreenTown/7.jpg",
-      thumbnail: "/images/GreenTown/7.jpg",
-    },
-    {
-      src: "/images/GreenTown/8.jpg",
-      thumbnail: "/images/GreenTown/8.jpg",
-    },
-    {
-      src: "/images/GreenTown/9.jpg",
-      thumbnail: "/images/GreenTown/9.jpg",
-    },
+    "/images/GreenTown/1.jpg",
+
+    "/images/GreenTown/2.jpg",
+
+    "/images/GreenTown/4.jpg",
+
+    "/images/GreenTown/5.jpg",
+
+    "/images/GreenTown/6.jpg",
+
+    "/images/GreenTown/7.jpg",
+
+    "/images/GreenTown/8.jpg",
+
+    "/images/GreenTown/9.jpg",
   ];
   const images3 = [
-    {
-      src: "/images/Gemenii Stefan cel mare/1.jpg",
-      thumbnail: "/images/Gemenii Stefan cel mare/1.jpg",
-    },
-    {
-      src: "/images/Gemenii Stefan cel mare/2.jpg",
-      thumbnail: "/images/Gemenii Stefan cel mare/2.jpg",
-    },
-    {
-      src: "/images/Gemenii Stefan cel mare/3.jpg",
-      thumbnail: "/images/Gemenii Stefan cel mare/3.jpg",
-    },
-    {
-      src: "/images/Gemenii Stefan cel mare/5.jpg",
-      thumbnail: "/images/Gemenii Stefan cel mare/5.jpg",
-    },
-    {
-      src: "/images/Gemenii Stefan cel mare/13.jpg",
-      thumbnail: "/images/Gemenii Stefan cel mare/13.jpg",
-    },
+    "/images/Gemenii Stefan cel mare/1.jpg",
+
+    "/images/Gemenii Stefan cel mare/2.jpg",
+
+    "/images/Gemenii Stefan cel mare/3.jpg",
+
+    "/images/Gemenii Stefan cel mare/5.jpg",
+
+    "/images/Gemenii Stefan cel mare/13.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
+  const [photoIndex, setPhotoIndex] = useState(false);
 
   const handleClick = () => {
     setIsOpen(true);
@@ -247,53 +210,50 @@ const AlteProiecte = () => {
           </div>
         </div>
       </div>
-
-      <ImageModal open={isOpen} onClose={() => setIsOpen(false)}>
-        <div className="gal-cont">
-          <Carousel
-            hasTransition={true}
-            autoPlayInterval={4000}
-            isAutoPlaying={true}
-            canAutoPlay={true}
-            isLoop={true}
-            images={images1}
-            hasMediaButton={false}
-            shouldLazyLoad={true}
-            widgetsHasShadow={true}
-            hasSizeButton="topRight"
-          />
-        </div>
-      </ImageModal>
-      <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
-        <div className="gal-cont">
-          <Carousel
-            hasMediaButton={false}
-            hasTransition={true}
-            autoPlayInterval={4000}
-            isAutoPlaying={true}
-            canAutoPlay={true}
-            shouldLazyLoad={true}
-            images={images2}
-            shouldMaximizeOnClick={true}
-            shouldMinimizeOnClick={true}
-            shouldMinimizeOnSwipeDown={true}
-          />{" "}
-        </div>
-      </ImageModal>
-      <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
-        <div className="gal-cont">
-          <Carousel
-            hasMediaButton={false}
-            hasTransition={true}
-            autoPlayInterval={4000}
-            isAutoPlaying={true}
-            shouldLazyLoad={true}
-            canAutoPlay={true}
-            hasSizeButton={true}
-            images={images3}
-          />
-        </div>
-      </ImageModal>
+      {isOpen && (
+        <Lightbox
+          mainSrc={images1[photoIndex]}
+          nextSrc={images1[(photoIndex + 1) % images1.length]}
+          prevSrc={images1[(photoIndex + images1.length - 1) % images1.length]}
+          onCloseRequest={() => setIsOpen(false)}
+          onMovePrevRequest={() =>
+            setPhotoIndex((photoIndex + images1.length - 1) % images1.length)
+          }
+          onMoveNextRequest={() =>
+            setPhotoIndex((photoIndex + 1) % images1.length)
+          }
+          reactModalStyle={{ Zindex: "10000" }}
+        />
+      )}
+      {isOpen2 && (
+        <Lightbox
+          mainSrc={images2[photoIndex]}
+          nextSrc={images2[(photoIndex + 1) % images1.length]}
+          prevSrc={images2[(photoIndex + images2.length - 1) % images2.length]}
+          onCloseRequest={() => setIsOpen2(false)}
+          onMovePrevRequest={() =>
+            setPhotoIndex((photoIndex + images1.length - 1) % images2.length)
+          }
+          onMoveNextRequest={() =>
+            setPhotoIndex((photoIndex + 1) % images2.length)
+          }
+          wrapperClassName="indexlightboxer"
+        />
+      )}
+      {isOpen3 && (
+        <Lightbox
+          mainSrc={images3[photoIndex]}
+          nextSrc={images3[(photoIndex + 1) % images3.length]}
+          prevSrc={images3[(photoIndex + images3.length - 1) % images3.length]}
+          onCloseRequest={() => setIsOpen3(false)}
+          onMovePrevRequest={() =>
+            setPhotoIndex((photoIndex + images3.length - 1) % images3.length)
+          }
+          onMoveNextRequest={() =>
+            setPhotoIndex((photoIndex + 1) % images3.length)
+          }
+        />
+      )}
     </>
   );
 };

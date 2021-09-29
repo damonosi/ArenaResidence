@@ -261,6 +261,7 @@ display: inline-block;
     
     z-index: -2;
   }
+  
   &:before {
     content: '';
     position: absolute;
@@ -281,6 +282,11 @@ display: inline-block;
   }
   
 }
+
+  .ReactModal__Overlay{
+    z-index: 10000 !important;
+  }
+ 
 .co{
   display:flex;
   float: inline-end;
