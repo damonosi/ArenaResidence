@@ -257,17 +257,16 @@ const AlteProiecte = () => {
             canAutoPlay={true}
             isLoop={true}
             images={images1}
-            hasIndexBoard={false}
             hasMediaButton={false}
             shouldLazyLoad={true}
-            hasSizeButton={true}
+            widgetsHasShadow={true}
+            hasSizeButton="topRight"
           />
         </div>
       </ImageModal>
       <ImageModal open={isOpen2} onClose={() => setIsOpen2(false)}>
         <div className="gal-cont">
           <Carousel
-            hasIndexBoard={false}
             hasMediaButton={false}
             hasTransition={true}
             autoPlayInterval={4000}
@@ -275,14 +274,15 @@ const AlteProiecte = () => {
             canAutoPlay={true}
             shouldLazyLoad={true}
             images={images2}
-            hasSizeButton={true}
+            shouldMaximizeOnClick={true}
+            shouldMinimizeOnClick={true}
+            shouldMinimizeOnSwipeDown={true}
           />{" "}
         </div>
       </ImageModal>
       <ImageModal open={isOpen3} onClose={() => setIsOpen3(false)}>
         <div className="gal-cont">
           <Carousel
-            hasIndexBoard={false}
             hasMediaButton={false}
             hasTransition={true}
             autoPlayInterval={4000}
