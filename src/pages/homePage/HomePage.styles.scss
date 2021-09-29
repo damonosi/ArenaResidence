@@ -15,6 +15,7 @@ $color: #0cf;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  cursor: pointer;
   &:after {
     content: '';
     position: absolute;
