@@ -181,28 +181,28 @@ const C1 = () => {
         <Layer>
           <BuildingImage id="build" />
 
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
+          <Group onDblTap={handleTouch} onClick={handleClick2}>
             <C1Et1 />
           </Group>
-          <Group onTouchStart={handleTouch2} onClick={handleClick}>
+          <Group onDblTap={handleTouch2} onClick={handleClick}>
             <C1Et2 />
           </Group>
-          <Group onTouchStart={handleTouch3} onClick={handleClick3}>
+          <Group onDblTap={handleTouch3} onClick={handleClick3}>
             <C1Et3 />
           </Group>
-          <Group onTouchStart={handleTouch4} onClick={handleClick4}>
+          <Group onDblTap={handleTouch4} onClick={handleClick4}>
             <C1Et4 />
           </Group>
-          <Group onTouchStart={handleTouch5} onClick={handleClick5}>
+          <Group onDblTap={handleTouch5} onClick={handleClick5}>
             <C1Et5 />
           </Group>
-          <Group onTouchStart={handleTouch6} onClick={handleClick6}>
+          <Group onDblTap={handleTouch6} onClick={handleClick6}>
             <C1Et6 />
           </Group>
-          <Group onTouchStart={handleTouch7} onClick={handleClick7}>
+          <Group onDblTap={handleTouch7} onClick={handleClick7}>
             <C1Et7 />
           </Group>
-          <Group onTouchStart={handleTouch8} onClick={handleClick8}>
+          <Group onDblTap={handleTouch8} onClick={handleClick8}>
             <C1Et8 />
           </Group>
         </Layer>

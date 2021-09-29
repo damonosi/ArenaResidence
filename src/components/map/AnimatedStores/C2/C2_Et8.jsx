@@ -6,6 +6,7 @@ class C2Et8 extends React.Component {
   state = { flag: false };
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
   handleLeave = () => this.setState((state) => ({ flag: !state.flag }));
+  handleTouchStart = () => this.setState((state) => ({ flag: !state.flag }));
 
   render() {
     const { flag } = this.state;
@@ -15,7 +16,7 @@ class C2Et8 extends React.Component {
         from={{ opacity: 1 }}
         config={{ duration: 10 }}
         to={{
-          opacity: flag ? 1 : 0.7,
+          opacity: flag ? 1 : 0.1,
         }}
       >
         {(props) => (
@@ -23,6 +24,7 @@ class C2Et8 extends React.Component {
             {...props}
             onMouseLeave={this.handleLeave}
             onMouseEnter={this.handleEnter}
+            onTouchStart={this.handleTouchStart}
           >
             <animated.Line
               points={[

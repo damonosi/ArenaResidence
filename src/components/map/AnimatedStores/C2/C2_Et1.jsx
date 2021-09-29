@@ -6,15 +6,16 @@ class C2Et1 extends React.Component {
   state = { flag: false };
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
   handleLeave = () => this.setState((state) => ({ flag: !state.flag }));
+  handleTouchStart = () => this.setState((state) => ({ flag: !state.flag }));
   render() {
     const { flag } = this.state;
     return (
       <Spring
-        config={{ duration: 10 }}
+        config={{ duration: 1 }}
         native
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 1 : 0.7,
+          opacity: flag ? 1 : 0.1,
         }}
       >
         {(props) => (
@@ -22,6 +23,7 @@ class C2Et1 extends React.Component {
             {...props}
             onMouseLeave={this.handleLeave}
             onMouseEnter={this.handleEnter}
+            onTouchStart={this.handleTouchStart}
           >
             <animated.Line
               points={[1418, 759, 777, 752, 777, 687, 1420, 691]}
