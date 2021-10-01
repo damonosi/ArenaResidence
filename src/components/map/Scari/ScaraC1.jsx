@@ -6,15 +6,24 @@ import { useHistory } from "react-router-dom";
 
 import useImage from "use-image";
 import LaptopImage from "../../../images/building_map/bloc_map_mapping.png";
+import { Responsive } from "../../../responsiveComponent/Responsive";
+import MareC1Et1 from "../AnimatedStores/C1/Calculator/C1_Et1";
+import MareC1Et2 from "../AnimatedStores/C1/Calculator/C1_Et2";
+import MareC1Et3 from "../AnimatedStores/C1/Calculator/C1_Et3";
+import MareC1Et4 from "../AnimatedStores/C1/Calculator/C1_Et4";
+import MareC1Et5 from "../AnimatedStores/C1/Calculator/C1_Et5";
+import MareC1Et6 from "../AnimatedStores/C1/Calculator/C1_Et6";
+import MareC1Et7 from "../AnimatedStores/C1/Calculator/C1_Et7";
+import MareC1Et8 from "../AnimatedStores/C1/Calculator/C1_Et8";
 
-import C1Et1 from "../AnimatedStores/C1/C1_Et1";
-import C1Et2 from "../AnimatedStores/C1/C1_Et2";
-import C1Et3 from "../AnimatedStores/C1/C1_Et3";
-import C1Et4 from "../AnimatedStores/C1/C1_Et4";
-import C1Et5 from "../AnimatedStores/C1/C1_Et5";
-import C1Et6 from "../AnimatedStores/C1/C1_Et6";
-import C1Et7 from "../AnimatedStores/C1/C1_Et7";
-import C1Et8 from "../AnimatedStores/C1/C1_Et8";
+import MicC1Et1 from "../AnimatedStores/C1/Mobil/C1_Et1";
+import MicC1Et2 from "../AnimatedStores/C1/Mobil/C1_Et2";
+import MicC1Et3 from "../AnimatedStores/C1/Mobil/C1_Et3";
+import MicC1Et4 from "../AnimatedStores/C1/Mobil/C1_Et4";
+import MicC1Et5 from "../AnimatedStores/C1/Mobil/C1_Et5";
+import MicC1Et6 from "../AnimatedStores/C1/Mobil/C1_Et6";
+import MicC1Et7 from "../AnimatedStores/C1/Mobil/C1_Et7";
+import MicC1Et8 from "../AnimatedStores/C1/Mobil/C1_Et8";
 
 const C1 = () => {
   const [dimensions, setDimensions] = useState({
@@ -188,31 +197,59 @@ const C1 = () => {
       >
         <Layer>
           <BuildingImage id="build" />
+          <Responsive displayIn={["Laptop"]}>
+            <Group onTouchStart={handleTouch} onClick={handleClick2}>
+              <MareC1Et1 />
+            </Group>
+            <Group onTouchStart={handleTouch2} onClick={handleClick}>
+              <MareC1Et2 />
+            </Group>
+            <Group onTouchStart={handleTouch3} onClick={handleClick3}>
+              <MareC1Et3 />
+            </Group>
+            <Group onTouchStart={handleTouch4} onClick={handleClick4}>
+              <MareC1Et4 />
+            </Group>
+            <Group onTouchStart={handleTouch5} onClick={handleClick5}>
+              <MareC1Et5 />
+            </Group>
+            <Group onTouchStart={handleTouch6} onClick={handleClick6}>
+              <MareC1Et6 />
+            </Group>
+            <Group onTouchStart={handleTouch7} onClick={handleClick7}>
+              <MareC1Et7 />
+            </Group>
+            <Group onTouchStart={handleTouch8} onClick={handleClick8}>
+              <MareC1Et8 />
+            </Group>
+          </Responsive>
+          <Responsive displayIn={["Mobile"]}>
+            <Group onTouchStart={handleTouch} onClick={handleClick2}>
+              <MicC1Et1 />
+            </Group>
+            <Group onTouchStart={handleTouch2} onClick={handleClick}>
+              <MicC1Et2 />
+            </Group>
+            <Group onTouchStart={handleTouch3} onClick={handleClick3}>
+              <MicC1Et3 />
+            </Group>
+            <Group onTouchStart={handleTouch4} onClick={handleClick4}>
+              <MicC1Et4 />
+            </Group>
+            <Group onTouchStart={handleTouch5} onClick={handleClick5}>
+              <MicC1Et5 />
+            </Group>
+            <Group onTouchStart={handleTouch6} onClick={handleClick6}>
+              <MicC1Et6 />
+            </Group>
+            <Group onTouchStart={handleTouch7} onClick={handleClick7}>
+              <MicC1Et7 />
+            </Group>
+            <Group onTouchStart={handleTouch8} onClick={handleClick8}>
+              <MicC1Et8 />
+            </Group>
+          </Responsive>
 
-          <Group onTouchStart={handleTouch} onClick={handleClick2}>
-            <C1Et1 />
-          </Group>
-          <Group onTouchStart={handleTouch2} onClick={handleClick}>
-            <C1Et2 />
-          </Group>
-          <Group onTouchStart={handleTouch3} onClick={handleClick3}>
-            <C1Et3 />
-          </Group>
-          <Group onTouchStart={handleTouch4} onClick={handleClick4}>
-            <C1Et4 />
-          </Group>
-          <Group onTouchStart={handleTouch5} onClick={handleClick5}>
-            <C1Et5 />
-          </Group>
-          <Group onTouchStart={handleTouch6} onClick={handleClick6}>
-            <C1Et6 />
-          </Group>
-          <Group onTouchStart={handleTouch7} onClick={handleClick7}>
-            <C1Et7 />
-          </Group>
-          <Group onTouchStart={handleTouch8} onClick={handleClick8}>
-            <C1Et8 />
-          </Group>
           <Label id="tooltip" x={500} y={80}>
             <Tag
               fill={"rgba(253, 180, 0, .7)"}

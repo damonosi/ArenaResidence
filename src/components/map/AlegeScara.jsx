@@ -6,9 +6,12 @@ import { useHistory } from "react-router-dom";
 
 import useImage from "use-image";
 import LaptopImage from "../../images/building_map/bloc_map_mapping.png";
+import { Responsive } from "../../responsiveComponent/Responsive";
+import MicScaraC1 from "./AnimatedStores/AlegeScara/Telefon/ScaraC1";
+import MicScaraC2 from "./AnimatedStores/AlegeScara/Telefon/ScaraC2";
 
-import ScaraC1 from "./AnimatedStores/AlegeScara/ScaraC1";
-import ScaraC2 from "./AnimatedStores/AlegeScara/ScaraC2";
+import MareScaraC1 from "./AnimatedStores/AlegeScara/Calculator/ScaraC1";
+import MareScaraC2 from "./AnimatedStores/AlegeScara/Calculator/ScaraC2";
 
 import "./imageMap.scss";
 
@@ -120,12 +123,22 @@ const AlegeScara = () => {
       >
         <Layer>
           <BuildingImage id="build" />
-          <Group onTouchStart={handleTouch} onClick={handleClick}>
-            <ScaraC1 />
-          </Group>
-          <Group onTouchStart={handleTouch2} onClick={handleClick2}>
-            <ScaraC2 />
-          </Group>
+          <Responsive displayIn={["Laptop"]}>
+            <Group onTouchStart={handleTouch} onClick={handleClick}>
+              <MareScaraC1 />
+            </Group>
+            <Group onTouchStart={handleTouch2} onClick={handleClick2}>
+              <MareScaraC2 />
+            </Group>
+          </Responsive>
+          <Responsive displayIn={["Mobile"]}>
+            <Group onTouchStart={handleTouch} onClick={handleClick}>
+              <MicScaraC1 />
+            </Group>
+            <Group onTouchStart={handleTouch2} onClick={handleClick2}>
+              <MicScaraC2 />
+            </Group>
+          </Responsive>
           <Label id="tooltip" x={500} y={20}>
             <Tag
               fill={"rgba(253, 180, 0, .7)"}
