@@ -86,7 +86,7 @@ const C2Etaj2 = () => {
   const handleTouch = () => {
     setTimeout(() => {
       history.push("/apartamente/53");
-    }, 1000);
+    }, 3000);
   };
   const handleClick = () => {
     history.push("/apartamente/54");
@@ -96,7 +96,7 @@ const C2Etaj2 = () => {
   const handleTouch2 = () => {
     setTimeout(() => {
       history.push("/apartamente/54");
-    }, 1000);
+    }, 3000);
   };
   const handleClick3 = () => {
     history.push("/apartamente/55");
@@ -106,7 +106,7 @@ const C2Etaj2 = () => {
   const handleTouch3 = () => {
     setTimeout(() => {
       history.push("/apartamente/55");
-    }, 1000);
+    }, 3000);
   };
   const handleClick4 = () => {
     history.push("/apartamente/56");
@@ -116,7 +116,7 @@ const C2Etaj2 = () => {
   const handleTouch4 = () => {
     setTimeout(() => {
       history.push("/apartamente/56");
-    }, 1000);
+    }, 3000);
   };
   const handleClick5 = () => {
     history.push("/apartamente/57");
@@ -126,7 +126,7 @@ const C2Etaj2 = () => {
   const handleTouch5 = () => {
     setTimeout(() => {
       history.push("/apartamente/57");
-    }, 1000);
+    }, 3000);
   };
   const handleClick6 = () => {
     history.push("/apartamente/58");
@@ -136,7 +136,7 @@ const C2Etaj2 = () => {
   const handleTouch6 = () => {
     setTimeout(() => {
       history.push("/apartamente/58");
-    }, 1000);
+    }, 3000);
   };
 
   const BuildingImage = () => {
@@ -158,22 +158,22 @@ const C2Etaj2 = () => {
         <Layer>
           <BuildingImage id="build" />
 
-          <Group onDblTap={handleTouch} onClick={handleClick2}>
+          <Group onTap={handleTouch} onClick={handleClick2}>
             <Ap1 />
           </Group>
-          <Group onDblTap={handleTouch2} onClick={handleClick}>
+          <Group onTap={handleTouch2} onClick={handleClick}>
             <Ap2 />
           </Group>
-          <Group onDblTap={handleTouch3} onClick={handleClick3}>
+          <Group onTap={handleTouch3} onClick={handleClick3}>
             <Ap3 />
           </Group>
-          <Group onDblTap={handleTouch4} onClick={handleClick4}>
+          <Group onTap={handleTouch4} onClick={handleClick4}>
             <Ap4 />
           </Group>
-          <Group onDblTap={handleTouch5} onClick={handleClick5}>
+          <Group onTap={handleTouch5} onClick={handleClick5}>
             <Ap5 />
           </Group>
-          <Group onDblTap={handleTouch6} onClick={handleClick6}>
+          <Group onTap={handleTouch6} onClick={handleClick6}>
             <Ap6 />
           </Group>
         </Layer>
