@@ -4,7 +4,7 @@ import AboutPage from "./aboutPage/AboutPage.jsx";
 import ParteneriPage from "./Parteneri/ParteneriComponent";
 import AlteProiecte from "./alteProiecte/alteProiecte";
 import HomePage from "./homePage/HomePage.jsx";
-
+import { Responsive } from "../responsiveComponent/Responsive";
 import "./MainPage.styles.scss";
 import { Parallax } from "react-scroll-parallax";
 
@@ -20,11 +20,18 @@ const MainPage = () => {
 
         <section className="alteProiecte-container">
           <div className="sectionare2 ">
-            <Parallax x={[-5, 5]}>
+            <Responsive displayIn={["Laptop"]}>
+              <Parallax x={[-5, 5]}>
+                <h1>
+                  Proiecte <br /> Finalizate
+                </h1>
+              </Parallax>
+            </Responsive>
+            <Responsive displayIn={["Mobile"]}>
               <h1>
                 Proiecte <br /> Finalizate
               </h1>
-            </Parallax>
+            </Responsive>
           </div>
           <div className="spatiu">
             <AlteProiecte />

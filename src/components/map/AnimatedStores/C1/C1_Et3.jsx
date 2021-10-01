@@ -36,7 +36,7 @@ class C1Et3 extends React.Component {
             onTouchStart={this.handleTouchStart}
           >
             <animated.Line
-              points={[776, 629, 778, 570, 119, 572, 117, 631]}
+              points={[777, 571, 120, 567, 118, 636, 777, 635]}
               key={11}
               // bezier={true}
               // tension={0.1}

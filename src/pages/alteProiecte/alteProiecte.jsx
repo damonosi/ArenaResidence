@@ -200,14 +200,24 @@ const AlteProiecte = () => {
                 -Tamplaria exterioara este din PVC tristrat (culoare wengue) cu
                 geam termopan. Glafuri granit interior si exterior.{" "}
               </p>
-              <Parallax x={[-5, 5]}>
+              <Responsive displayIn={["Laptop"]}>
+                <Parallax x={[-5, 5]}>
+                  <div className="to-member">
+                    <a href className="colored" onClick={handleClick}>
+                      Spre Galeria Foto
+                      <HiOutlinePhotograph />
+                    </a>{" "}
+                  </div>
+                </Parallax>
+              </Responsive>
+              <Responsive displayIn={["Mobile"]}>
                 <div className="to-member">
                   <a href className="colored" onClick={handleClick}>
                     Spre Galeria Foto
                     <HiOutlinePhotograph />
-                  </a>{" "}
+                  </a>
                 </div>
-              </Parallax>
+              </Responsive>
             </div>
           </div>
         </div>
@@ -239,30 +249,62 @@ const AlteProiecte = () => {
                   Proiect finalizat in noiembrie 2014{" "}
                 </span>
               </p>
-              <Parallax x={[-5, 5]}>
+              <Responsive displayIn={["Laptop"]}>
+                <Parallax x={[-5, 5]}>
+                  <div className="to-member">
+                    <a href onClick={handleClick2} className="colored">
+                      Spre Galeria Foto <HiOutlinePhotograph />
+                    </a>
+                  </div>
+                </Parallax>
+              </Responsive>
+              <Responsive displayIn={["Mobile"]}>
                 <div className="to-member">
                   <a href onClick={handleClick2} className="colored">
                     Spre Galeria Foto <HiOutlinePhotograph />
                   </a>
                 </div>
-              </Parallax>
+              </Responsive>
             </div>
           </div>
-          <ParallaxImage
-            height={700}
-            width={1000}
-            y={[-10, 10]}
-            src={blocTwo}
-          />
+          <Responsive displayIn={["Laptop"]}>
+            <ParallaxImage
+              height={700}
+              width={1000}
+              y={[-10, 10]}
+              src={blocTwo}
+            />
+          </Responsive>
+          <Responsive displayIn={["Mobile"]}>
+            <img
+              height={700}
+              width={1000}
+              y={[-10, 10]}
+              src={blocTwo}
+              alt="blocdoi"
+            />
+          </Responsive>
         </div>
 
         <div className="member member-left2">
-          <ParallaxImage
-            height={700}
-            width={1000}
-            y={[-10, 10]}
-            src={blocTrei}
-          />
+          <Responsive displayIn={["Laptop"]}>
+            <ParallaxImage
+              height={700}
+              width={1000}
+              y={[-10, 10]}
+              src={blocTrei}
+            />
+          </Responsive>
+          <Responsive displayIn={["Mobile"]}>
+            <img
+              height={700}
+              width={1000}
+              y={[-10, 10]}
+              src={blocTrei}
+              alt="bloctrei"
+            />
+          </Responsive>
+
           <div className="member-info3">
             <p className="member-postition">Bloc</p>
             <h5 className="member-name">Gemenii din Stefan Cel Mare</h5>
@@ -285,14 +327,22 @@ const AlteProiecte = () => {
                 distanta aproximativa de 2,5 km de centrul orasului, in plan
                 secund de artera de maxima importanta - Str. Stefan cel Mare.
               </p>
-
-              <Parallax x={[-5, 5]}>
+              <Responsive displayIn={["Laptop"]}>
+                <Parallax x={[-5, 5]}>
+                  <div className="to-member">
+                    <a href onClick={handleClick3} className="colored">
+                      Spre Galeria Foto <HiOutlinePhotograph />
+                    </a>
+                  </div>
+                </Parallax>
+              </Responsive>
+              <Responsive displayIn={["Mobile"]}>
                 <div className="to-member">
                   <a href onClick={handleClick3} className="colored">
                     Spre Galeria Foto <HiOutlinePhotograph />
                   </a>
                 </div>
-              </Parallax>
+              </Responsive>
             </div>
           </div>
         </div>
