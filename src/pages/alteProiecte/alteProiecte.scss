@@ -74,7 +74,7 @@ span{
   img {
     display: inline-block;
     vertical-align: middle;
-    max-width: 700px;
+    max-width: 00px;
   }
 }
 
@@ -158,11 +158,12 @@ span{
   }
 }
 .member-info {
-  width: 50%;
-  background-color: #e6decb;
-  padding: 65px 110px;
+
   display: flex;
   flex-direction: column;
+    width: 50%;
+  background-color: #e6decb;
+  padding: 65px 110px;
   vertical-align: middle;
   right: 0px;
   text-align: left;

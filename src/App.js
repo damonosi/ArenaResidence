@@ -3,38 +3,44 @@ import { Switch, Route, useLocation } from "react-router-dom";
 
 import Header from "./components/header/Header.jsx";
 import ErrorBoundary from "./components/error-boudary/error-boudary.component";
-import "./App.css";
+
 import Footer from "./pages/footer/footerPage.jsx";
 
 import ScrollToTop from "./hooks/ScrollToTop.js";
 import ReactPixel from "react-facebook-pixel";
+import Spinner from "./components/spinner/spinner.component";
+import ParteneriPage from "./pages/Parteneri/ParteneriPage";
+
+import ScaraC1 from "./pages/MapareBloc/C1";
+import ScaraC2 from "./pages/MapareBloc/C2";
+
+import C1_Etaj1 from "./pages/Etaje/C1/Etaj1";
+import C1_Etaj2 from "./pages/Etaje/C1/Etaj2";
+import C1_Etaj3 from "./pages/Etaje/C1/Etaj3";
+import C1_Etaj4 from "./pages/Etaje/C1/Etaj4";
+import C1_Etaj5 from "./pages/Etaje/C1/Etaj5";
+import C1_Etaj6 from "./pages/Etaje/C1/Etaj6";
+import C1_Etaj7 from "./pages/Etaje/C1/Etaj7";
+import C1_Etaj8 from "./pages/Etaje/C1/Etaj8";
+
+import C2_Etaj1 from "./pages/Etaje/C2/Etaj1";
+import C2_Etaj2 from "./pages/Etaje/C2/Etaj2";
+import C2_Etaj3 from "./pages/Etaje/C2/Etaj3";
+import C2_Etaj4 from "./pages/Etaje/C2/Etaj4";
+import C2_Etaj5 from "./pages/Etaje/C2/Etaj5";
+import C2_Etaj6 from "./pages/Etaje/C2/Etaj6";
+import C2_Etaj7 from "./pages/Etaje/C2/Etaj7";
+import C2_Etaj8 from "./pages/Etaje/C2/Etaj8";
+
+import "./App.css";
 
 const ContactPage = lazy(() => import("./pages/ContactPage/ContactPage"));
-const ParteneriPage = lazy(() => import("./pages/Parteneri/ParteneriPage"));
-const MainPage = lazy(() => import("./pages/MainPage.jsx"));
-const ImagePage = lazy(() => import("./pages/MapareBloc/ImagePage.jsx"));
 
-const ScaraC1 = lazy(() => import("./pages/MapareBloc/C1"));
-const ScaraC2 = lazy(() => import("./pages/MapareBloc/C2"));
+const MainPage = lazy(() => import("./pages/MainPage"));
+const ImagePage = lazy(() => import("./pages/MapareBloc/ImagePage"));
+
 const AlteProiecte = lazy(() => import("./pages/alteProiecte/alteProiecte"));
 const Apartament = lazy(() => import("./components/apartamente/Apartament"));
-const C1_Etaj1 = lazy(() => import("./pages/Etaje/C1/Etaj1.jsx"));
-const C1_Etaj2 = lazy(() => import("./pages/Etaje/C1/Etaj2.jsx"));
-const C1_Etaj3 = lazy(() => import("./pages/Etaje/C1/Etaj3.jsx"));
-const C1_Etaj4 = lazy(() => import("./pages/Etaje/C1/Etaj4.jsx"));
-const C1_Etaj5 = lazy(() => import("./pages/Etaje/C1/Etaj5.jsx"));
-const C1_Etaj6 = lazy(() => import("./pages/Etaje/C1/Etaj6.jsx"));
-const C1_Etaj7 = lazy(() => import("./pages/Etaje/C1/Etaj7.jsx"));
-const C1_Etaj8 = lazy(() => import("./pages/Etaje/C1/Etaj8.jsx"));
-
-const C2_Etaj1 = lazy(() => import("./pages/Etaje/C2/Etaj1.jsx"));
-const C2_Etaj2 = lazy(() => import("./pages/Etaje/C2/Etaj2.jsx"));
-const C2_Etaj3 = lazy(() => import("./pages/Etaje/C2/Etaj3.jsx"));
-const C2_Etaj4 = lazy(() => import("./pages/Etaje/C2/Etaj4.jsx"));
-const C2_Etaj5 = lazy(() => import("./pages/Etaje/C2/Etaj5.jsx"));
-const C2_Etaj6 = lazy(() => import("./pages/Etaje/C2/Etaj6.jsx"));
-const C2_Etaj7 = lazy(() => import("./pages/Etaje/C2/Etaj7.jsx"));
-const C2_Etaj8 = lazy(() => import("./pages/Etaje/C2/Etaj8.jsx"));
 
 const advancedMatching = { em: "dam195@yahoo.com" };
 const options = {
@@ -58,10 +64,11 @@ function App() {
       <Header />
       <ScrollToTop />
       <Switch location={location} key={location.key}>
-        <Suspense>
+        <Suspense fallback={<Spinner />}>
           <ErrorBoundary>
             <Route exact path="/" component={MainPage} />
             <Route exact path="/home" component={MainPage} />
+
             <Route exact path="/scara" component={ImagePage} />
 
             <Route path="/scara/c1" component={ScaraC1} />

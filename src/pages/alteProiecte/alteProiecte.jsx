@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./alteProiecte.scss";
 
 import blocOne from "../../images/decor/p6.png";
 import blocTwo from "../../images/decor/green.png";
@@ -12,6 +11,7 @@ import { Parallax } from "react-scroll-parallax";
 import { HiOutlinePhotograph } from "react-icons/hi";
 import ParallaxImage from "../../components/Parallax/ParralaxImage";
 import "react-image-lightbox/style.css";
+import "./alteProiecte.scss";
 
 import { Responsive } from "./../../responsiveComponent/Responsive";
 const AlteProiecte = () => {
