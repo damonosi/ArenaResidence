@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useAlert } from "react-alert";
+import React from "react";
 
 import C1Etaj1 from "../../../components/map/Etaje/C1/Etaj1";
 
@@ -7,10 +6,6 @@ import "../Etaj.scss";
 import ParteneriPage from "./../../Parteneri/ParteneriComponent";
 
 const C1_Etaj1 = () => {
-  const alert = useAlert();
-  useEffect(() => {
-    alert.show("Selectati apartamentul dorit");
-  }, [alert]);
   return (
     <div className="contain-etaj">
       <div className="etaje">

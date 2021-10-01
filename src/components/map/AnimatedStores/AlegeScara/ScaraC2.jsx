@@ -14,7 +14,7 @@ class ScaraC2 extends React.Component {
         config={{ duration: 1 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 0.9 : 0.5,
+          opacity: flag ? 0.9 : 0.1,
         }}
       >
         {(props) => (
@@ -35,12 +35,13 @@ class ScaraC2 extends React.Component {
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              fill={"rgba(46, 136, 66,0.7)"}
+              stroke={"rgba(255, 186, 0, 1)"}
+              fill={"rgba(255, 186, 0, .7)"}
             />
 
             <animated.Label id="tooltip" x={1050} y={120}>
               <animated.Tag
-                fill={"rgba(46, 136, 66,0.7)"}
+                fill={"rgba(255, 186, 0, .7)"}
                 shadowColor={"black"}
                 shadowBlur={10}
                 shadowOffsetX={10}

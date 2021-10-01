@@ -3,6 +3,16 @@ import React from "react";
 import { Spring, animated } from "@react-spring/konva";
 
 class C1Et5 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { flag: true };
+    this.makeTimer();
+  }
+  makeTimer() {
+    setInterval(() => {
+      this.setState({ flag: false });
+    }, 2300);
+  }
   state = { flag: false };
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
   handleLeave = () => this.setState((state) => ({ flag: !state.flag }));

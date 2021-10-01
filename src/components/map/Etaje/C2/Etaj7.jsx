@@ -84,8 +84,9 @@ const C2Etaj7 = () => {
   };
 
   const handleTouch = () => {
-    history.push("/apartamente/83");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/apartamente/83");
+    }, 1000);
   };
   const handleClick = () => {
     history.push("/apartamente/84");
@@ -93,8 +94,9 @@ const C2Etaj7 = () => {
   };
 
   const handleTouch2 = () => {
-    history.push("/apartamente/84");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/apartamente/84");
+    }, 1000);
   };
   const handleClick3 = () => {
     history.push("/apartamente/85");
@@ -102,8 +104,9 @@ const C2Etaj7 = () => {
   };
 
   const handleTouch3 = () => {
-    history.push("/apartamente/85");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/apartamente/85");
+    }, 1000);
   };
   const handleClick4 = () => {
     history.push("/apartamente/86");
@@ -111,8 +114,9 @@ const C2Etaj7 = () => {
   };
 
   const handleTouch4 = () => {
-    history.push("/apartamente/86");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/apartamente/86");
+    }, 1000);
   };
   const handleClick5 = () => {
     history.push("/apartamente/87");
@@ -120,8 +124,9 @@ const C2Etaj7 = () => {
   };
 
   const handleTouch5 = () => {
-    history.push("/apartamente/87");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/apartamente/88");
+    }, 1000);
   };
   const handleClick6 = () => {
     history.push("/apartamente/88");
@@ -129,8 +134,9 @@ const C2Etaj7 = () => {
   };
 
   const handleTouch6 = () => {
-    history.push("/apartamente/88");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/apartamente/89");
+    }, 1000);
   };
 
   const BuildingImage = () => {

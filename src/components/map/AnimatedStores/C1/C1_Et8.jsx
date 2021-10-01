@@ -3,6 +3,16 @@ import React from "react";
 import { Spring, animated } from "@react-spring/konva";
 
 class C1Et8 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { flag: true };
+    this.makeTimer();
+  }
+  makeTimer() {
+    setInterval(() => {
+      this.setState({ flag: false });
+    }, 2900);
+  }
   state = { flag: false };
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
   handleLeave = () => this.setState((state) => ({ flag: !state.flag }));
@@ -36,11 +46,11 @@ class C1Et8 extends React.Component {
               lineJoin={"round"}
               fillAfterStrokeEnabled={true}
               closed={true}
-              fill={"rgba(46, 136, 66,0.7)"}
+              fill={"rgba(253, 180, 0, .7)"}
             />
             <animated.Label id="tooltip" x={1010} y={280}>
               <animated.Tag
-                fill={"rgba(46, 136, 66,0.7)"}
+                fill={"rgba(253, 180, 0, .7)"}
                 stroke={"#333"}
                 shadowColor={"black"}
                 shadowBlur={10}

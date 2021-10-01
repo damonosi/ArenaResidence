@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import { Stage, Layer, Image, Group } from "react-konva";
+import { Stage, Layer, Image, Group, Label, Tag, Text } from "react-konva";
 
 import { useHistory } from "react-router-dom";
 
@@ -86,8 +86,9 @@ const C1 = () => {
   };
 
   const handleTouch = () => {
-    history.push("/etaje/C1/1");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/1");
+    }, 1000);
   };
   const handleClick = () => {
     history.push("/etaje/C1/2");
@@ -95,8 +96,9 @@ const C1 = () => {
   };
 
   const handleTouch2 = () => {
-    history.push("/etaje/C1/2");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/2");
+    }, 1000);
   };
   const handleClick3 = () => {
     history.push("/etaje/C1/3");
@@ -104,8 +106,9 @@ const C1 = () => {
   };
 
   const handleTouch3 = () => {
-    history.push("/etaje/C1/3");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/3");
+    }, 1000);
   };
   const handleClick4 = () => {
     history.push("/etaje/C1/4");
@@ -113,8 +116,9 @@ const C1 = () => {
   };
 
   const handleTouch4 = () => {
-    history.push("/etaje/C1/4");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/4");
+    }, 1000);
   };
   const handleClick5 = () => {
     history.push("/etaje/C1/5");
@@ -122,8 +126,9 @@ const C1 = () => {
   };
 
   const handleTouch5 = () => {
-    history.push("/etaje/C1/5");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/5");
+    }, 1000);
   };
   const handleClick6 = () => {
     history.push("/etaje/C1/6");
@@ -131,8 +136,9 @@ const C1 = () => {
   };
 
   const handleTouch6 = () => {
-    history.push("/etaje/C1/6");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/6");
+    }, 1000);
   };
   const handleClick7 = () => {
     history.push("/etaje/C1/7");
@@ -140,8 +146,9 @@ const C1 = () => {
   };
 
   const handleTouch7 = () => {
-    history.push("/etaje/C1/7");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/7");
+    }, 1000);
   };
   const handleClick8 = () => {
     history.push("/etaje/C1/8");
@@ -149,8 +156,9 @@ const C1 = () => {
   };
 
   const handleTouch8 = () => {
-    history.push("/etaje/C1/8");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/etaje/C1/8");
+    }, 1000);
   };
 
   const BuildingImage = () => {
@@ -162,7 +170,7 @@ const C1 = () => {
   return (
     <div id="map-container" className="map-container">
       <h1>
-        SELECTATI <br /> ETAJUL <br /> DORIT <br /> <br /> Scara C1
+        <br /> Scara C1
       </h1>
 
       <div class="arrow bounce">
@@ -181,30 +189,53 @@ const C1 = () => {
         <Layer>
           <BuildingImage id="build" />
 
-          <Group onDblTap={handleTouch} onClick={handleClick2}>
+          <Group onTouchStart={handleTouch} onClick={handleClick2}>
             <C1Et1 />
           </Group>
-          <Group onDblTap={handleTouch2} onClick={handleClick}>
+          <Group onTouchStart={handleTouch2} onClick={handleClick}>
             <C1Et2 />
           </Group>
-          <Group onDblTap={handleTouch3} onClick={handleClick3}>
+          <Group onTouchStart={handleTouch3} onClick={handleClick3}>
             <C1Et3 />
           </Group>
-          <Group onDblTap={handleTouch4} onClick={handleClick4}>
+          <Group onTouchStart={handleTouch4} onClick={handleClick4}>
             <C1Et4 />
           </Group>
-          <Group onDblTap={handleTouch5} onClick={handleClick5}>
+          <Group onTouchStart={handleTouch5} onClick={handleClick5}>
             <C1Et5 />
           </Group>
-          <Group onDblTap={handleTouch6} onClick={handleClick6}>
+          <Group onTouchStart={handleTouch6} onClick={handleClick6}>
             <C1Et6 />
           </Group>
-          <Group onDblTap={handleTouch7} onClick={handleClick7}>
+          <Group onTouchStart={handleTouch7} onClick={handleClick7}>
             <C1Et7 />
           </Group>
-          <Group onDblTap={handleTouch8} onClick={handleClick8}>
+          <Group onTouchStart={handleTouch8} onClick={handleClick8}>
             <C1Et8 />
           </Group>
+          <Label id="tooltip" x={500} y={80}>
+            <Tag
+              fill={"rgba(253, 180, 0, .7)"}
+              stroke={"#333"}
+              shadowColor={"black"}
+              shadowBlur={10}
+              shadowOffsetX={10}
+              shadowOffsetY={10}
+              shadowOpacity={0.5}
+              lineJoin={"round"}
+              pointerDirection={"bottom"}
+              pointerWidth={10}
+              pointerHeight={10}
+              cornerRadius={5}
+            />
+            <Text
+              color="red"
+              text="ALEGETI ETAJUL DORIT"
+              fontSize={44}
+              padding={10}
+              fill="#e6decb"
+            />
+          </Label>
         </Layer>
       </Stage>
     </div>

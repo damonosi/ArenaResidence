@@ -84,12 +84,14 @@ const AlegeScara = () => {
   };
 
   const handleTouch = () => {
-    history.push("/scara/c1");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/scara/c1");
+    }, 1000);
   };
   const handleTouch2 = () => {
-    history.push("/scara/c2");
-    history.go(0);
+    setTimeout(() => {
+      history.push("/scara/c2");
+    }, 1000);
   };
 
   const BuildingImage = () => {
