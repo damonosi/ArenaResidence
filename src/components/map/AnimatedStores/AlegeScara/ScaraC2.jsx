@@ -24,7 +24,7 @@ class ScaraC2 extends React.Component {
         config={{ duration: 1 }}
         from={{ opacity: 1 }}
         to={{
-          opacity: flag ? 0.9 : 0.1,
+          opacity: flag ? 0.9 : 0.5,
         }}
       >
         {(props) => (

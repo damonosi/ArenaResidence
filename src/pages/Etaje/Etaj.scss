@@ -225,4 +225,15 @@ p{
   
   padding:2.3rem;
 }
+.bounce {
+  
+  -moz-animation: bounce 0s infinite;
+  -webkit-animation: bounce 0s infinite;
+  animation: bounce 0s infinite;
+}
+.arrow {
+  font-size:0.9rem;
+  
+  
+}
 }

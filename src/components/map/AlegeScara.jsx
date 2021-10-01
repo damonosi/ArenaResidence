@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import { Stage, Layer, Image, Group } from "react-konva";
+import { Stage, Layer, Image, Group, Label, Tag, Text } from "react-konva";
 
 import { useHistory } from "react-router-dom";
 
@@ -126,6 +126,29 @@ const AlegeScara = () => {
           <Group onTouchStart={handleTouch2} onClick={handleClick2}>
             <ScaraC2 />
           </Group>
+          <Label id="tooltip" x={500} y={20}>
+            <Tag
+              fill={"rgba(253, 180, 0, .7)"}
+              stroke={"#333"}
+              shadowColor={"black"}
+              shadowBlur={10}
+              shadowOffsetX={10}
+              shadowOffsetY={10}
+              shadowOpacity={0.5}
+              lineJoin={"round"}
+              pointerDirection={"bottom"}
+              pointerWidth={10}
+              pointerHeight={10}
+              cornerRadius={5}
+            />
+            <Text
+              color="red"
+              text="ALEGETI SCARA DORITA"
+              fontSize={44}
+              padding={10}
+              fill="#e6decb"
+            />
+          </Label>
         </Layer>
       </Stage>
     </div>
