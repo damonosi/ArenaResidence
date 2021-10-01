@@ -13,7 +13,7 @@ class ScaraC2 extends React.Component {
       this.setState({ flag: false });
     }, 1300);
   }
-  state = { flag: false };
+
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
   handleLeave = () => this.setState((state) => ({ flag: !state.flag }));
   handleTouchStart = () => this.setState((state) => ({ flag: !state.flag }));
