@@ -183,13 +183,13 @@ const C1 = () => {
       </h1>
 
       <div class="arrow bounce">
-        <a class="fa fa-arrow-down fa-2x" href="#map-container">
+        <a class="fa fa-arrow-down fa-2x" href="#map">
           {" "}
         </a>
       </div>
       <Stage
         ref={stageRef}
-        id="container"
+        id="map"
         width={dimensions.width}
         height={dimensions.height}
         label="mapare_bloc"

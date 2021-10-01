@@ -89,12 +89,12 @@ const AlegeScara = () => {
   const handleTouch = () => {
     setTimeout(() => {
       history.push("/scara/c1");
-    }, 1000);
+    }, 2200);
   };
   const handleTouch2 = () => {
     setTimeout(() => {
       history.push("/scara/c2");
-    }, 1000);
+    }, 2200);
   };
 
   const BuildingImage = () => {
@@ -116,7 +116,7 @@ const AlegeScara = () => {
       </div>
       <Stage
         ref={stageRef}
-        id="container"
+        id="map-container"
         width={dimensions.width}
         height={1050}
         label="mapare_bloc"

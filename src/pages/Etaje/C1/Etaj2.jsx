@@ -24,12 +24,12 @@ const C1_Etaj2 = () => {
                 </h1>
               </div>
               <div class="arrow bounce">
-                <a class="fa fa-arrow-down fa-2x" href>
+                <a class="fa fa-arrow-down fa-2x" href="#canvas-container">
                   {" "}
                 </a>
               </div>
               <div className="padder">
-                <div className="canvas-container">
+                <div className="canvas-container" id="canvas-container">
                   <C1Etaj2 />
                 </div>
               </div>

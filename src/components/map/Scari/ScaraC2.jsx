@@ -187,7 +187,7 @@ const C2 = () => {
         </a>
       </div>
       <Stage
-        id="container"
+        id="map-container"
         ref={stageRef}
         width={dimensions.width}
         height={dimensions.height}

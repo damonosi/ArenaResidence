@@ -11,7 +11,7 @@ class C1Et2 extends React.Component {
   makeTimer() {
     setInterval(() => {
       this.setState({ flag: false });
-    }, 2100);
+    }, 1700);
   }
   state = { flag: false };
   handleEnter = () => this.setState((state) => ({ flag: !state.flag }));
