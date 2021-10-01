@@ -3,7 +3,7 @@ import "./alteProiecte.scss";
 
 import blocOne from "../../images/decor/p6.png";
 import blocTwo from "../../images/decor/green.png";
-import blocTrei from "../../images/building_map/bloc_map.png";
+import blocTrei from "../../images/building_map/bloc_map_mapping.png";
 
 import Lightbox from "react-image-lightbox";
 
