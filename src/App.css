@@ -182,7 +182,7 @@ body pre {
 
 #header-main-menu {
   display: inline-block;
-  font-family: 'Anton', sans-serif;
+ 
 }
 
 .sm-clean .has-submenu {
@@ -1323,7 +1323,7 @@ body.blog {
   text-align: center;
   display: table;
   margin: 50px auto;
-  font-family: 'Anton', sans-serif;
+
   font-weight: 600;
   color: #fff;
   background-color: #f1576b;
@@ -1697,7 +1697,7 @@ body.blog {
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-  font-family: 'Anton', sans-serif;
+
   font-weight: 500;
   border: 0;
   font-size: 15px;
@@ -1718,7 +1718,7 @@ body.blog {
 .contact-form input[type="text"]::placeholder,
 .contact-form input[type="email"]::placeholder,
 .contact-form textarea::placeholder {
-  font-family: 'Anton', sans-serif;
+
   color: #000;
   font-weight: 500;
   font-size: 15px;
@@ -1729,7 +1729,7 @@ body.blog {
 .contact-form input[type="text"]:ms-input-placeholder,
 .contact-form input[type="email"]:ms-input-placeholder,
 .contact-form textarea:ms-input-placeholder {
-  font-family: 'Anton', sans-serif;
+
   color: #000;
   font-weight: 500;
   font-size: 15px;
@@ -1739,7 +1739,7 @@ body.blog {
 .contact-form input[type="text"]::ms-input-placeholder,
 .contact-form input[type="email"]::ms-input-placeholder,
 .contact-form textarea::ms-input-placeholder {
-  font-family: 'Anton', sans-serif;
+
   color: #000;
   font-weight: 500;
   font-size: 15px;

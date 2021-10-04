@@ -15,29 +15,29 @@ const Apartament = () => {
           .filter((apartament) => apartament.id == id)
           .map((filteredApartment) => (
             <div className="produs">
-
               <h1 className="title-apartament">{filteredApartment.title}</h1>
               <div className="fler">
                 <div className="info-apartament">
                   <div className="plan-detaliat">
-                      <img src={filteredApartment.src} alt="plan detaliat" />
-                   </div>
+                    <img src={filteredApartment.src} alt="plan detaliat" />
+                  </div>
                   <h4>Apartament cu {filteredApartment.camere} camere</h4>
                   <h8>{filteredApartment.descriere}</h8>
                   <p className="firstt">Etaj : {filteredApartment.etaj}</p>
                   <p>Scara : {filteredApartment.scara}</p>
                   <p>Liber : {filteredApartment.liber}</p>
-                  <a className="wapp-button" href="https://wa.me/0770258169">
-                    <button>
-                      <FaWhatsapp /> SUNATI
-                    </button>
-                  </a>
+                  <div className="button-container">
+                    <a className="wapp-button" href="https://wa.me/0770258169">
+                      <button>
+                        <FaWhatsapp /> SUNATI
+                      </button>
+                    </a>
+                    <a className="wapp-button" href>
+                      <button>SPRE TURUL VIRTUAL</button>
+                    </a>
+                  </div>
                 </div>
-
-                   
               </div>
-
-                
             </div>
           ))}
       </div>

@@ -5,7 +5,7 @@
 	justify-content: center;
 	align-items: center;
 	padding-top: 8rem;
-	font-family: 'Roboto Slab', serif;
+
 }
 
 .produs {
@@ -41,8 +41,7 @@
 	cursor: pointer;
 	border-radius: 5px;
 	box-shadow: 10px 10px 13px rgba(0,0,0,0.20);
-	margin-top: 1rem;
-	margin-left:10rem;
+	
 	font-size: 1.2rem;
 	padding: 1rem 2rem;
 	&:hover {
@@ -76,11 +75,16 @@
 	
 }
 
+.button-container{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding:1em;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
 
-
-.wapp-button{
-		margin-right: 9rem;
-	}
+}
 
 .firstt {
 	margin-top: 2.5rem;
@@ -106,7 +110,16 @@
 			height: 100%;
 		}
 	}
+	.button-container{
+		flex-direction: column;
+		margin-top: 1em;
+	}
+	.wapp-button{
+		margin-top: 1em;
+	}
 }
+
+
 @media only screen and (max-width: 995px) {
 	.apartament {
 		display: flex;
@@ -121,14 +134,10 @@
 		flex-direction: column;
 		width: 80vw;
 		padding: 2rem;
-			button {
-		margin: 0;
-	}
+
 	}
 
-	.wapp-button{
-		margin-left: 9rem;
-	}
+
 	
 	.plan-detaliat {
 		width: 100%;
