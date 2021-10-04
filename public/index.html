@@ -26,6 +26,14 @@
       src="https://kit.fontawesome.com/0f83e5d3b7.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+function deferLoadingTheCode() {
+    var element = document.createElement("script");
+    element.src = "delayTheCode.js";
+    document.body.appendChild(element);
+}
+window.addEventListener("load", deferLoadingTheCode, false);
+</script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
