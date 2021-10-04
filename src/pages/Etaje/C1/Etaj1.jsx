@@ -21,7 +21,9 @@ const C1_Etaj1 = () => {
                   Scara C1
                 </h1>
               </div>
+
               <div class="arrow bounce">
+                <h2>apasa pe sageata</h2>
                 <a class="fa fa-arrow-down fa-2x" href="#canvas-container">
                   {" "}
                 </a>

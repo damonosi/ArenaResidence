@@ -1,14 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import C1Etaj7 from "../../../components/map/Etaje/C1/Etaj7";
 import "../Etaj.scss";
-import { useAlert } from "react-alert";
+
 import ParteneriPage from "./../../Parteneri/ParteneriComponent";
 const C1_Etaj7 = () => {
-  const alert = useAlert();
-  useEffect(() => {
-    alert.show("Selectati apartamentul dorit");
-  }, [alert]);
   return (
     <div className="contain-etaj">
       <div className="etaje">
@@ -24,6 +20,7 @@ const C1_Etaj7 = () => {
                 </h1>
               </div>
               <div class="arrow bounce">
+                <h2>apasa pe sageata</h2>
                 <a class="fa fa-arrow-down fa-2x" href="#canvas-container">
                   {" "}
                 </a>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import blocOne from "../../images/decor/p6.png";
 import blocTwo from "../../images/decor/green.png";
-import blocTrei from "../../images/building_map/bloc_map_mapping.png";
+import blocTrei from "../../images/alte_proiecte/gemenii/Optimized-aici.jpg";
 
 import Lightbox from "react-image-lightbox";
 

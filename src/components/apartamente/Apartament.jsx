@@ -33,7 +33,7 @@ const Apartament = () => {
                       </button>
                     </a>
                     <a className="wapp-button" href>
-                      <button>SPRE TURUL VIRTUAL</button>
+                      <button>INTRĂ ÎN APARTAMENT</button>
                     </a>
                   </div>
                 </div>
