@@ -307,7 +307,9 @@ const AlteProiecte = () => {
 
           <div className="member-info3">
             <p className="member-postition">Bloc</p>
-            <h5 className="member-name">Gemenii din Stefan Cel Mare</h5>
+            <h5 className="member-name">
+              ARENA RESIDENCE STEFAN CEL MARE 32 A
+            </h5>
             <div className="member-content">
               <p>
                 Noul asamblu residential - Arena Residence este proiectul
