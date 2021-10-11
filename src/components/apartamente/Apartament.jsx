@@ -25,6 +25,11 @@ const Apartament = () => {
                   <h8>{filteredApartment.descriere}</h8>
                   <p className="firstt">Etaj : {filteredApartment.etaj}</p>
                   <p>Scara : {filteredApartment.scara}</p>
+                  <p>
+                    Suprafata Construita :{" "}
+                    {filteredApartment.suprafataConstruita}
+                  </p>
+                  <p>Suprafata Utila : {filteredApartment.suprafataUtila}</p>
                   <p>Liber : {filteredApartment.liber}</p>
                   <div className="button-container">
                     <a className="wapp-button" href="https://wa.me/0770258169">
