@@ -9,6 +9,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 1,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 5",
@@ -20,6 +21,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 2,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 6",
@@ -31,6 +33,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 3,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 7",
@@ -42,6 +45,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 4,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 8",
@@ -53,6 +57,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 5,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 9",
@@ -64,6 +69,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 6,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 10",
@@ -75,6 +81,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 7,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 11",
@@ -86,6 +93,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 8,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 12",
@@ -97,6 +105,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 9,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 13",
@@ -108,6 +117,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 10,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 14",
@@ -119,6 +129,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 11,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 15",
@@ -130,6 +141,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 12,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 16",
@@ -141,6 +153,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 13,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 17",
@@ -152,6 +165,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 14,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 18",
@@ -163,6 +177,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 15,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 19",
@@ -174,6 +189,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 16,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 20",
@@ -185,6 +201,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 17,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 21",
@@ -196,6 +213,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 18,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 22",
@@ -207,6 +225,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 19,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 23",
@@ -218,6 +237,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 20,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 24",
@@ -229,6 +249,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 21,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 25",
@@ -240,6 +261,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 22,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 26",
@@ -251,6 +273,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 23,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 27",
@@ -262,6 +285,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 24,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 28",
@@ -273,6 +297,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 25,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 29",
@@ -284,6 +309,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 26,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 30",
@@ -295,6 +321,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 27,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 31",
@@ -306,6 +333,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 28,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 32",
@@ -317,6 +345,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 29,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 33",
@@ -328,6 +357,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 30,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 34",
@@ -339,6 +369,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 31,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 35",
@@ -350,6 +381,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 32,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 36",
@@ -361,6 +393,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 33,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 37",
@@ -372,6 +405,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 34,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 38",
@@ -383,6 +417,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 35,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 39",
@@ -394,6 +429,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 36,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 40",
@@ -405,6 +441,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 37,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 41",
@@ -416,6 +453,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 38,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 42",
@@ -427,6 +465,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 39,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 43",
@@ -438,6 +477,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 40,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 44",
@@ -449,6 +489,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 41,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 45",
@@ -460,6 +501,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 42,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 46",
@@ -482,6 +524,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 44,
+    href: "https://kuula.co/share/collection/7kZFT?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 48",
@@ -494,6 +537,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 45,
+    href: "https://kuula.co/share/collection/7kd4q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 49",
@@ -507,18 +551,17 @@ export const Data_c1 = [
     id: 46,
   },
 
-
-  
   {
     title: "Apartament 4",
     etaj: "etajul 1",
-    src: "/images/C2/etaj_1/AP 4-min.jpg",
+    src: "/images/C2/etaj_1/AP 04-min.jpg",
     liber: "true",
     camere: "3",
     scara: "C 2",
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 47,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 5",
@@ -530,6 +573,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 48,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 6",
@@ -541,6 +585,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 49,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 7",
@@ -552,6 +597,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 50,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 8",
@@ -563,6 +609,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 51,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 9",
@@ -574,6 +621,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 52,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 10",
@@ -585,6 +633,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 53,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 11",
@@ -596,6 +645,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 54,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 12",
@@ -607,6 +657,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 55,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 13",
@@ -618,6 +669,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 56,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 14",
@@ -629,6 +681,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 57,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 15",
@@ -640,6 +693,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 58,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 16",
@@ -651,6 +705,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 59,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 17",
@@ -662,6 +717,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 60,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 18",
@@ -673,6 +729,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 61,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 19",
@@ -684,6 +741,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 62,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 20",
@@ -695,6 +753,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 63,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 21",
@@ -706,6 +765,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 64,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 22",
@@ -717,6 +777,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 65,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 23",
@@ -728,6 +789,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 66,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 24",
@@ -739,6 +801,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 67,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 25",
@@ -750,6 +813,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 68,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 26",
@@ -761,6 +825,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 69,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 27",
@@ -772,6 +837,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 70,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 28",
@@ -783,6 +849,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 71,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 29",
@@ -794,6 +861,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 72,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 30",
@@ -805,6 +873,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 73,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 31",
@@ -816,6 +885,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 74,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 32",
@@ -827,6 +897,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 75,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 33",
@@ -838,6 +909,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 76,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 34",
@@ -849,6 +921,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 77,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 35",
@@ -860,6 +933,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 78,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 36",
@@ -871,6 +945,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 79,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 37",
@@ -882,6 +957,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 80,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 38",
@@ -893,6 +969,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 81,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 39",
@@ -904,6 +981,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 82,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 40",
@@ -915,6 +993,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 83,
+    href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 41",
@@ -926,6 +1005,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 84,
+    href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 42",
@@ -937,6 +1017,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 85,
+    href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 43",
@@ -948,6 +1029,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 86,
+    href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 44",
@@ -959,6 +1041,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 87,
+    href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 45",
@@ -970,6 +1053,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 88,
+    href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 46",
@@ -992,6 +1076,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 90,
+    href: "https://kuula.co/share/collection/7kZFT?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 48",
@@ -1003,6 +1088,7 @@ export const Data_c1 = [
     descriere:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat iste distinctio eligendi adipisci atque, doloribus dolor hic harum voluptatem!",
     id: 91,
+    href: "https://kuula.co/share/collection/7kd4q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
   },
   {
     title: "Apartament 49",

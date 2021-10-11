@@ -32,7 +32,7 @@ const Apartament = () => {
                         <FaWhatsapp /> SUNATI
                       </button>
                     </a>
-                    <a className="wapp-button" href>
+                    <a className="wapp-button" href={filteredApartment.href}>
                       <button>INTRĂ ÎN APARTAMENT</button>
                     </a>
                   </div>
