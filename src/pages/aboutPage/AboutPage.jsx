@@ -1,7 +1,7 @@
 import React from "react";
 
 import RoundImage1 from "../../images/lider1.jpg";
-
+import companyLogo from "../../images/logoCladire.png";
 import "./About.styles.scss";
 
 import ParallaxImage from "./../../components/Parallax/ParralaxImage";
@@ -30,15 +30,15 @@ const AboutPage = () => {
       </Responsive>
 
       <div className="half-left">
-        <p className="title-description-up">WHO WE ARE</p>
-        <h2 className="entry-title medium-text">
-          Live up to <br />
-          your creative potential.
-        </h2>
+        <div className="img-holder">
+          <img src={companyLogo} alt="Arena Residence" />
+        </div>
+
         <p>
-          Code the energy hidden in matter citizens of distant epochs from which
-          we spring drake equation perga inconspicuous motespatch clean designed
-          code and energy matter.
+          NOUL ANSAMBLU RESIDENTIAL – ARENA RESIDENCE este proiectul imobiliar
+          care creste in cea mai exclusivista zona a Bacaului. Un bloc de 7
+          etaje + 8 retras cu doua tronsoane distincte ce reunesc peste 98 de
+          apartamente
         </p>
 
         <Link className="colored" to="/scara">

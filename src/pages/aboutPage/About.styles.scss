@@ -28,11 +28,21 @@ figure{
   margin-left: auto !important;
   text-align: left;
   padding: 10rem;
+  img{
+    float: center;
+    background-color: #e1d1ae;
+    height:8rem;
+  }
   h2 {
     text-align: left;
   }
 }
-
+.img-holder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
 @media only screen and (max-width: 700px) {
   .half-left {
     padding: 0px;
@@ -53,7 +63,16 @@ figure{
     }
   }
 }
-
+.img-holder {
+  img{
+    height:8rem;
+  }
+}
+.half-left{
+  p{
+    padding:1rem;
+  }
+}
 .title-description-up {
   font-size: 16px;
   margin-bottom: 0;
