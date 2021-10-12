@@ -1,6 +1,6 @@
 import React from "react";
 
-import RoundImage1 from "../../images/lider1.jpg";
+import RoundImage1 from "../../images/hol.jpg";
 import companyLogo from "../../images/logoCladire.png";
 import "./About.styles.scss";
 
@@ -12,16 +12,16 @@ const AboutPage = () => {
     <div className="about-container ">
       <Responsive displayIn={["Laptop"]}>
         <ParallaxImage
-          y={[-35, 15]}
+          y={[-25, 15]}
           height={800}
-          width={1600}
+          width={3800}
           src={RoundImage1}
         />
       </Responsive>
 
       <Responsive displayIn={["Mobile"]}>
         <img
-          height={700}
+          height={450}
           width={1000}
           y={[-10, 10]}
           alt="About"
