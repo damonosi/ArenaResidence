@@ -235,7 +235,10 @@ const AlteProiecte = () => {
             />
           </Responsive>
           <div className="member-info">
-            <p className="member-postition">BLOC</p>
+            <p className="member-postition">
+              BLOC <hr />
+            </p>
+
             <h5 className="member-name">Arena Residence Strada 1 mai 60</h5>
             <div className="member-content">
               <p>
@@ -276,7 +279,9 @@ const AlteProiecte = () => {
 
         <div className="member member-right">
           <div className="member-info2">
-            <p className="member-postition">CASE</p>
+            <p className="member-postition">
+              CASE <hr />
+            </p>
             <h5 className="member-name">Cartierul de case Green Town</h5>
             <div className="member-content">
               <p>
@@ -358,7 +363,9 @@ const AlteProiecte = () => {
           </Responsive>
 
           <div className="member-info3">
-            <p className="member-postition">Bloc</p>
+            <p className="member-postition">
+              Bloc <hr />
+            </p>
             <h5 className="member-name">
               ARENA RESIDENCE STEFAN CEL MARE 32 A
             </h5>
