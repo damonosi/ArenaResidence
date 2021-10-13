@@ -371,23 +371,30 @@ const AlteProiecte = () => {
             </h5>
             <div className="member-content">
               <p>
-                Noul asamblu residential - Arena Residence este proiectul
-                imobiliar care creste in cea mai exclusivista zona a Bacaului.
-                Un bloc de 7 etaje, retras cu doua tronsoane distincte ce
-                reunesc peste 98 de apartamente.
-              </p>
-              <p>
-                Dotarile, instalatiile, materialele, si finisajele rafinate la
-                care se adauga atentia obsesiva acordata celor mai mici detalii,
-                fac ca imobilul sa capteze esenta locuintei moderne, elegante si
-                comfortabile.
+                Detalii tehnice: <hr />
+                Structură și arhitectură: <br />
+                – construcție pe cadre, caramidă porotherm 30cm (exterior )
+                /25cm( între apartamente) /11 cm (interior la compartimentare);
+                <br />
+                – termosistem vată bazaltică 10 cm, tencuială decorativă tip
+                baumit; <br />
+                finisaje standard: – centrale termice ȋn condensație; <br />
+                – instalații termice si radiatoare din oțel echipate cu robineți
+                termostatați; <br /> – sanitare : vas wc, lavoar, bideu, cabine
+                duș ( pvc) tip gala / senator; <br /> – instalații electrice și
+                aparataj – gewis; tablou –schneider; – gresie, faianță; –
+                padoseli parchet melaminat 8 -9- 10 mm, la alegere din 3 nuanțe;
+                plintă pvc; <br />
+                – uși interior din mdf (2 nuanțe ); <br /> – tâmplărie pvc
+                profil 5 camere, triplex; <br /> – glafuri granit interior /
+                exterior; – ușă acces imobil- mega door;
+                <br /> – contorizare individualizată utilități / ap. = apă; gaz;
+                electric; internet; <br />
+                – interfon video electra tip smart/ 3,5 „/ negru; <br /> căsuțe
+                poștale; covor cauciucat personalizat la ușă;
+                <br /> – lift klemann – 8 persoane/ 9 stații;
               </p>
 
-              <p>
-                Localizat intr-o zona de exceptie a municipiului bacau, la o
-                distanta aproximativa de 2,5 km de centrul orasului, in plan
-                secund de artera de maxima importanta - Str. Stefan cel Mare.
-              </p>
               <Responsive displayIn={["Laptop"]}>
                 <Parallax x={[-5, 5]}>
                   <div className="to-member">
@@ -426,16 +433,15 @@ const AlteProiecte = () => {
       {isOpen2 && (
         <Lightbox
           mainSrc={images2[photoIndex]}
-          nextSrc={images2[(photoIndex + 1) % images1.length]}
+          nextSrc={images2[(photoIndex + 1) % images2.length]}
           prevSrc={images2[(photoIndex + images2.length - 1) % images2.length]}
           onCloseRequest={() => setIsOpen2(false)}
           onMovePrevRequest={() =>
-            setPhotoIndex((photoIndex + images1.length - 1) % images2.length)
+            setPhotoIndex((photoIndex + images2.length - 1) % images2.length)
           }
           onMoveNextRequest={() =>
             setPhotoIndex((photoIndex + 1) % images2.length)
           }
-          wrapperClassName="indexlightboxer"
         />
       )}
       {isOpen3 && (
