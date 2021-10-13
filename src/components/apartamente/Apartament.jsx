@@ -33,7 +33,10 @@ const Apartament = () => {
                   <p>Balcon : {filteredApartment.balcon}</p>
                   <p>Numar de Contact : 0727.339.499</p>
                   <div className="button-container">
-                    <a className="wapp-button" href="https://wa.me/0727339499">
+                    <a
+                      className="wapp-button"
+                      href="https://wa.me/+400727339499"
+                    >
                       <button>
                         <FaWhatsapp /> SUNATI
                       </button>

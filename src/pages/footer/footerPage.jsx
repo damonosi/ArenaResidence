@@ -20,7 +20,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/arena_residence_bacau/">
             <span className="fa fa-instagram"></span>
           </a>
-          <a href="https://wa.me/0727339499">
+          <a href="https://wa.me/+400727339499">
             <span className="fa fa-whatsapp"></span>
           </a>
           <a href="mailto:office.arenaresidence@gmail.com">
