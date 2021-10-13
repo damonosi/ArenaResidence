@@ -30,7 +30,7 @@ const Apartament = () => {
                     {filteredApartment.suprafataConstruita}
                   </p>
                   <p>Suprafata Utila : {filteredApartment.suprafataUtila}</p>
-
+                  <p>Balcon : {filteredApartment.balcon}</p>
                   <div className="button-container">
                     <a className="wapp-button" href="https://wa.me/0770258169">
                       <button>

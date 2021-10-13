@@ -10,6 +10,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 1,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 5",
@@ -22,6 +23,7 @@ export const Data_c1 = [
     suprafataUtila: "55.24 mp",
     id: 2,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 6",
@@ -34,6 +36,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 3,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 7",
@@ -46,6 +49,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 4,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 8",
@@ -58,6 +62,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 5,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 9",
@@ -70,6 +75,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 6,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 10",
@@ -82,6 +88,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 7,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 11",
@@ -94,6 +101,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 8,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 12",
@@ -106,6 +114,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 9,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 13",
@@ -118,6 +127,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 10,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 14",
@@ -130,6 +140,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 11,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 15",
@@ -142,6 +153,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 12,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 16",
@@ -154,6 +166,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 13,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 17",
@@ -166,6 +179,7 @@ export const Data_c1 = [
     suprafataUtila: "55.24 mp",
     id: 14,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 18",
@@ -178,6 +192,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 15,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 19",
@@ -190,6 +205,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 16,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 20",
@@ -202,6 +218,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 17,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 21",
@@ -214,6 +231,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 18,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 22",
@@ -226,6 +244,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 19,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 23",
@@ -238,6 +257,7 @@ export const Data_c1 = [
     suprafataUtila: "55.24 mp",
     id: 20,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 24",
@@ -250,6 +270,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 21,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 25",
@@ -262,6 +283,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 22,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 26",
@@ -274,6 +296,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 23,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 27",
@@ -286,6 +309,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 24,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 28",
@@ -298,6 +322,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 25,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 29",
@@ -310,6 +335,7 @@ export const Data_c1 = [
     suprafataUtila: "55.24 mp",
     id: 26,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 30",
@@ -322,6 +348,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 27,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 31",
@@ -334,6 +361,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 28,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 32",
@@ -346,6 +374,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 29,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 33",
@@ -358,6 +387,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 30,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 34",
@@ -370,6 +400,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 31,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 35",
@@ -382,6 +413,7 @@ export const Data_c1 = [
     suprafataUtila: "55.24 mp",
     id: 32,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 36",
@@ -394,6 +426,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 33,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 37",
@@ -406,6 +439,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 34,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 38",
@@ -418,6 +452,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 35,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 39",
@@ -430,6 +465,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 36,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 40",
@@ -442,6 +478,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 37,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 41",
@@ -454,6 +491,7 @@ export const Data_c1 = [
     suprafataUtila: "55.24 mp",
     id: 38,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 42",
@@ -466,6 +504,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 39,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 43",
@@ -478,6 +517,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 40,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 44",
@@ -490,6 +530,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 41,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 45",
@@ -502,6 +543,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 42,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 46",
@@ -512,6 +554,7 @@ export const Data_c1 = [
     scara: "C 1",
     suprafataConstruita: "117,00 mp",
     suprafataUtila: "75,79 mp",
+    balcon: "26.00 mp",
     id: 43,
   },
   {
@@ -525,6 +568,7 @@ export const Data_c1 = [
     suprafataUtila: "81,62 mp",
     id: 44,
     href: "https://kuula.co/share/collection/7kZFT?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "25.00 mp",
   },
   {
     title: "Apartament 48",
@@ -537,6 +581,7 @@ export const Data_c1 = [
     suprafataUtila: "82,66 mp",
     id: 45,
     href: "https://kuula.co/share/collection/7kd4q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "27.00 mp",
   },
   {
     title: "Apartament 49",
@@ -548,6 +593,7 @@ export const Data_c1 = [
     suprafataConstruita: "143,00 mp",
     suprafataUtila: "89,79 mp",
     id: 46,
+    balcon: "33.00 mp",
   },
 
   {
@@ -561,6 +607,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 47,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 5",
@@ -573,6 +620,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 48,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 6",
@@ -585,6 +633,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 49,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 7",
@@ -597,6 +646,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 50,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 8",
@@ -609,6 +659,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 51,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 9",
@@ -621,6 +672,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 52,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 10",
@@ -633,6 +685,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 53,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 11",
@@ -645,6 +698,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 54,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 12",
@@ -657,6 +711,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 55,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 13",
@@ -669,6 +724,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 56,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 14",
@@ -681,6 +737,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 57,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 15",
@@ -693,6 +750,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 58,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 16",
@@ -705,6 +763,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 59,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 17",
@@ -717,6 +776,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 60,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 18",
@@ -729,6 +789,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 61,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 19",
@@ -741,6 +802,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 62,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 20",
@@ -753,6 +815,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 63,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 21",
@@ -765,6 +828,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 64,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 22",
@@ -777,6 +841,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 65,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 23",
@@ -789,6 +854,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 66,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 24",
@@ -801,6 +867,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 67,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 25",
@@ -813,6 +880,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 68,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 26",
@@ -825,6 +893,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 69,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 27",
@@ -837,6 +906,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 70,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 28",
@@ -849,6 +919,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 71,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 29",
@@ -861,6 +932,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 72,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 30",
@@ -873,6 +945,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 73,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 31",
@@ -885,6 +958,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 74,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 32",
@@ -897,6 +971,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 75,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 33",
@@ -909,6 +984,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 76,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 34",
@@ -921,6 +997,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 77,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 35",
@@ -933,6 +1010,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 78,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 36",
@@ -945,6 +1023,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 79,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 37",
@@ -957,6 +1036,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 80,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 38",
@@ -969,6 +1049,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 81,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 39",
@@ -981,6 +1062,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 82,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 40",
@@ -993,6 +1075,7 @@ export const Data_c1 = [
     suprafataUtila: "69,37 mp",
     id: 83,
     href: "https://kuula.co/share/collection/7YCvY?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.38 mp",
   },
   {
     title: "Apartament 41",
@@ -1005,6 +1088,7 @@ export const Data_c1 = [
     suprafataUtila: "55,24 mp",
     id: 84,
     href: "https://kuula.co/share/collection/7YCcH?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "0 mp",
   },
   {
     title: "Apartament 42",
@@ -1017,6 +1101,7 @@ export const Data_c1 = [
     suprafataUtila: "59,02 mp",
     id: 85,
     href: "https://kuula.co/share/collection/7Yspm?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "3.84 mp",
   },
   {
     title: "Apartament 43",
@@ -1029,6 +1114,7 @@ export const Data_c1 = [
     suprafataUtila: "59,60 mp",
     id: 86,
     href: "https://kuula.co/share/collection/7Y24Q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.13 mp",
   },
   {
     title: "Apartament 44",
@@ -1041,6 +1127,7 @@ export const Data_c1 = [
     suprafataUtila: "66,65 mp",
     id: 87,
     href: "https://kuula.co/share/collection/7YyKS?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "6.38 mp",
   },
   {
     title: "Apartament 45",
@@ -1053,6 +1140,7 @@ export const Data_c1 = [
     suprafataUtila: "79,84 mp",
     id: 88,
     href: "https://kuula.co/share/collection/7kTHC?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "4.04 mp",
   },
   {
     title: "Apartament 46",
@@ -1064,6 +1152,7 @@ export const Data_c1 = [
     suprafataConstruita: "117,00 mp",
     suprafataUtila: "75,79 mp",
     id: 89,
+    balcon: "26.00 mp",
   },
   {
     title: "Apartament 47",
@@ -1076,6 +1165,7 @@ export const Data_c1 = [
     suprafataUtila: "81,62 mp",
     id: 90,
     href: "https://kuula.co/share/collection/7kZFT?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "25.00 mp",
   },
   {
     title: "Apartament 48",
@@ -1088,6 +1178,7 @@ export const Data_c1 = [
     suprafataUtila: "82,66 mp",
     id: 91,
     href: "https://kuula.co/share/collection/7kd4q?logo=1&info=0&fs=1&vr=1&initload=0&thumbs=-1",
+    balcon: "27.00 mp",
   },
   {
     title: "Apartament 49",
@@ -1099,5 +1190,6 @@ export const Data_c1 = [
     suprafataConstruita: "143,00 mp",
     suprafataUtila: "89,79 mp",
     id: 92,
+    balcon: "33.00 mp",
   },
 ];
