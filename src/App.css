@@ -829,6 +829,9 @@ h1.big-text {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: auto;
+  display: flex;
+  height:auto;
+  width:100%;
 }
 
 .service-holder {

@@ -38,7 +38,7 @@ const ContactPage = () => {
               <a href="https://www.instagram.com/arena_residence_bacau/">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href=" https://wa.me/0770258169">
+              <a href="https://wa.me/+400727339499">
                 <i className="fab fa-whatsapp"></i>
               </a>
             </div>

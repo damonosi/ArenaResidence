@@ -89,12 +89,12 @@ const AlegeScara = () => {
   const handleTouch = () => {
     setTimeout(() => {
       history.push("/scara/c1");
-    }, 2200);
+    }, 1200);
   };
   const handleTouch2 = () => {
     setTimeout(() => {
       history.push("/scara/c2");
-    }, 2200);
+    }, 1200);
   };
 
   const BuildingImage = () => {

@@ -97,7 +97,7 @@ const C1 = () => {
   const handleTouch = () => {
     setTimeout(() => {
       history.push("/etaje/C1/1");
-    }, 3000);
+    }, 1200);
   };
   const handleClick = () => {
     history.push("/etaje/C1/2");
@@ -107,7 +107,7 @@ const C1 = () => {
   const handleTouch2 = () => {
     setTimeout(() => {
       history.push("/etaje/C1/2");
-    }, 3000);
+    }, 1200);
   };
   const handleClick3 = () => {
     history.push("/etaje/C1/3");
@@ -117,7 +117,7 @@ const C1 = () => {
   const handleTouch3 = () => {
     setTimeout(() => {
       history.push("/etaje/C1/3");
-    }, 3000);
+    }, 1200);
   };
   const handleClick4 = () => {
     history.push("/etaje/C1/4");
@@ -127,7 +127,7 @@ const C1 = () => {
   const handleTouch4 = () => {
     setTimeout(() => {
       history.push("/etaje/C1/4");
-    }, 3000);
+    }, 1200);
   };
   const handleClick5 = () => {
     history.push("/etaje/C1/5");
@@ -137,7 +137,7 @@ const C1 = () => {
   const handleTouch5 = () => {
     setTimeout(() => {
       history.push("/etaje/C1/5");
-    }, 3000);
+    }, 1200);
   };
   const handleClick6 = () => {
     history.push("/etaje/C1/6");
@@ -147,7 +147,7 @@ const C1 = () => {
   const handleTouch6 = () => {
     setTimeout(() => {
       history.push("/etaje/C1/6");
-    }, 3000);
+    }, 1200);
   };
   const handleClick7 = () => {
     history.push("/etaje/C1/7");
@@ -157,7 +157,7 @@ const C1 = () => {
   const handleTouch7 = () => {
     setTimeout(() => {
       history.push("/etaje/C1/7");
-    }, 3000);
+    }, 1200);
   };
   const handleClick8 = () => {
     history.push("/etaje/C1/8");
@@ -167,7 +167,7 @@ const C1 = () => {
   const handleTouch8 = () => {
     setTimeout(() => {
       history.push("/etaje/C1/8");
-    }, 3000);
+    }, 1200);
   };
 
   const BuildingImage = () => {

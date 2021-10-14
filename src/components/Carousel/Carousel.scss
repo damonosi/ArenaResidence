@@ -1,23 +1,27 @@
 .container-parteneri{
     display: grid;
-    flex-direction: row;
+    
     grid-auto-flow: column;
-    padding:2em;
+   position: relative;
    background-color: #e6deca;
-   align-items: center;
-   justify-content: center;
+   
+  
     img{
         margin:1em;
         width:20rem;
         height: auto;
-       
+       align-self: center;
+  justify-self: center;
     }
 }
 
 
 @media only screen and (max-width: 1300px) {
   .container-parteneri{  
-      
+      margin-top: 10em;
     grid-auto-flow: row;
-    padding:2em;}
+   
+   
+  
+}
 }
