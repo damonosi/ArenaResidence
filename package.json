@@ -6,6 +6,7 @@
     "3d-react-carousal": "^4.0.2",
     "@babel/helpers": "^7.15.4",
     "@babel/plugin-proposal-decorators": "^7.15.4",
+    "@babel/runtime": "^7.16.0",
     "@react-spring/konva": "^9.2.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
