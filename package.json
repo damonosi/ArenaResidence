@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "3d-react-carousal": "^4.0.2",
+    "@babel/helpers": "^7.15.4",
     "@babel/plugin-proposal-decorators": "^7.15.4",
     "@react-spring/konva": "^9.2.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
+    "babel-register": "^6.26.0",
+    "cjs": "0.0.11",
     "compress-create-react-app": "^1.0.6",
     "framer-motion": "^4.1.17",
     "image-map-resizer": "^1.0.10",
@@ -28,6 +31,7 @@
     "react-responsive": "^9.0.0-beta.3",
     "react-responsive-carousel": "^3.2.21",
     "react-router-dom": "^5.2.0",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "4.0.3",
     "react-scroll-parallax": "^2.4.0",
     "react-spring-3d-carousel": "^1.2.1",
@@ -41,7 +45,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build && compress-cra",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "babel-node src/sitemap/sitemap-generator.js"
   },
   "eslintConfig": {
     "extends": [
@@ -62,6 +67,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-core": "@^7.0.0-bridge.0",
     "compress-create-react-app": "^1.0.6"
   }
 }
